@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  background-color: @body-background;
+  color: @text-color;
+  font-family: @body-font;
+
+  @media screen and (min-width: @large-phone) {
+    border-top: 5px solid @main-color;
+
+
+    background-image: -moz-linear-gradient(top, rgba(0,0,0,.6) 0px, rgba(125,185,232,0) 25px);
+    background-image: -webkit-linear-gradient(top, rgba(0,0,0,.6) 0px,rgba(125,185,232,0) 25px);
+    background-image: linear-gradient(to bottom, rgba(0,0,0,.6) 0px,rgba(125,185,232,0) 25px);
+  }
+
+}
+
+a {
+  color: @main-color;
+  text-decoration: none;
+  font-weight: 600;
+}

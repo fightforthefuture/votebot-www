@@ -1,0 +1,246 @@
+.chat {
+
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+
+  @media screen and (min-width: @large-phone) {
+
+    position: static;
+    max-width: @chat-max-width;
+    width: 100%;
+    height: 500px;
+    margin: 45px auto 0px auto;
+  }
+}
+
+.flex {
+  position: relative;
+
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+
+
+
+  .logos {
+    .logo {
+
+      margin: 10px 0px 5px 15px;
+      max-width: 120px;
+      height: auto;
+
+      @media screen and (min-width: @large-phone) {
+        max-width: 170px;
+        margin: 0px 0px 30px 0px;
+      }
+    }
+    .partner_logo {
+      position: absolute;
+      height: auto;
+
+      max-width: 140px;
+      right: 10px;
+      top: 18px;
+
+      @media screen and (min-width: @large-phone) {
+        max-width: 218px;
+        right: 0px;
+        top: 10px;
+      }
+    }
+  }
+  #messages {
+    background-color: @chat-background;
+    flex-grow: 10;
+    overflow: auto;
+
+    background-image: -moz-linear-gradient(top, rgba(0,0,0,.15) 0px, rgba(125,185,232,0) 15px);
+    background-image: -webkit-linear-gradient(top, rgba(0,0,0,.15) 0px,rgba(125,185,232,0) 15px);
+    background-image: linear-gradient(to bottom, rgba(0,0,0,.15) 0px,rgba(125,185,232,0) 15px);
+
+    padding: 20px 10px 0px 10px;
+
+    .clear {
+      clear: both;
+    }
+
+    .dots {
+      margin-top: 15px;
+    }
+
+    .message {
+      position: relative;
+      display: inline-block;
+      background: @main-color;
+      border-radius: 9px;
+      font-weight: 600;
+
+      max-width: 400px;
+
+      padding: 15px 20px;
+      transition: all .3s ease-in;
+      margin-top: 15px;
+
+      &.minimized {
+        transform: scaleY(0);
+      }
+
+
+      &.bot {
+        float: left;
+
+        margin-left: 8px;
+
+        a {
+          color: @text-color;
+          text-decoration: underline;
+        }
+
+        &::after {
+          display: block;
+          position: absolute;
+          bottom: 0px;
+          left: -12px;
+          width: 33px;
+          height: 38px;
+          background: url(/images/tail-left.svg);
+          content: " "
+        }
+      }
+      &.user {
+        float: right;
+        background: @text-color;
+        color: @main-color;
+
+        margin-right: 8px;
+
+        &::after {
+          display: block;
+          position: absolute;
+          bottom: 0px;
+          right: -12px;
+          width: 33px;
+          height: 38px;
+          background: url(/images/tail-right.svg);
+          content: " "
+        }
+      }
+      &:first-child {
+        margin-top: 0px;
+      }
+      @media screen and (min-width: @large-phone) {
+
+      }
+
+
+    }
+
+    @media screen and (min-width: @large-phone) {
+
+      padding: 20px 20px 0px 20px;
+
+      -webkit-border-top-left-radius: 9px;
+      -webkit-border-top-right-radius: 9px;
+      -moz-border-radius-topleft: 9px;
+      -moz-border-radius-topright: 9px;
+      border-top-left-radius: 9px;
+      border-top-right-radius: 9px;
+    }
+  }
+
+  .disclosure {
+    background: @chat-background;
+    text-align: center;
+    font-size: .65em;
+    padding: 15px 0px 20px 0px;
+
+    img {
+      display: inline-block;
+      vertical-align: middle;
+      margin-right: 3px;
+      margin-bottom: 2px;
+    }
+
+    em {
+      opacity: .5;
+    }
+
+    a {
+      font-weight: bold;
+    }
+
+    @media screen and (min-width: @large-phone) {
+      font-size: .85em;
+    }
+  }
+
+  .input {
+    background: @chat-background;
+
+    -webkit-border-bottom-right-radius: 9px;
+    -webkit-border-bottom-left-radius: 9px;
+    -moz-border-radius-bottomright: 9px;
+    -moz-border-radius-bottomleft: 9px;
+    border-bottom-right-radius: 9px;
+    border-bottom-left-radius: 9px;
+
+    form {
+      width: 100%;
+      background: white;
+      padding: 5px;
+      border-radius: 9px;
+      box-shadow: 0px 0px 20px @main-color;
+
+      display: flex;
+      flex-direction: row;
+
+      input {
+        -webkit-appearance: none;
+        background: white;
+        border: 0px none white;
+        font-size: 1.1em;
+        width: 100px;
+        color: #222;
+        flex-grow: 10;
+
+        padding-left: 10px;
+
+        @media screen and (min-width: @large-phone) {
+          font-size: 1.2em;
+          padding-left: 20px;
+        }
+
+      }
+      button {
+        -webkit-appearance: none;
+
+        background: @main-color;
+        border-radius: 9px;
+        font-size: 1.2em;
+        font-weight: 800;
+        color: white;
+        text-transform: uppercase;
+        border: 0px none transparent;
+
+        padding: 0px;
+        white-space: nowrap;
+
+        width: 120px;
+        height: 55px;
+        line-height: 55px;
+        cursor: pointer;
+
+        @media screen and (min-width: @large-phone) {
+          width: 166px;
+          height: 65px;
+          line-height: 65px;
+        }
+      }
+    }
+  }
+}

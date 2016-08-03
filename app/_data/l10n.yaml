@@ -1,0 +1,152 @@
+- code:             en
+  lang:             English
+  new_header:       'Regulators are deciding the future of Europe’s Internet right now.'
+  widget_beginning: We have
+  day_singular:     day
+  day_plural:       days
+  hour_singular:    hour
+  hour_plural:      hours
+  and:              and
+  minute_singular:  minute
+  minute_plural:    minutes
+  widget_ending:    to save Europe's Internet.
+  widget_link_text: Save Net Neutrality
+
+- code:             es
+  page_translation: true
+  lang:             Spanish
+  new_header:       'Regulators are deciding the future of Europe’s Internet right now.'
+  widget_beginning: Tenemos
+  day_singular:     día
+  day_plural:       días
+  hour_singular:    hora
+  hour_plural:      horas
+  and:              y
+  minute_singular:  minuto
+  minute_plural:    minutos
+  widget_ending:    para salvar el Internet en Europa.
+  widget_link_text: Salva la neutralidad de la red
+
+- code:             de
+  page_translation: true
+  lang:             German
+  new_header:       'Regulators are deciding the future of Europe’s Internet right now.'
+  widget_beginning: Wir haben
+  day_singular:     Tag
+  day_plural:       Tage
+  hour_singular:    Stunde
+  hour_plural:      Stunden
+  and:              und
+  minute_singular:  Minute
+  minute_plural:    Minuten
+  widget_ending:    Zeit, um das Internet in Europa zu retten.
+  widget_link_text: Rettet die Netzneutralität
+
+- code:             hu
+  page_translation: true
+  lang:             Hungarian
+  new_header:       'Regulators are deciding the future of Europe’s Internet right now.'
+  widget_beginning: Még van
+  day_singular:     nap
+  day_plural:       nap
+  hour_singular:    óra
+  hour_plural:      óra
+  and:              és
+  minute_singular:  perc
+  minute_plural:    perc
+  widget_ending:    ahhoz, hogy megmentsjük az európai internetet.
+  widget_link_text: Mentsük meg az internetközömbösséget!
+
+- code:             sv
+  page_translation: true
+  lang:             Swedish
+  new_header:       'Regulators are deciding the future of Europe’s Internet right now.'
+  widget_beginning: Vi har
+  day_singular:     dag
+  day_plural:       dagar
+  hour_singular:    timme
+  hour_plural:      timmar
+  and:              och
+  minute_singular:  minut
+  minute_plural:    minuter
+  widget_ending:    på oss att rädda Europas Internet.
+  widget_link_text: Rädda nätneutraliteten
+
+# !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+# !! TRANSLATION NEEDED BELOW !!
+# !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+- code:             fr
+  page_translation: false
+  lang:             French
+  widget_beginning: Nous avons
+  new_header:       'Regulators are deciding the future of Europe’s Internet right now.'
+  day_singular:     jour
+  day_plural:       jours
+  hour_singular:    heure
+  hour_plural:      heures
+  and:              et
+  minute_singular:  minute
+  minute_plural:    minutes
+  widget_ending:    pour sauver Internet en Europe.
+  widget_link_text: Sauvons la neutralité du Net
+
+- code:             it
+  page_translation: false
+  lang:             Italian
+  new_header:       'Regulators are deciding the future of Europe’s Internet right now.'
+  widget_beginning: Tenemos
+  day_singular:     día
+  day_plural:       días
+  hour_singular:    hora
+  hour_plural:      horas
+  and:              and
+  minute_singular:  minuto
+  minute_plural:    minutos
+  widget_ending:    para salvar la Internet en Europea.
+  widget_link_text: Salva neutralidad
+
+- code:             eo
+  page_translation: false
+  lang:             Esperanto
+  new_header:       'Regulators are deciding the future of Europe’s Internet right now.'
+  widget_beginning: Ni havas
+  day_singular:     tagon
+  day_plural:       tagojn
+  hour_singular:    horon
+  hour_plural:      horojn
+  and:              kaj
+  minute_singular:  minuton
+  minute_plural:    minutojn
+  widget_ending:    por savi la interreton de Eŭropo.
+  widget_link_text: Savu retneŭtralecon
+
+- code:             nl
+  page_translation: false
+  lang:             Dutch
+  new_header:       'Regulators are deciding the future of Europe’s Internet right now.'
+  widget_beginning: We hebben
+  day_singular:     dag
+  day_plural:       dagen
+  hour_singular:    uur
+  hour_plural:      uur
+  and:              en
+  minute_singular:  minuut
+  minute_plural:    minuten
+  widget_ending:    om het internet van Europa te redden.
+  widget_link_text: Red netneutraliteit
+
+- code:             fy
+  page_translation: false
+  lang:             Frisian
+  new_header:       'Regulators are deciding the future of Europe’s Internet right now.'
+  widget_beginning: Wy hawwe
+  day_singular:     dei
+  day_plural:       dagen
+  hour_singular:    oere
+  hour_plural:      oere
+  and:              en
+  minute_singular:  minút
+  minute_plural:    minuten
+  widget_ending:    om it ynternet fan Jeropa te rêden.
+  widget_link_text: Rêd netneutraliteit
