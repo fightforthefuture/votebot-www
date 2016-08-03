@@ -43,12 +43,16 @@ window.components.chat = function (doc, win) {
       links[i].addEventListener('click', events[i]);
     }
 
-    chatbox.scrollTop = chatbox.scrollHeight;
+    scrollToBottom();
 
     setTimeout(function() {
       message.classList.remove('minimized');
     }, 20);
 
+  }
+
+  var scrollToBottom = function() {
+    chatbox.scrollTop = chatbox.scrollHeight;
   }
 
   var dots = function() {
@@ -65,6 +69,8 @@ window.components.chat = function (doc, win) {
     dots.className = 'dots';
 
     chatbox.appendChild(dots);
+
+    scrollToBottom();
   }
 
   var validatePhone = function(num) {
@@ -133,6 +139,9 @@ window.components.chat = function (doc, win) {
 
   form.addEventListener('submit', function(e) {
     e.preventDefault();
+
+    if (!input.value)
+      return input.focus();
 
     bubble('user', input.value);
 
