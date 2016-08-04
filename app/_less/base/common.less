@@ -7,17 +7,17 @@ html, body {
 }
 
 body {
-  background-color: @body-background;
+  background-color: lighten(@chat-background, 3%);
   color: @text-color;
   font-family: @body-font;
 
   @media screen and (min-width: @large-phone) {
-    border-top: 5px solid @main-color;
+    /* border-top: 5px solid @main-color; */
 
 
-    background-image: -moz-linear-gradient(top, rgba(0,0,0,.6) 0px, rgba(125,185,232,0) 25px);
-    background-image: -webkit-linear-gradient(top, rgba(0,0,0,.6) 0px,rgba(125,185,232,0) 25px);
-    background-image: linear-gradient(to bottom, rgba(0,0,0,.6) 0px,rgba(125,185,232,0) 25px);
+    background-image: -moz-linear-gradient(top, rgba(0,0,0,.3) 0px, rgba(125,185,232,0) 25px);
+    background-image: -webkit-linear-gradient(top, rgba(0,0,0,.3) 0px,rgba(125,185,232,0) 25px);
+    background-image: linear-gradient(to bottom, rgba(0,0,0,.3) 0px,rgba(125,185,232,0) 25px);
   }
 
 }
