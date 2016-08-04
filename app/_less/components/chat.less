@@ -5,15 +5,16 @@
   top: 0px;
   width: 100%;
   height: 100%;
+  padding: 10px 15px 0px 15px;
 
   @media screen and (min-width: @large-phone) {
 
     position: static;
     max-width: @chat-max-width;
     width: 100%;
-    height: 530px;
+    height: 535px;
     margin: 0px auto 0px auto;
-    padding-top: 45px;
+    padding: 45px 0 0 0;
   }
 }
 
@@ -31,9 +32,13 @@
   .logos {
     .logo {
 
-      margin: 10px 0px 5px 15px;
+      margin: 10px 0px 20px 15px;
       max-width: 120px;
       height: auto;
+
+      @media screen and (min-width: @tiny-phone) {
+        margin-left: 20px;
+      }
 
       @media screen and (min-width: @large-phone) {
         max-width: 170px;
@@ -42,11 +47,16 @@
     }
     .partner_logo {
       position: absolute;
+      display: none;
       height: auto;
 
       max-width: 140px;
       right: 10px;
       top: 18px;
+
+      @media screen and (min-width: @tiny-phone) {
+        display: block;
+      }
 
       @media screen and (min-width: @large-phone) {
         max-width: 218px;
@@ -63,6 +73,13 @@
     background-image: -moz-linear-gradient(top, rgba(0,0,0,.10) 0px, rgba(125,185,232,0) 15px);
     background-image: -webkit-linear-gradient(top, rgba(0,0,0,.10) 0px,rgba(125,185,232,0) 15px);
     background-image: linear-gradient(to bottom, rgba(0,0,0,.10) 0px,rgba(125,185,232,0) 15px);
+
+    -webkit-border-top-left-radius: 9px;
+    -webkit-border-top-right-radius: 9px;
+    -moz-border-radius-topleft: 9px;
+    -moz-border-radius-topright: 9px;
+    border-top-left-radius: 9px;
+    border-top-right-radius: 9px;
 
     padding: 20px 10px 0px 10px;
 
@@ -86,6 +103,7 @@
       padding: 15px 20px;
       transition: all .3s ease-in;
       margin-top: 15px;
+      font-size: .9em;
 
       &.minimized {
         transform: scaleY(0);
@@ -134,37 +152,40 @@
       &:first-child {
         margin-top: 0px;
       }
-      @media screen and (min-width: @large-phone) {
+      @media screen and (min-width: @tiny-phone) {
+        font-size: 1em;
 
       }
 
 
     }
+    @media screen and (min-width: @tiny-phone) {
+      padding: 20px 15px 0px 15px;
+    }
 
     @media screen and (min-width: @large-phone) {
 
-      padding: 30px 20px 0px 20px;
+      padding: 30px 20px 10px 20px;
 
-      -webkit-border-top-left-radius: 9px;
-      -webkit-border-top-right-radius: 9px;
-      -moz-border-radius-topleft: 9px;
-      -moz-border-radius-topright: 9px;
-      border-top-left-radius: 9px;
-      border-top-right-radius: 9px;
+
     }
   }
 
   .disclosure {
-    background: @chat-background;
+    /* background: @chat-background; */
     text-align: center;
     font-size: .65em;
-    padding: 15px 0px 20px 0px;
+    padding: 25px 0px 20px 0px;
 
     img {
-      display: inline-block;
+      display: none;
       vertical-align: middle;
       margin-right: 3px;
       margin-bottom: 2px;
+
+      @media screen and (min-width: @tiny-phone) {
+        display: inline-block;
+      }
     }
 
     em {
@@ -177,6 +198,7 @@
 
     @media screen and (min-width: @large-phone) {
       font-size: .85em;
+      padding-bottom: 0px;
     }
   }
 
@@ -199,16 +221,23 @@
       display: flex;
       flex-direction: row;
 
+      border-radius: 9px;
+
       input {
         -webkit-appearance: none;
         background: white;
         border: 0px none white;
-        font-size: 1.1em;
+        font-size: 1em;
         width: 100px;
         color: #222;
         flex-grow: 10;
 
         padding-left: 10px;
+
+        @media screen and (min-width: @tiny-phone) {
+          font-size: 1.1em;
+          padding-left: 12px;
+        }
 
         @media screen and (min-width: @large-phone) {
           font-size: 1.2em;
@@ -237,14 +266,17 @@
         line-height: 55px;
         cursor: pointer;
 
+        flex-basis: 110px;
+
+        @media screen and (min-width: @small-phone) {
+          flex-basis: auto;
+        }
+
         @media screen and (min-width: @large-phone) {
           width: 166px;
           height: 65px;
           line-height: 65px;
         }
-      }
-      @media screen and (min-width: @large-phone) {
-        border-radius: 9px;
       }
     }
   }

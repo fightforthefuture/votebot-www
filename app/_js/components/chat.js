@@ -122,19 +122,21 @@ window.components.chat = function (doc, win) {
 
   var initialAnimations = function() {
 
-    bubble('bot', 'Hi! I\'m HelloVote!');
+    setTimeout(function() {
+      bubble('bot', 'Hi! I\'m HelloVote!');
+    }, 500);
 
-    setTimeout(function() { dots(); }, 500);
+    setTimeout(function() { dots(); }, 600);
 
     setTimeout(function() {
       bubble('bot', 'Let\'s get you registered to vote!')
-    }, 1500);
+    }, 2000);
 
-    setTimeout(function() { dots(); }, 2000);
+    setTimeout(function() { dots(); }, 2500);
 
     setTimeout(function() {
       bubble('bot', 'Please enter your phone number, so we can continue via text message.')
-    }, 2500);
+    }, 3000);
   }
 
   form.addEventListener('submit', function(e) {
