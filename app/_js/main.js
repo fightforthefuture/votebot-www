@@ -25,6 +25,7 @@
     doc.querySelector('.chat').classList.remove('hidden');
     setTimeout(function() {
       doc.querySelector('.chat').classList.remove('transparent');
+      doc.body.classList.remove('scrolling');
     }, 10);
   }
 
@@ -32,6 +33,7 @@
     doc.querySelector('.chat').classList.add('transparent');
     setTimeout(function() {
       doc.querySelector('.chat').classList.add('hidden');
+      doc.body.classList.add('scrolling');
     }, 500);
   }
 

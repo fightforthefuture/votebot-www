@@ -7,7 +7,7 @@ layout: default
 : # What is HelloVote?
 
   HelloVote registers you to vote using text messages on your phone. Simply enter
-  your number on this page or send a text to [844-344-3556](tel://18443443556) and
+  your number on this page or send a text to [844-344-3556](sms://18443443556) and
   HelloVote will guide you through the process and take care of filling out the
   voter registration form for your state.
 

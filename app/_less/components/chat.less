@@ -204,7 +204,7 @@
     /* background: @chat-background; */
     text-align: center;
     font-size: .65em;
-    padding: 25px 0px 20px 0px;
+    padding: 15px 0px 10px 0px;
 
     img {
       display: none;
@@ -223,6 +223,12 @@
 
     a {
       font-weight: bold;
+      display: inline-block;
+      padding: 10px 0px 10px 0px;
+
+      @media screen and (min-width: @large-phone) {
+        padding-bottom: 0px;
+      }
     }
 
     @media screen and (min-width: @large-phone) {
