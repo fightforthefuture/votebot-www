@@ -97,12 +97,10 @@ window.components.chat = function (doc, win) {
     };
     console.log('sending', data);
 
-    /*
     var submission = new XMLHttpRequest();
     submission.open('POST', 'https://votebot-api.herokuapp.com/conversations/', true);
     submission.setRequestHeader("Content-Type", "application/json");
     submission.send(JSON.stringify(data));
-    */
 
     setTimeout(function() {
       bubble('bot', 'I texted you! <a href="https://docs.google.com/forms/d/e/1FAIpQLSd6dYLxLhnyv_bq734QmXP-TV4WQkMo2dX8mOhF4NJ5dMIXqw/viewform">Didn\'t work?</a>');
