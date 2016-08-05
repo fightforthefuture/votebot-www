@@ -7,7 +7,8 @@ window.components.chat = function (doc, win) {
    * */
   "use strict";
 
-  var chatbox     = doc.getElementById('messages'),
+  var overlay     = doc.querySelector('.chat'),
+      chatbox     = doc.getElementById('messages'),
       form        = doc.querySelector('.chat form'),
       share       = doc.querySelector('.chat .share'),
       input       = form.querySelector('input'),
@@ -173,6 +174,12 @@ window.components.chat = function (doc, win) {
     input.placeholder = '';
     input.value = '';
   });
+
+  // prevent iOS safari from scrolling. lol lol. lol
+  overlay.addEventListener('touchmove', function(e) {
+    if (e.target == overlay)
+      e.preventDefault();
+  }, false);
 
   initialAnimations();
 
