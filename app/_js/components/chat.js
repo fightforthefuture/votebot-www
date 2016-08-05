@@ -104,7 +104,7 @@ window.components.chat = function (doc, win) {
     submission.send(JSON.stringify(data));
 
     setTimeout(function() {
-      bubble('bot', 'I texted you! <a href="https://docs.google.com/forms/d/e/1FAIpQLSd6dYLxLhnyv_bq734QmXP-TV4WQkMo2dX8mOhF4NJ5dMIXqw/viewform">Didn\'t work?</a>');
+      bubble('bot', 'Check your phone! Didn\'t get a text message? <a href="https://docs.google.com/forms/d/e/1FAIpQLSd6dYLxLhnyv_bq734QmXP-TV4WQkMo2dX8mOhF4NJ5dMIXqw/viewform">Click here.</a>');
       showShareForm();
     }, 4000);
   }
@@ -127,13 +127,13 @@ window.components.chat = function (doc, win) {
     setTimeout(function() { dots(); }, 1100);
 
     setTimeout(function() {
-      bubble('bot', 'Let\'s get you registered to vote!')
+      bubble('bot', 'I can get you registered to vote with just a few text messages.')
     }, 2500);
 
     setTimeout(function() { dots(); }, 3000);
 
     setTimeout(function() {
-      bubble('bot', 'Please enter your phone number, so we can continue via text message.')
+      bubble('bot', 'Try me out! Enter your phone number to start.')
     }, 3500);
   }
 
