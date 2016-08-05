@@ -176,7 +176,7 @@ module.exports = function (grunt) {
           {
             src: [
               '<%= site.app %>/_js/_licenses/x11.js',
-              'node_modules/smoothscroll/smoothscroll.js',
+              'node_modules/smoothscroll/smoothscroll.min.js',
               '<%= site.app %>/_js/_licenses/license-end.js'
             ],
             dest: '<%= site.dist %>/js/smoothscroll.min.js'

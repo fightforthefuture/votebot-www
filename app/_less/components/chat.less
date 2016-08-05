@@ -6,6 +6,16 @@
   width: 100%;
   height: 100%;
   padding: 10px 15px 0px 15px;
+  background: @body-background;
+  opacity: 1;
+  transition: all .5s ease-in;
+
+  &.transparent {
+    opacity: 0;
+  }
+  &.hidden {
+    display: none;
+  }
 
   @media screen and (min-width: @large-phone) {
 
@@ -15,7 +25,16 @@
     height: 575px;
     margin: 0px auto 0px auto;
     padding: 45px 0 0 0;
+    background: transparent;
+
+    &.transparent {
+      opacity: 1;
+    }
+    &.hidden {
+      display: block;
+    }
   }
+
 }
 
 .flex {
@@ -64,6 +83,15 @@
         top: 10px;
       }
     }
+    em {
+      display: none;
+
+      @media screen and (min-width: @large-phone) {
+        vertical-align: top;
+        font-size: .8em;
+        color: lighten(@main-color, 20%);
+      }
+    }
   }
   #messages {
     background-color: @chat-background;
@@ -88,7 +116,8 @@
     }
 
     .dots {
-      margin-top: 15px;
+      margin: 15px 0px;
+
     }
 
     .message {
@@ -204,6 +233,7 @@
 
   .input {
     background: @chat-background;
+    position: relative;
 
     -webkit-border-bottom-right-radius: 9px;
     -webkit-border-bottom-left-radius: 9px;
@@ -214,13 +244,12 @@
 
     form {
       width: 100%;
-      background: white;
+      background: rgba(255, 255, 255, 1);
       padding: 5px;
       box-shadow: 0px 0px 20px @main-color;
-
+      transition: all .5s ease-in;
       display: flex;
       flex-direction: row;
-
       border-radius: 9px;
 
       input {
@@ -276,6 +305,51 @@
           width: 166px;
           height: 65px;
           line-height: 65px;
+        }
+      }
+
+      &.hidden {
+        box-shadow: 0px 0px 20px rgba(255, 255, 255, 0);
+        background: rgba(255, 255, 255, 0);
+      }
+    }
+
+    .share {
+      display: none;
+      opacity: 0;
+      transition: all .5s ease-in;
+
+      position: absolute;
+      left: 0px;
+      top: 0px;
+      width: 100%;
+      height: 100%;
+
+      background: darken(@chat-background, 5%);
+
+      text-align: center;
+      padding-top: 17px;
+
+      -webkit-border-bottom-right-radius: 9px;
+      -webkit-border-bottom-left-radius: 9px;
+      -moz-border-radius-bottomright: 9px;
+      -moz-border-radius-bottomleft: 9px;
+      border-bottom-right-radius: 9px;
+      border-bottom-left-radius: 9px;
+
+      a.donate {
+        display: none;
+
+        @media screen and (min-width: @tiny-phone) {
+          display: inline-block;
+        }
+      }
+
+      @media screen and (min-width: @large-phone) {
+        padding-top: 23px;
+
+        a {
+          margin: 0px 8px;
         }
       }
     }

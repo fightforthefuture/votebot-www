@@ -9,6 +9,7 @@ window.components.chat = function (doc, win) {
 
   var chatbox     = doc.getElementById('messages'),
       form        = doc.querySelector('.chat form'),
+      share       = doc.querySelector('.chat .share'),
       input       = form.querySelector('input'),
       phoneNumber = null,
       failures    = 0;
@@ -96,28 +97,26 @@ window.components.chat = function (doc, win) {
     };
     console.log('sending', data);
 
+    /*
     var submission = new XMLHttpRequest();
     submission.open('POST', 'https://votebot-api.herokuapp.com/conversations/', true);
     submission.setRequestHeader("Content-Type", "application/json");
     submission.send(JSON.stringify(data));
+    */
 
     setTimeout(function() {
-      bubble('bot', 'I texted you! <a href="#">Didn\'t work?</a>', [
-          function(e) {
-            e.preventDefault();
-
-            dots();
-
-            setTimeout(function() {
-                bubble('bot', 'OK, I\'ll try again. One sec...');
-            }, 500);
-
-            setTimeout(function() { dots(); }, 750);
-
-            sendPhoneNumber();
-          }
-        ]);
+      bubble('bot', 'I texted you! <a href="https://docs.google.com/forms/d/e/1FAIpQLSd6dYLxLhnyv_bq734QmXP-TV4WQkMo2dX8mOhF4NJ5dMIXqw/viewform">Didn\'t work?</a>');
+      showShareForm();
     }, 4000);
+  }
+
+  var showShareForm = function() {
+    share.style.display = 'block';
+    form.classList.add('hidden');
+
+    setTimeout(function() {
+      share.style.opacity = 1;
+    }, 20);
   }
 
   var initialAnimations = function() {

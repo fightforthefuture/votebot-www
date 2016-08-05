@@ -7,7 +7,7 @@ html, body {
 }
 
 body {
-  background-color: lighten(@chat-background, 4%);
+  background-color: @body-background;
   color: @text-color;
   font-family: @body-font;
 
@@ -19,11 +19,90 @@ body {
     background-image: -webkit-linear-gradient(top, rgba(0,0,0,.3) 0px,rgba(125,185,232,0) 25px);
     background-image: linear-gradient(to bottom, rgba(0,0,0,.3) 0px,rgba(125,185,232,0) 25px);
   }
+  background-repeat: no-repeat;
 
 }
 
 a {
-  color: @main-color;
+  color: lighten(@main-color, 20%);
   text-decoration: none;
   font-weight: 600;
+}
+
+.content {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: @chat-max-width;
+  text-align: center;
+
+
+  padding: 0px 10px;
+
+  @media screen and (min-width: @large-phone) {
+    padding: 0px;
+  }
+}
+
+h1, h2, h3, h4, h5 {
+  .content;
+}
+
+h1 {
+  font-size: 2em;
+  font-weight: 100;
+  padding-top: 20px;
+  margin-bottom: 15px;
+
+  &:first-of-type {
+
+    @media screen and (min-width: @large-phone) {
+      font-size: 3em;
+      padding-top: 80px;
+    }
+  }
+}
+
+h2 {
+  font-size: 2em;
+  font-weight: 100;
+  padding-top: 30px;
+  margin-bottom: 15px;
+}
+
+p {
+  .content;
+  text-align: center;
+  line-height: 1.8em;
+  margin-bottom: 25px;
+  font-size: .9em;
+  margin-bottom: 25px;
+
+  @media screen and (min-width: @large-phone) {
+    font-size: 1em;
+  }
+
+  &:last-of-type {
+    margin-bottom: 0px;
+  }
+}
+
+.button {
+  display: inline-block;
+  background: @main-color;
+  padding: 10px 20px;
+  border-radius: 9px;
+  color: white;
+  text-transform: uppercase;
+  font-size: 1.1em;
+}
+
+hr, .heart {
+  display: none;
+}
+
+dl {
+  padding-bottom: 50px;
+}
+dl:nth-of-type(2) {
+  background: @chat-background;
 }

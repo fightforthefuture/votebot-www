@@ -1,7 +1,7 @@
 (function (doc, win) {
   "use strict";
 
-  function triggerComponents() {
+  var triggerComponents = function() {
     win.components = win.components || {};
     var
       i = 0,
@@ -21,7 +21,47 @@
 
   triggerComponents();
 
+  var showChat = function() {
+    doc.querySelector('.chat').classList.remove('hidden');
+    setTimeout(function() {
+      doc.querySelector('.chat').classList.remove('transparent');
+    }, 10);
+  }
+
+  var hideChat = function() {
+    doc.querySelector('.chat').classList.add('transparent');
+    setTimeout(function() {
+      doc.querySelector('.chat').classList.add('hidden');
+    }, 500);
+  }
+
   var onDomContentLoaded =function() {
+
+    var learnMore = doc.querySelector('a.learn-more');
+    if (learnMore) {
+      learnMore.addEventListener('click', function(e) {
+        e.preventDefault();
+
+        if (getComputedStyle(document.querySelector('.chat')).position == 'fixed') {
+          hideChat();
+        } else {
+          smoothScroll(doc.querySelector('h1'));
+        }
+      });
+    }
+
+    var getStarted = doc.querySelector('a.get-started');
+    if (getStarted) {
+      getStarted.addEventListener('click', function(e) {
+        e.preventDefault();
+
+        if (getComputedStyle(document.querySelector('.chat')).position == 'fixed') {
+          showChat();
+        } else {
+          smoothScroll(0);
+        }
+      });
+    }
 
   };
 

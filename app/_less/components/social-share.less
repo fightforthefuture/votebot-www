@@ -1,46 +1,50 @@
-.top-share {
-  display: none;
+.share-button {
+  display: inline-block;
+  border-radius: 5px;
 
-  @media screen and (min-width: @small-tablet) {
-    display: block;
-    position: absolute;
-    width: 740px;
-    left: 50%;
-    top: 75px;
-    margin-left: -375px;
-    height: 50px;
+  color: white;
+  margin: 0px 5px;
+  font-size: .85em;
+  text-align: center;
+  text-transform: uppercase;
+  width: 95px;
+  line-height: 30px;
 
-    div:first-child {
-      float: left;
+  &::before {
+    margin-right: 5px;
+    content: " ";
+    display: inline-block;
+    width: 22px;
+    height: 25px;
+    vertical-align: middle;
+  }
+}
+.facebook {
+  .share-button;
+  background: #3B579D;
 
-      a {
-        background-image: url(../images/donate2.png);
-        background-color: transparent;
-        font-weight: bold;
-        text-transform: uppercase;
-        color: #294070;
-        font-size: inherit;
 
-        &:hover {
-          background: #FC3660 url(../images/donate.png) 10px 9px no-repeat;
-          color: white;
-        }
-      }
-    }
+  &::before {
+    background: transparent url(../images/facebook.png) -7px center no-repeat;
+    width: 16px;
+    background-size: 22px auto;
+  }
+}
+.twitter {
+  .share-button;
+  background: #55acee;
 
-    div:last-child {
-      float: right;
-      strong {
-        vertical-align: middle;
-        font-weight: bold;
-        text-transform: uppercase;
-        color: #294070;
-        padding-right: 5px;
-      }
-      a {
-        vertical-align: middle;
-        width: 37px;
-      }
-    }
+  &::before {
+    background: transparent url(../images/tweet.png) center center no-repeat;
+    background-size: 22px auto;
+  }
+}
+.donate {
+  .share-button;
+  background: #DF2000;
+
+  &::before {
+    background: transparent url(../images/heart-cropped.png) center center no-repeat;
+    background-size: 18px auto;
   }
 }
