@@ -11,16 +11,19 @@ body {
   color: @text-color;
   font-family: @body-font;
   overflow: hidden;
+  position: fixed;
 
   &.scrolling {
     overflow: auto;
+    height: 100%;
+    position: static;
   }
 
   @media screen and (min-width: @large-phone) {
     /* border-top: 5px solid @main-color; */
 
     overflow: auto;
-
+    position: static;
 
     background-image: -moz-linear-gradient(top, rgba(0,0,0,.3) 0px, rgba(125,185,232,0) 25px);
     background-image: -webkit-linear-gradient(top, rgba(0,0,0,.3) 0px,rgba(125,185,232,0) 25px);

@@ -175,12 +175,6 @@ window.components.chat = function (doc, win) {
     input.value = '';
   });
 
-  // prevent iOS safari from scrolling. lol lol. lol
-  overlay.addEventListener('touchmove', function(e) {
-    if (e.target == overlay)
-      e.preventDefault();
-  }, false);
-
   initialAnimations();
 
 };
