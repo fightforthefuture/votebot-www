@@ -1,6 +1,7 @@
 ---
 layout: default
 ---
+{% include beta.html %}
 {% include chat.html %}
 
 ![](/images/heart.png){:.heart}

@@ -19,7 +19,7 @@
     }
   }
 
-  triggerComponents();
+  // triggerComponents(); // JL NOTE ~ disabled for "beta"
 
   var showChat = function() {
     doc.querySelector('.chat').classList.remove('hidden');
@@ -64,6 +64,43 @@
         }
       });
     }
+
+    // JL NOTE ~ strip all this junk out when the "beta" is over ---------------
+    // -------------------------------------------------------------------------
+    var showMainPage = function(immediately) {
+      var triggered = function() {
+        doc.getElementById('beta').style.display = 'none';
+        triggerComponents();
+      }
+      if (!immediately) {
+        doc.getElementById('beta').style.opacity = 0;
+        setTimeout(function() {
+          triggered()
+        }, 500);
+      } else {
+        triggered()
+      }
+    }
+
+    var beta = doc.getElementById('beta');
+    if (beta) {
+      doc.getElementById('beta-form').addEventListener('submit', function(e) {
+        e.preventDefault();
+        if (doc.getElementById('beta-code').value != 'porunga') {
+          doc.getElementById('beta-explanation').innerHTML = 'Sorry, that beta key didn\'t work. Contact <a href="mailto:team@fightforthefuture.org">team@fightforthefuture.org</a> if you need assistance.';
+          doc.getElementById('beta-explanation').className = 'error';
+          doc.getElementById('beta-form').className = 'error';
+        } else {
+          doc.getElementById('beta-form').style.display = 'none';
+          doc.getElementById('beta').querySelector('h2').style.display = 'block';
+          document.cookie = "beta=true; expires=Thu, 01 Dec 2016 12:00:00 UTC";
+          setTimeout(function() { showMainPage(); }, 1500);
+        }
+      });
+    }
+    if (document.cookie.indexOf('beta=true') !== -1)
+      showMainPage(true);
+    // -------------------------------------------------------------------------
 
   };
 

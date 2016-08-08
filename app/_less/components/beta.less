@@ -1,0 +1,113 @@
+#beta {
+  display: table;
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: 9001;
+  transition: all .5s ease-in;
+
+  background: #4d2b33;
+
+  > div {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    width: 300px;
+    margin: 0px auto;
+  }
+
+  img {
+    filter: hue-rotate(100deg);
+    width: 300px;
+    height: auto;
+  }
+
+  h2 {
+    padding-top: 0px;
+    margin-bottom: 7px;
+    font-weight: bold;
+    display: none;
+  }
+
+  p {
+    max-width: 300px;
+    margin: 30px auto;
+    color: rgba(255, 255, 255, .6);
+    line-height: 1.3em;
+
+    &.error {
+      color: pink;
+
+      a {
+        color: lighten(hsl(hue(@main-color) + 100, saturation(@main-color), lightness(@main-color)), 10%);
+      }
+    }
+  }
+
+  form {
+    width: 300px;
+    margin: 0px auto;
+    background: rgba(255, 255, 255, 1);
+    padding: 5px;
+
+    transition: all .5s ease-in;
+    display: flex;
+    flex-direction: row;
+    border-radius: 9px;
+
+    input {
+      -webkit-appearance: none;
+      background: white;
+      border: 0px none white;
+      font-size: 1em;
+      width: 100px;
+      color: #222;
+      flex-grow: 10;
+
+      padding-left: 10px;
+
+
+
+    }
+    button {
+      -webkit-appearance: none;
+
+      background: hsl(hue(@main-color) + 100, saturation(@main-color), lightness(@main-color));
+      border-radius: 9px;
+      font-size: 1.1em;
+      font-weight: 800;
+      color: white;
+      text-transform: uppercase;
+      border: 0px none transparent;
+
+      padding: 0px;
+      white-space: nowrap;
+
+      width: 120px;
+      height: 45px;
+      line-height: 48px;
+      cursor: pointer;
+
+      flex-basis: 115px;
+
+      &:hover {
+        background: darken(hsl(hue(@main-color) + 100, saturation(@main-color), lightness(@main-color)), 15%);
+      }
+
+    }
+
+    &.error {
+      box-shadow: 0px 0px 20px hsl(hue(@main-color) + 100, saturation(@main-color), lightness(@main-color));
+      animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+      transform: translate3d(0, 0, 0);
+      backface-visibility: hidden;
+      perspective: 1000px;
+    }
+
+    @media screen and (min-width: @large-phone) {
+      width: 340px;
+    }
+  }
+}
