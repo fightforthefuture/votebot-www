@@ -86,7 +86,7 @@
     if (beta) {
       doc.getElementById('beta-form').addEventListener('submit', function(e) {
         e.preventDefault();
-        if (doc.getElementById('beta-code').value != 'porunga') {
+        if (doc.getElementById('beta-code').value.toLowerCase() != 'porunga') {
           doc.getElementById('beta-explanation').innerHTML = 'Sorry, that beta key didn\'t work. Contact <a href="mailto:team@fightforthefuture.org">team@fightforthefuture.org</a> if you need assistance.';
           doc.getElementById('beta-explanation').className = 'error';
           doc.getElementById('beta-form').className = 'error';
