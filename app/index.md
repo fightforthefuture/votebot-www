@@ -36,7 +36,7 @@ layout: default
   like state ID numbers and birthdays are deleted immediately after you're
   successfully registered to vote. HelloVote was created by
   [Fight for the Future](https://www.fightforthefuture.org), a nonprofit civil
-  rights advocacy group. We take your privacy seriously and we would never do
+  liberties advocacy group. We take your privacy seriously and we would never do
   anything shady with your personal information.
 
   **[For more information, see our Privacy Policy.](https://www.fightforthefuture.org/privacy)**

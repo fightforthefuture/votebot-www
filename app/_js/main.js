@@ -37,12 +37,19 @@
     }, 500);
   }
 
+  var handleGetStarted = function(e) {
+    if (getComputedStyle(document.querySelector('.chat')).position == 'fixed') {
+      showChat();
+    } else {
+      smoothScroll(0);
+    }
+  }
+
   var onDomContentLoaded =function() {
 
     var learnMore = doc.querySelector('a.learn-more');
     if (learnMore) {
       learnMore.addEventListener('click', function(e) {
-        e.preventDefault();
 
         if (getComputedStyle(document.querySelector('.chat')).position == 'fixed') {
           hideChat();
@@ -52,17 +59,10 @@
       });
     }
 
-    var getStarted = doc.querySelector('a.get-started');
-    if (getStarted) {
-      getStarted.addEventListener('click', function(e) {
-        e.preventDefault();
-
-        if (getComputedStyle(document.querySelector('.chat')).position == 'fixed') {
-          showChat();
-        } else {
-          smoothScroll(0);
-        }
-      });
+    window.onhashchange = function (e) {
+      if (e.newURL.slice(-1) == '#') {
+        handleGetStarted();
+      }
     }
 
     // JL NOTE ~ strip all this junk out when the "beta" is over ---------------
