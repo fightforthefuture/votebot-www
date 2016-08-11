@@ -17,6 +17,22 @@ layout: default
 ---
 
 ![](/images/heart.png){:.heart}
+: ## How does this work?
+
+  HelloVote asks you a series of questions and uses your answers to fill out
+  your state's voter registration form. In states that support online voter
+  registration, HelloVote will submit your information and automatically
+  register you to vote. In all other states, we will mail you
+  pre-addressed, stamped envelope with your form that must be signed and
+  mailed by you to complete your registration.
+
+  Before submitting your registration, HelloVote will give you
+  the chance to verify your information is correct. Importantly, do not
+  provide false information as your state will consider that a criminal offense.
+
+---
+
+![](/images/heart.png){:.heart}
 : ## Why is this useful?
 
   HelloVote makes the process of registering to vote as easy as possible.
@@ -39,7 +55,17 @@ layout: default
   liberties advocacy group. We take your privacy seriously and we would never do
   anything shady with your personal information.
 
-  **[For more information, see our Privacy Policy.](https://www.fightforthefuture.org/privacy)**
+  **[For more details, see our Privacy Policy.](https://www.fightforthefuture.org/privacy)**
+
+---
+
+![](/images/heart.png){:.heart}
+: ## Need help?
+
+  If you have any problems or suggestions,
+  [please use our feedback form](https://docs.google.com/forms/d/e/1FAIpQLSd6dYLxLhnyv_bq734QmXP-TV4WQkMo2dX8mOhF4NJ5dMIXqw/viewform).
+  We will try to help you as soon as possible! If you need help with our SMS
+  chat, you may also call toll-free [844-344-3556](tel://18443443556).
 
 ---
 
