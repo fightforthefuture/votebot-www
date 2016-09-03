@@ -9,6 +9,7 @@
   background: @body-background;
   opacity: 1;
   transition: all .5s ease-in;
+  z-index: 9001;
 
   &.transparent {
     opacity: 0;
@@ -85,12 +86,16 @@
       }
     }
     em {
-      display: none;
+      /*display: none;*/
+      vertical-align: top;
+      display: inline-block;
+      font-size: .6em;
+      color: rgba(255, 255, 255, .7);
+      padding: 14px 0px 0px 2px;
 
       @media screen and (min-width: @large-phone) {
-        vertical-align: top;
+        padding: 5px 0px 0px 4px;
         font-size: .8em;
-        color: lighten(@main-color, 20%);
       }
     }
   }

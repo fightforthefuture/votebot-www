@@ -1,18 +1,19 @@
 ---
 layout: default
 ---
-{% include beta.html %}
 {% include chat.html %}
 
 ![](/images/heart.png){:.heart}
 : # What is HelloVote?
 
-  HelloVote registers you to vote using text messages on your phone. Simply enter
-  your number on this page or send a text to [384-387](sms://384387) and
+  HelloVote is the chat bot that registers you to vote!
+  Simply enter your number on this page or text HELLO to
+  [384-387](sms://384387) and
   HelloVote will guide you through the process and take care of filling out the
   voter registration form for your state.
 
   [Get started now](#){:.button.get-started}
+  [Start on Facebook Messenger](https://m.me/hellovote){:.button.facebook-messenger}
 
 ---
 
@@ -51,8 +52,8 @@ layout: default
   HelloVote uses encryption to keep your data private. Sensitive information
   like state ID numbers and birthdays are encrypted at rest and
   deleted immediately after you're successfully registered to vote. HelloVote was created by
-  [Fight for the Future](https://www.fightforthefuture.org), a nonprofit civil
-  liberties advocacy group. We take your privacy seriously and we would never do
+  [Fight for the Future](https://www.fightforthefuture.org), a nonprofit digital
+  rights advocacy group. We take your privacy seriously and we would never do
   anything shady with your information.
 
   **[For more details, see our Privacy Policy.](https://www.fightforthefuture.org/privacy)**
