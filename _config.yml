@@ -7,9 +7,9 @@
 # Meta info #
 #############
 
-name: HelloVote
+name: 'HelloVote — Voter Registration Made Easy'
 url: https://www.hellovote.org
-description: Join us and take action! Send a message to your regulator
+description: Register to vote with just a few text messages!
 timezone: America/New_York
 googleanalytics: UA-26576645-30
 petitions_api: 'https://info.fightforthefuture.org'
