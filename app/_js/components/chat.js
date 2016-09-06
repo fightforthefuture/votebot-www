@@ -133,7 +133,7 @@ window.components.chat = function (doc, win) {
     setTimeout(function() { dots(); }, 3000);
 
     setTimeout(function() {
-      bubble('bot', 'Try me out! Enter your phone number to start.')
+      bubble('bot', 'Try me out! Enter your phone number to start, or <a href="https://m.me/hellovote" target="_blank">chat on Facebook Messenger</a>.')
     }, 3500);
   }
 
