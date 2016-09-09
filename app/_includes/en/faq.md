@@ -46,12 +46,12 @@
 
   HelloVote uses encryption to keep your data private. Sensitive information
   like state ID numbers and birthdays are encrypted at rest and
-  deleted immediately after you're successfully registered to vote. HelloVote was created by
-  [Fight for the Future](https://www.fightforthefuture.org), a nonprofit digital
+  deleted immediately after you're successfully registered to vote. HelloVote was created by the 
+  [Fight for the Future Education Fund](https://www.fftfef.org), a nonprofit digital
   rights advocacy group. We take your privacy seriously and we would never do
   anything shady with your information.
 
-  **[For more details, see our Privacy Policy.](https://www.fightforthefuture.org/privacy)**
+  **[For more details, see our Privacy Policy.](https://www.fftfef.org/privacy)**
 
 ---
 
