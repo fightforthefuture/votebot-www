@@ -1,6 +1,7 @@
 ---
 layout: default
 partner: seiuca
+title: SEIU CA
 locale: en
 bubbles:
  - 'Hi! This is SEIU CA and HelloVote!'

@@ -1,6 +1,7 @@
 ---
 layout: default
 partner: krcla
+title: KRC LA
 locale: en
 bubbles:
  - 'Hi! This is KRC LA and HelloVote!'
