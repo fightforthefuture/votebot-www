@@ -30,7 +30,7 @@ show_drafts: true
 permalink: /:title/ # See Jekyll documentation for permalink styles
 
 collections:
-  translations:
+  partners:
     output: true
     permalink: :path/
   posts:

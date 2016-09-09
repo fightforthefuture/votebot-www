@@ -1,24 +1,28 @@
 <div class="chat">
   <div class="flex">
     <div class="logos">
-      <img src="/images/logo.svg" class="logo"><em>beta</em>
-      <img src="/images/fftf-footer-logo.png" class="partner_logo">
+      {% include partners/{{ page.partner }}.html %}
     </div>
     <div id="messages">
       <div class="dots"><div><div></div></div><div><div></div></div><div><div></div></div></div>
     </div>
     <div class="input">
       <form>
-        <input type="tel" id="phone_number" placeholder="Enter phone number">
-        <button type="submit">Text Me</button>
+        <input type="tel" id="phone_number" placeholder="">
+        <button type="submit">&nbsp;</button>
       </form>
-      <div class="share"><a href="#" class="facebook">Share</a><a href="#" class="twitter">Tweet</a><a href="https://donate.fightforthefuture.org?tag=hellovote" class="donate">Donate</a></div>
+      <div class="share"><a href="#" class="facebook">&nbsp;</a><a href="#" class="twitter">&nbsp;</a><a href="https://donate.fightforthefuture.org?tag=hellovote" class="donate">&nbsp;</a></div>
     </div>
     <div class="disclosure">
       <img src="/images/lock.svg">
-      <em>It's private, secure, and built by a nonprofit.</em>
-      <a href="#what-is-hellovote" class="learn-more">Learn more</a>
+      <em>&nbsp;</em>
+      <a href="#what-is-hellovote" class="learn-more">&nbsp;</a>
     </div>
 
   </div>
 </div>
+<script type="text/javascript">
+window.speechBubbles = [ {% for string in page.bubbles %}
+  '{{ string | replace: "'", "\\'" }}',{% endfor %}
+];
+</script>

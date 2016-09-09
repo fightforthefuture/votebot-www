@@ -13,7 +13,8 @@ window.components.chat = function (doc, win) {
       share       = doc.querySelector('.chat .share'),
       input       = form.querySelector('input'),
       phoneNumber = null,
-      failures    = 0;
+      failures    = 0,
+      partner     = 'fftf';
 
 
 
@@ -94,7 +95,8 @@ window.components.chat = function (doc, win) {
       "type":"web",
       "recipients":[
         {"username": phoneNumber}
-      ]
+      ],
+      "partner": partner
     };
     console.log('sending', data);
 
@@ -121,19 +123,19 @@ window.components.chat = function (doc, win) {
   var initialAnimations = function() {
 
     setTimeout(function() {
-      bubble('bot', 'Hi! I\'m HelloVote!');
+      bubble('bot', window.speechBubbles[0]);
     }, 1000);
 
     setTimeout(function() { dots(); }, 1100);
 
     setTimeout(function() {
-      bubble('bot', 'I can get you registered to vote with just a few text messages.')
+      bubble('bot', window.speechBubbles[1])
     }, 2500);
 
     setTimeout(function() { dots(); }, 3000);
 
     setTimeout(function() {
-      bubble('bot', 'Try me out! Enter your phone number to start, or <a href="https://m.me/hellovote" target="_blank">chat on Facebook Messenger</a>.')
+      bubble('bot', window.speechBubbles[2])
     }, 3500);
   }
 
@@ -175,6 +177,31 @@ window.components.chat = function (doc, win) {
     input.value = '';
   });
 
+  var localize = function() {
+    overlay.querySelector('input').placeholder = l10n['ENTER_PHONE'];
+    overlay.querySelector('button').textContent = l10n['TEXT_ME'];
+    overlay.querySelector('.disclosure em').textContent = l10n['DISCLOSURE'];
+    overlay.querySelector('.facebook').textContent = l10n['SHARE'];
+    overlay.querySelector('.twitter').textContent = l10n['TWEET'];
+    overlay.querySelector('.donate').textContent = l10n['DONATE'];
+
+    // JL TODO ~ may need to customize on a per-page basis outside of l10n structure
+    overlay.querySelector('.disclosure a').textContent = l10n['DISCLOSURE_LINK'];
+  }
+
+  var determinePartner = function() {
+    var queryString = util.parseQueryString();
+    var metaTag = doc.querySelector('meta[name="hellovote:partner"]')
+
+    if (queryString.partner)
+      return partner = queryString.partner;
+
+    if (metaTag && metaTag.content)
+      return partner = metaTag.content;
+  }
+
+  localize();
+  determinePartner();
   initialAnimations();
 
 };
