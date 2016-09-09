@@ -45,8 +45,7 @@
 : ## Is HelloVote private?
 
   HelloVote uses encryption to keep your data private. Sensitive information
-  like state ID numbers and birthdays are encrypted at rest and
-  deleted immediately after you're successfully registered to vote. HelloVote was created by the 
+  like state ID numbers and birthdays are securely encrypted. HelloVote was created by the 
   [Fight for the Future Education Fund](https://www.fftfef.org), a nonprofit digital
   rights advocacy group. We take your privacy seriously and we would never do
   anything shady with your information.
