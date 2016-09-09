@@ -187,6 +187,10 @@ window.components.chat = function (doc, win) {
 
     // JL TODO ~ may need to customize on a per-page basis outside of l10n structure
     overlay.querySelector('.disclosure a').textContent = l10n['DISCLOSURE_LINK'];
+
+    var poweredBy = overlay.querySelector('.powered-by strong');
+    if (poweredBy)
+      poweredBy.textContent = l10n['POWERED_BY'];
   }
 
   var determinePartner = function() {
