@@ -2,8 +2,10 @@
   lang:             English
   enter_phone:      Enter phone number
   text_me:          Text me
-  disclosure:       It's private, secure, and built by a nonprofit.
-  disclosure_link:  Learn more
+  disclosure:       FFTFEF will contact you. Read our <a href=''>privacy policy</a>.
+  disclosure_link:  https://www.fftfef.org/privacy
+  disclosure_partner: FFTFEF and <span class=partner>PARTNER</span> will contact you. Read their privacy policies <a href='' class=fftfef>here</a> and <a href='' class=partner>here</a>.
+  learn_more:       Learn more
   share:            Share
   tweet:            Tweet
   donate:           Donate

@@ -1,6 +1,7 @@
 ---
 layout: default
 partner: nextgen
+partner_privacy_policy: https://nextgenclimate.org/privacy-policy/
 title: NextGen
 locale: en
 bubbles:

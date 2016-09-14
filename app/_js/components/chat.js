@@ -180,13 +180,23 @@ window.components.chat = function (doc, win) {
   var localize = function() {
     overlay.querySelector('input').placeholder = l10n['ENTER_PHONE'];
     overlay.querySelector('button').textContent = l10n['TEXT_ME'];
-    overlay.querySelector('.disclosure em').textContent = l10n['DISCLOSURE'];
+
+    if (window.partner) {
+      overlay.querySelector('.disclosure em').innerHTML = l10n['DISCLOSURE_PARTNER'];
+      overlay.querySelector('.disclosure em span.partner').innerHTML = window.partner.name;
+      overlay.querySelector('.disclosure em a.fftfef').href = l10n['DISCLOSURE_LINK'];
+      overlay.querySelector('.disclosure em a.partner').href = window.partner.privacy_policy;
+    } else {
+        overlay.querySelector('.disclosure em').innerHTML = l10n['DISCLOSURE'];
+        overlay.querySelector('.disclosure em a').href = l10n['DISCLOSURE_LINK'];
+    }
+
     overlay.querySelector('.facebook').textContent = l10n['SHARE'];
     overlay.querySelector('.twitter').textContent = l10n['TWEET'];
     overlay.querySelector('.donate').textContent = l10n['DONATE'];
 
     // JL TODO ~ may need to customize on a per-page basis outside of l10n structure
-    overlay.querySelector('.disclosure a').textContent = l10n['DISCLOSURE_LINK'];
+    overlay.querySelector('.disclosure a.learn-more').textContent = l10n['LEARN_MORE'];
 
     var poweredBy = overlay.querySelector('.powered-by strong');
     if (poweredBy)

@@ -1,6 +1,7 @@
 ---
 layout: default
 partner: bazta
+partner_privacy_policy: https://www.ngpvan.com/content/privacy-policy
 locale: en
 bubbles:
  - 'Hi! This is Bazta Arpaio and HelloVote!'

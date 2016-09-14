@@ -1,6 +1,7 @@
 ---
 layout: default
 partner: seiuca
+partner_privacy_policy: http://www.seiuca.org/contact-us/
 title: SEIU CA
 locale: en
 bubbles:

@@ -1,6 +1,7 @@
 ---
 layout: default
 partner: headcount
+partner_privacy_policy: https://www.headcount.org/privacy-policy/
 locale: en
 bubbles:
  - 'Hi! This is Headcount and HelloVote!'

@@ -1,6 +1,7 @@
 ---
 layout: default
 partner: krcla
+partner_privacy_policy: http://www.krcla.org/en/contact
 title: KRC LA
 locale: en
 bubbles:
