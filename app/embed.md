@@ -56,5 +56,5 @@ This customized code gives you a different color scheme:
 
 By using the HelloVote iframe widget, you agree to embed the widget in a way that
 the privacy disclosure is completely visible and not obscured in any way.
-Sites that embed the widget in a way that hide the privacy disclosure will be
+Sites that embed the widget in a way that hides the privacy disclosure will be
 blocked (or worse!)
