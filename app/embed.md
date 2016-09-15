@@ -20,7 +20,7 @@ This will look something like:
 
 Please make sure to give the iframe an appropriate width and height
 using CSS. Keep in mind that if the iframe is less than 400 pixels tall,
-the, chat bubbles will not appear. This is by design and allows you to
+the chat bubbles will not appear. This is by design and allows you to
 embed a smaller version of the UI (but it's up to you to explain why the
 user should enter their phone number :) — here's an example of the
 smaller version:
