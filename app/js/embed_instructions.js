@@ -3,7 +3,7 @@ var queryString = util.parseQueryString();
 console.log('queryString: ', queryString);
 
 var url = 'https://www.hello.vote/iframe/';
-var iframeUrl = '/iframe';
+var iframeUrl = '/iframe/';
 
 if (queryString.partner) {
   url = 'https://www.hello.vote/' + queryString.partner + '/iframe/';
