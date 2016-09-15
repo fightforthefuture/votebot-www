@@ -6,7 +6,7 @@ title: NextGen
 locale: en
 bubbles:
  - 'Hi! This is NextGen and HelloVote!'
- - 'I can get you registered to vote with just a few text messages.'
+ - 'I can make sure you and everyone you care about is registered to vote.'
  - 'Try me out! Enter your phone number to start.'
 ---
 {% include chat.html %}
