@@ -1,0 +1,44 @@
+body.content {
+  overflow: auto;
+  height: 100%;
+  position: static;
+
+  header {
+    .content;
+
+    padding-top: 20px;
+
+    @media screen and (min-width: @large-phone) {
+      padding: 40px;
+    }
+  }
+  h1 {
+    &:first-of-type {
+
+      @media screen and (min-width: @large-phone) {
+        padding-top: 0px;
+      }
+    }
+  }
+  p {
+    &:last-of-type {
+      margin-bottom: 60px;
+    }
+  }
+  code, .iframe-container {
+    background: rgba(0, 0, 0, .4);
+    display: inline-block;
+    padding: 5px;
+    border-radius: 5px;
+    font-family: 'Courier New', 'Courier', mono;
+    color: lighten(@main-color, 30%);
+  }
+  .iframe-container {
+    margin-bottom: 25px;
+    width: 100%;
+
+    &.transparent {
+      background: transparent;
+    }
+  }
+}

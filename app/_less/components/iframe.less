@@ -1,0 +1,49 @@
+body.iframe {
+  background: transparent;
+  overflow: hidden;
+  padding: 0px;
+  .chat {
+    padding: 0px 10px 0px 10px;
+    background: transparent;
+
+    @media screen and (max-height: 399px) {
+      padding: 0px;
+    }
+
+    @media screen and (min-width: @large-phone) {
+      padding-bottom: 20px;
+    }
+  }
+  .flex {
+    .logos {
+      display: none;
+    }
+    #messages {
+      background: transparent;
+
+      @media screen and (max-height: 399px) {
+        display: none;
+      }
+    }
+    .input {
+      background: transparent;
+
+      form {
+        box-shadow: none;
+        border: 1px solid fade(@main-color, 30%);
+        &.hidden {
+          opacity: 0;
+        }
+      }
+    }
+    .share {
+      background: transparent;
+    }
+    .disclosure {
+      em {
+        opacity: 1;
+      }
+    }
+  }
+
+}

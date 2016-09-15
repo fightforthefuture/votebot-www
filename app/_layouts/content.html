@@ -1,0 +1,15 @@
+<!doctype html>
+<html>
+<head>
+    {% include meta.html %}
+</head>
+<body class="content">
+    <header>
+      <a href="/"><img src="/images/logo.svg"></a>
+    </header>
+    {{ content }}
+    {% include {{ page.locale }}/footer.html %}
+    {% include scripts.html %}
+    {% if page.script %}<script type="text/javascript" src="/js/{{ page.script }}"></script>{% endif %}
+</body>
+</html>

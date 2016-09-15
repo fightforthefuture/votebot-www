@@ -37,7 +37,7 @@ defaults:
   - scope:
       type: partners_iframes
     values:
-      layout: default
+      layout: iframe
 
 collections:
   partners:

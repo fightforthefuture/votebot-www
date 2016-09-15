@@ -11,5 +11,19 @@
     <li>
       <p><strong>Other inquiries:</strong> <a href="mailto:team@hello.vote">team@hello.vote</a></p>
     </li>
+    {% if page.partner and page.partner != "fftf" %}
+      {% for partner in site.partners_iframes %}
+        {% if partner.slug == page.partner %}
+          <li>
+            <p><a href="/embed?partner={{ page.partner }}">Embed HelloVote on your site</a></p>
+          </li>
+        {% endif %}
+      {% endfor %}
+    {% elsif page.layout == "default" %}
+      <li>
+        <p><a href="/embed">Embed HelloVote on your site</a></p>
+      </li>
+    {% endif %}
   </ul>
 </section>
+

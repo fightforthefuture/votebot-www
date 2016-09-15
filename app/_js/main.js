@@ -48,7 +48,7 @@
   var onDomContentLoaded =function() {
 
     var learnMore = doc.querySelector('a.learn-more');
-    if (learnMore) {
+    if (learnMore && doc.body.className.indexOf('iframe') === -1) {
       learnMore.addEventListener('click', function(e) {
 
         if (getComputedStyle(document.querySelector('.chat')).position == 'fixed') {
@@ -110,7 +110,6 @@
     onDomContentLoaded();
   else if (document.addEventListener)
     document.addEventListener('DOMContentLoaded', onDomContentLoaded, false);
-
 
 
 })(document, window);

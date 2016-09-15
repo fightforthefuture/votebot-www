@@ -7,14 +7,16 @@ window.components.chat = function (doc, win) {
    * */
   "use strict";
 
-  var overlay     = doc.querySelector('.chat'),
-      chatbox     = doc.getElementById('messages'),
-      form        = doc.querySelector('.chat form'),
-      share       = doc.querySelector('.chat .share'),
-      input       = form.querySelector('input'),
-      phoneNumber = null,
-      failures    = 0,
-      partner     = 'fftf';
+  var overlay       = doc.querySelector('.chat'),
+      chatbox       = doc.getElementById('messages'),
+      form          = doc.querySelector('.chat form'),
+      share         = doc.querySelector('.chat .share'),
+      input         = form.querySelector('input'),
+      phoneNumber   = null,
+      failures      = 0,
+      partner       = 'fftf',
+      queryString   = util.parseQueryString(),
+      hueShift      = false;
 
 
 
@@ -33,6 +35,9 @@ window.components.chat = function (doc, win) {
 
     message.className = 'message minimized '+sender;
     message.innerHTML = html;
+
+    if (hueShift)
+      doHueShift(message, hueShift);
 
     chatbox.appendChild(message);
     chatbox.appendChild(clear);
@@ -70,6 +75,9 @@ window.components.chat = function (doc, win) {
     }
 
     dots.className = 'dots';
+
+    if (hueShift)
+      doHueShift(dots, hueShift);
 
     chatbox.appendChild(dots);
 
@@ -203,8 +211,15 @@ window.components.chat = function (doc, win) {
       poweredBy.textContent = l10n['POWERED_BY'];
   }
 
+  var doHueShift = function(elem, degree) {
+    elem.style["filter"] = 'hue-rotate('+queryString.hueShift+'deg)';
+    elem.style["-webkit-filter"] = 'hue-rotate('+queryString.hueShift+'deg)';
+    elem.style["-moz-filter"] = 'hue-rotate('+queryString.hueShift+'deg)';
+    elem.style["-ie-filter"] = 'hue-rotate('+queryString.hueShift+'deg)';
+    elem.style["-o-filter"] = 'hue-rotate('+queryString.hueShift+'deg)';
+  }
+
   var determinePartner = function() {
-    var queryString = util.parseQueryString();
     var metaTag = doc.querySelector('meta[name="hellovote:partner"]')
 
     if (queryString.partner)
@@ -214,8 +229,37 @@ window.components.chat = function (doc, win) {
       return partner = metaTag.content;
   }
 
+  var iframeHandler = function() {
+    if (doc.body.className.indexOf('iframe') === -1)
+      return;
+
+    var learnMore = overlay.querySelector('.disclosure a.learn-more');
+    learnMore.href = 'https://www.hello.vote#what-is-hellovote';
+    learnMore.target = '_blank';
+
+    var parseColor = function(str) {
+      if (str.indexOf('rgba') === 0) return unescape(str);
+      else return '#'+unescape(str);
+    }
+
+    if (queryString.hueShift) {
+      hueShift = queryString.hueShift;
+      doHueShift(form, hueShift);
+      doHueShift(doc.querySelector('.dots'), hueShift);
+
+      var disclosureLinks = overlay.querySelectorAll('.disclosure a, .disclosure img');
+      for (var i=0; i<disclosureLinks.length; i++)
+        doHueShift(disclosureLinks[i], hueShift);
+    }
+
+    if (queryString.disclosureColor)
+      overlay.querySelector('.disclosure').style.color = parseColor(queryString.disclosureColor);
+
+  }
+
   localize();
   determinePartner();
+  iframeHandler();
   initialAnimations();
 
 };
