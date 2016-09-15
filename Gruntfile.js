@@ -75,7 +75,7 @@ module.exports = function (grunt) {
           sourceMap: false
         },
         files: {
-          '<%= site.dist %>/css/core.css': '<%= site.app %>/_less/core.less'
+          '<%= site.dist %>/css/site.css': '<%= site.app %>/_less/core.less'
         }
       },
     },

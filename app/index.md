@@ -8,8 +8,6 @@ bubbles:
  - 'Try me out! Enter your phone number to start<span class="mobileOnly">, or <a href="https://m.me/hellovote">chat on Facebook Messenger</a></span>.'
 ---
 {% include chat.html %}
-{% include {{ page.locale }}/faq.md %}
-{% include {{ page.locale }}/footer.md %}
 
 
 

@@ -1,5 +1,4 @@
 ---
-layout: default
 partner: care2
 partner_privacy_policy: http://www.care2.com/help/general/privacy.html
 locale: en
@@ -9,5 +8,3 @@ bubbles:
  - 'Try me out! Enter your phone number to start.'
 ---
 {% include chat.html %}
-{% include {{ page.locale }}/faq.md %}
-{% include {{ page.locale }}/footer.md %}

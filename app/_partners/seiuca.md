@@ -1,5 +1,4 @@
 ---
-layout: default
 partner: seiuca
 partner_privacy_policy: http://www.seiuca.org/privacy-policy/
 title: SEIU CA
@@ -10,8 +9,5 @@ bubbles:
  - 'Try me out! Enter your phone number to start.'
 ---
 {% include chat.html %}
-{% include {{ page.locale }}/faq.md %}
-{% include {{ page.locale }}/footer.md %}
-
 
 

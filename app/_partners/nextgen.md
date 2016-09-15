@@ -1,5 +1,4 @@
 ---
-layout: default
 partner: nextgen
 partner_privacy_policy: https://nextgenclimate.org/privacy-policy/
 title: NextGen
@@ -10,8 +9,6 @@ bubbles:
  - 'Try me out! Enter your phone number to start.'
 ---
 {% include chat.html %}
-{% include {{ page.locale }}/faq.md %}
-{% include {{ page.locale }}/footer.md %}
 
 
 

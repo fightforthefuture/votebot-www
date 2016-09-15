@@ -29,10 +29,23 @@ future: true
 show_drafts: true
 permalink: /:title/ # See Jekyll documentation for permalink styles
 
+defaults:
+  - scope:
+      type: partners
+    values:
+      layout: default
+  - scope:
+      type: partners_iframes
+    values:
+      layout: default
+
 collections:
   partners:
     output: true
     permalink: :path/
+  partners_iframes:
+    output: true
+    permalink: :path/iframe/
   states:
     output: true
     permalink: :path/

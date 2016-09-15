@@ -5,6 +5,8 @@
 </head>
 <body data-components="chat">
     {{ content }}
+    {% include {{ page.locale }}/faq.html %}
+    {% include {{ page.locale }}/footer.html %}
 
     {% include scripts.html %}
 </body>

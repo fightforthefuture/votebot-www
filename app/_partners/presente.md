@@ -1,5 +1,4 @@
 ---
-layout: default
 partner: presente
 partner_privacy_policy: http://presente.org/privacy/
 locale: en
@@ -9,8 +8,5 @@ bubbles:
  - 'Try me out! Enter your phone number to start.'
 ---
 {% include chat.html %}
-{% include {{ page.locale }}/faq.md %}
-{% include {{ page.locale }}/footer.md %}
-
 
 
