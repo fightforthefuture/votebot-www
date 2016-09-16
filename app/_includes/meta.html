@@ -47,3 +47,11 @@
 
 <!-- l10n -->
 <script type="text/javascript" src="/js/set_localized_variables.js"></script>
+
+{% if page.layout == 'iframe' %}
+  {% if page.partner == 'fftf' %}
+    <meta name="freeprogress:pageurl" content="https://www.hello.vote">
+  {% else %}
+    <meta name="freeprogress:pageurl" content="https://www.hello.vote/{{ page.partner }}">
+  {% endif %}
+{% endif %}
