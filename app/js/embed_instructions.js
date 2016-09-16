@@ -16,7 +16,7 @@ var iframe = document.querySelectorAll('iframe');
 code[0].textContent = '<iframe src="'+url+'" allowtransparency="1" frameborder="0"></iframe>';
 code[3].textContent = '<iframe src="'+url+'?disclosureColor=ff8800&hueShift=120" allowtransparency="1" frameborder="0"></iframe>';
 
-iframe[0].src = iframeUrl;
-iframe[1].src = iframeUrl;
+iframe[0].src = iframeUrl+'?disclosureColor=ffffff';
+iframe[1].src = iframeUrl+'?disclosureColor=ffffff';
 iframe[2].src = iframeUrl+'?disclosureColor=ff8800&hueShift=120';
 
