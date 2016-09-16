@@ -192,12 +192,10 @@ window.components.chat = function (doc, win) {
 
     if (window.partner) {
       overlay.querySelector('.disclosure em').innerHTML = l10n['DISCLOSURE_PARTNER'];
-      overlay.querySelector('.disclosure em span.partner').innerHTML = window.partner.name;
-      overlay.querySelector('.disclosure em a.fftfef').href = l10n['DISCLOSURE_LINK'];
+      overlay.querySelector('.disclosure em a.partner').textContent = window.partner.name;
       overlay.querySelector('.disclosure em a.partner').href = window.partner.privacy_policy;
     } else {
         overlay.querySelector('.disclosure em').innerHTML = l10n['DISCLOSURE'];
-        overlay.querySelector('.disclosure em a').href = l10n['DISCLOSURE_LINK'];
     }
 
     overlay.querySelector('.facebook').textContent = l10n['SHARE'];

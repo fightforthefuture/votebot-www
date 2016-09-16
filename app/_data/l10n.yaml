@@ -2,9 +2,8 @@
   lang:             English
   enter_phone:      Enter phone number
   text_me:          Text me
-  disclosure:       FFTFEF will contact you. Read our <a href=''>privacy policy</a>.
-  disclosure_link:  https://www.fftfef.org/privacy
-  disclosure_partner: FFTFEF and <span class=partner>PARTNER</span> will contact you. Read their privacy policies <a href='' class=fftfef>here</a> and <a href='' class=partner>here</a>.
+  disclosure:       <a href="https://www.fightforthefuture.org/privacy/">Fight for the Future</a> & its <a href="http://fftfef.org/privacy">Education Fund</a> will contact you.
+  disclosure_partner: <a href="https://www.fightforthefuture.org/privacy/">Fight for the Future</a>, its <a href="http://fftfef.org/privacy">Education Fund</a> and <a class=partner>PARTNER</a> will contact you.
   learn_more:       Learn more
   share:            Share
   tweet:            Tweet
