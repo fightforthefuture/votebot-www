@@ -110,6 +110,7 @@ window.components.chat = function (doc, win) {
 
     var submission = new XMLHttpRequest();
     submission.open('POST', 'https://votebot-api.herokuapp.com/conversations/', true);
+    //submission.open('POST', 'http://ubuntu:3000/conversations/', true);
     submission.setRequestHeader("Content-Type", "application/json");
     submission.send(JSON.stringify(data));
 
