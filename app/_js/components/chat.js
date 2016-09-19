@@ -267,6 +267,12 @@ window.components.chat = function (doc, win) {
   localize();
   determinePartner();
   iframeHandler();
-  initialAnimations();
+
+  // Allow animations to be deferred
+  if ('deferAnimations' in queryString) {
+    window.initialAnimations = initialAnimations;
+  } else {
+    initialAnimations();
+  }
 
 };

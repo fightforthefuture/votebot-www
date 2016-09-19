@@ -39,6 +39,9 @@ util.parseQueryString = function () {
     queryObject[pairs[i].split('=')[0]] = pairs[i].split('=')[1];
   }
 
+  // Remove extra key
+  delete queryObject[''];
+
   return queryObject;
 };
 
