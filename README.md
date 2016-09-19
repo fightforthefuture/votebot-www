@@ -4,9 +4,11 @@ This is the Jekyll site that powers https://hello.vote
 
 ## Development
 
-> npm install
-> grunt
-> open localhost:9047
+```bash
+npm install
+grunt
+open localhost:9047
+```
 
 ## Deployment
 
