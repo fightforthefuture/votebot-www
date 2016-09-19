@@ -61,6 +61,8 @@
     var _paq = _paq || [];
     _paq.push(['trackPageView']);
     _paq.push(['enableLinkTracking']);
+    _paq.push(['enableHeartBeatTimer', 10]); // because most visitors will only see one page
+    _paq.push(['trackVisibleContentImpressions']);
     (function() {
     var u="//hellovote.piwikpro.com/";
     _paq.push(['setTrackerUrl', u+'piwik.php']);

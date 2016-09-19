@@ -113,6 +113,7 @@ window.components.chat = function (doc, win) {
     //submission.open('POST', 'http://ubuntu:3000/conversations/', true);
     submission.setRequestHeader("Content-Type", "application/json");
     submission.send(JSON.stringify(data));
+    if (_paq) { _paq.push(['trackGoal', 1]); }
 
     setTimeout(function() {
       bubble('bot', 'Check your phone! Didn\'t get a text message? <a href="https://docs.google.com/forms/d/e/1FAIpQLSd6dYLxLhnyv_bq734QmXP-TV4WQkMo2dX8mOhF4NJ5dMIXqw/viewform">Click here.</a>');
