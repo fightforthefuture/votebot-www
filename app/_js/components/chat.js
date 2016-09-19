@@ -130,22 +130,30 @@ window.components.chat = function (doc, win) {
   }
 
   var initialAnimations = function() {
+    function text(message) {
+      return function() {
+        bubble('bot', message);
+      };
+    }
 
-    setTimeout(function() {
-      bubble('bot', window.speechBubbles[0]);
-    }, 1000);
+    var messages = window.speechBubbles.slice();
 
-    setTimeout(function() { dots(); }, 1100);
+    setTimeout(text(messages.shift()), 1000);
+    setTimeout(dots, 1100);
 
-    setTimeout(function() {
-      bubble('bot', window.speechBubbles[1])
-    }, 2500);
+    var delay = 2500;
+    messages.forEach(function(message, i) {
+      setTimeout(text(message), delay);
+      delay += 500;
 
-    setTimeout(function() { dots(); }, 3000);
+      // Show dots, if there are more messages
+      if (i === messages.length - 1) {
+        return;
+      }
 
-    setTimeout(function() {
-      bubble('bot', window.speechBubbles[2])
-    }, 3500);
+      setTimeout(dots, delay);
+      delay += 500;
+    });
   }
 
   form.addEventListener('submit', function(e) {
