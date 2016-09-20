@@ -1,6 +1,7 @@
 ---
 layout: state
 state: Georgia
+title: Georgia Disclosures
 locale: en
 ---
 

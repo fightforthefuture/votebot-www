@@ -1,6 +1,7 @@
 ---
 layout: state
 state: Colorado
+title: Colorado Disclosures
 locale: en
 ---
 

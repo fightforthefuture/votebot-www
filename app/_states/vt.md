@@ -1,6 +1,7 @@
 ---
 layout: state
 state: Vermont
+title: Vermont Disclosures
 locale: en
 ---
 

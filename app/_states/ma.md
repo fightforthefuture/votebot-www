@@ -1,6 +1,7 @@
 ---
 layout: state
 state: Massachusetts
+title: Massachusetts Disclosures
 locale: en
 ---
 

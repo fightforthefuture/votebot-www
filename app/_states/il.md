@@ -1,6 +1,7 @@
 ---
 layout: state
 state: Illinois
+title: Illinois Disclosures
 locale: en
 ---
 

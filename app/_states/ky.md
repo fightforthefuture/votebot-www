@@ -1,6 +1,7 @@
 ---
 layout: state
 state: Kentucky
+title: Kentucky Disclosures
 locale: en
 ---
 

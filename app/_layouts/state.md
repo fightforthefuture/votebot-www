@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: content
 ---
 
 <div class="legal">
@@ -7,7 +7,8 @@ layout: default
 <h2>To register to vote in {{page.state}}, you must agree to the following statements:</h2>
 {{content}}
 
+<p>
 <button onclick="window.open('','_self').close();">I AFFIRM THE ABOVE STATEMENTS</button>
-</div>
+</p>
 
-{% include {{ page.locale }}/footer.html %}
+</div>

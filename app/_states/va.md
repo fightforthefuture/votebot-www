@@ -1,6 +1,7 @@
 ---
 layout: state
 state: Virginia
+title: Virginia Disclosures
 locale: en
 ---
 
