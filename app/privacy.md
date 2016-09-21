@@ -19,9 +19,6 @@ The HelloVote Providers collect personally identifiable information, such as nam
 ## How the HelloVote Providers Use the Information that They Collect
 The HelloVote Providers use Users’ personal information to help Users register to vote. The HelloVote Providers will also add you to their distribution lists and may contact you via mail, email and/or text message with information relating to your voter registration, the 2016 general election, as well as other information that the HelloVote Providers think will be of interest to you. If at any time you wish to stop receiving communications from the HelloVote Providers, please follow the unsubscribe instructions included on all such communications from the HelloVote Providers. By providing your cell phone number to the HelloVote Providers, you consent to be contacted at that number on any subject from the HelloVote Providers, unless and until you request that such messages stop.  
 
-## Storage of Users’ Personal Information
-The HelloVote Providers store all of the information Users provide them via the HelloVote Tool, except that, once a User has successfully completed the process of registering to vote via the online voter registration tool or after a User has been sent either a PDF or a mailing envelope with their voter registration form, the HelloVote Providers will delete the User’s full social security number and full state identification number from the HelloVote Providers’ servers.
-
 ## How the HelloVote Providers Protect User Information
 The HelloVote Providers adopt appropriate data collection, storage and processing practices and security measures to help protect against unauthorized access, alteration, disclosure or destruction of your personal information, but the HelloVote Providers cannot guarantee that your information is 100% secure. 
 
