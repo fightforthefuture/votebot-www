@@ -247,7 +247,11 @@ window.components.chat = function (doc, win) {
       return;
 
     var learnMore = overlay.querySelector('.disclosure a.learn-more');
-    learnMore.href = 'https://www.hello.vote#what-is-hellovote';
+    if (window.partner) {
+      learnMore.href = 'https://www.hello.vote/'+window.partner.name.toLowerCase()+'/#what-is-hellovote';
+    } else {
+      learnMore.href = 'https://www.hello.vote#what-is-hellovote';
+    }
     learnMore.target = '_blank';
 
     var parseColor = function(str) {
