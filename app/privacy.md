@@ -41,7 +41,7 @@ The HelloVote Providers may provide links from the HelloVote Tool to other websi
 Protecting the privacy of the young is especially important. For that reason, the HelloVote Providers never collect information through the HelloVote Tool from individuals who the HelloVote Providers know are under 13, and no part of the HelloVote Tool is structured to attract anyone under 13. If the HelloVote Providers become aware of having information about anyone under 13, the HelloVote Providers will promptly delete the information.
 
 ## California Privacy Rights
-If you reside in California and have provided your personally identifiable information to the HelloVote Providers, you may request information once per calendar year about the HelloVote Providers’ disclosures of certain categories of your personally identifiable information to third parties for their direct marketing purposes. Such requests must be submitted to the HelloVote Providers at (team@hello.vote)[mailto:team@hello.vote].
+If you reside in California and have provided your personally identifiable information to the HelloVote Providers, you may request information once per calendar year about the HelloVote Providers’ disclosures of certain categories of your personally identifiable information to third parties for their direct marketing purposes. Such requests must be submitted to the HelloVote Providers at <team@hello.vote>.
 
 ## Changes to this Privacy Policy
 The HelloVote Providers may update this Privacy Policy at any time. When it does, the HelloVote Providers will revise the updated date at the bottom of this page. The HelloVote Providers encourage Users to frequently check this page for any changes to stay informed about what information the HelloVote Providers collect and how they use that information. You acknowledge and agree that it is your responsibility to review this Privacy Policy periodically and become aware of any modifications since your last visit.
@@ -50,7 +50,7 @@ The HelloVote Providers may update this Privacy Policy at any time. When it does
 By using this the HelloVote Tool, you signify your acceptance of this Privacy Policy. If you do not agree to this policy, please do not use the HelloVote Tool. Your continued use of the HelloVote Tool following the posting of changes to this Privacy Policy will be deemed your acceptance of those changes.
 
 ## Contacting the HelloVote Providers
-If you have any questions about this Privacy Policy or anything relating to the HelloVote Tool, please contact the HelloVote Providers at (team@hello.vote)[mailto:team@hello.vote].
+If you have any questions about this Privacy Policy or anything relating to the HelloVote Tool, please contact the HelloVote Providers at <team@hello.vote>.
 
 September 21, 2016
 
