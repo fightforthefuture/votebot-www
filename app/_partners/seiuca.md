@@ -1,5 +1,6 @@
 ---
 partner: seiuca
+partner_link: http://www.seiuca.org/
 partner_privacy_policy: http://www.seiuca.org/privacy-policy/
 partner_keyword: SEIUCA
 title: SEIU CA

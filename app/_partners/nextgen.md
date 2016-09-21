@@ -1,5 +1,6 @@
 ---
 partner: nextgen
+partner_link: https://nextgenclimate.org/
 partner_privacy_policy: https://nextgenclimate.org/privacy-policy/
 partner_keyword: NEXTGEN
 title: NextGen

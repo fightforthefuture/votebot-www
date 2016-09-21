@@ -32,6 +32,7 @@ window.speechBubbles = [ {% for string in page.bubbles %}
 {% if page.partner and page.partner != 'fftf' %}
 window.partner = {
   'name': '{{page.title}}',
+  'link': '{{page.partner_link}}',
   {% if page.partner_privacy_policy %}
   'privacy_policy': '{{page.partner_privacy_policy}}',
   {% endif %}

@@ -202,7 +202,7 @@ window.components.chat = function (doc, win) {
     if (window.partner) {
       overlay.querySelector('.disclosure em').innerHTML = l10n['DISCLOSURE_PARTNER'];
       overlay.querySelector('.disclosure em a.partner').textContent = window.partner.name;
-      overlay.querySelector('.disclosure em a.partner').href = window.partner.privacy_policy;
+      overlay.querySelector('.disclosure em a.partner').href = window.partner.link;
 
       // update shortcode keyword
       if (document.querySelector('section span.sms-keyword')) {

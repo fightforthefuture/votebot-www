@@ -1,5 +1,6 @@
 ---
 partner: care2
+partner_link: http://www.care2.com/
 partner_privacy_policy: http://www.care2.com/help/general/privacy.html
 partner_keyword: CARE2
 locale: en

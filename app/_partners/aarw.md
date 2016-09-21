@@ -1,5 +1,6 @@
 ---
 partner: aarw
+partner_link: http://www.aarw.org/
 partner_privacy_policy: http://www.aarw.org/contact-us
 partner_keyword: AARW
 title: AARW

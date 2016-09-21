@@ -1,6 +1,6 @@
 ---
 partner: bazta
-partner_privacy_policy: https://www.ngpvan.com/content/privacy-policy
+partner_link: http://baztaarpaio.com/
 partner_keyword: BAZTA
 locale: en
 bubbles:
