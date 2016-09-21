@@ -205,7 +205,9 @@ window.components.chat = function (doc, win) {
       overlay.querySelector('.disclosure em a.partner').href = window.partner.privacy_policy;
 
       // update shortcode keyword
-      document.querySelector('section span.sms-keyword').textContent = window.partner.name.toUpperCase();
+      if (document.querySelector('section span.sms-keyword')) {
+        document.querySelector('section span.sms-keyword').textContent = window.partner.name.toUpperCase();
+      }
     } else {
         overlay.querySelector('.disclosure em').innerHTML = l10n['DISCLOSURE'];
     }
