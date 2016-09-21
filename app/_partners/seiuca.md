@@ -1,6 +1,7 @@
 ---
 partner: seiuca
 partner_privacy_policy: http://www.seiuca.org/privacy-policy/
+partner_keyword: SEIUCA
 title: SEIU CA
 locale: en
 bubbles:

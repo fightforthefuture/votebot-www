@@ -1,6 +1,7 @@
 ---
 partner: krcla
 partner_privacy_policy: http://www.krcla.org/en/contact
+partner_keyword: KRCLA
 title: KRC LA
 locale: en
 bubbles:

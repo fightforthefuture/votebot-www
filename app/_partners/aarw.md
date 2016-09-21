@@ -1,6 +1,7 @@
 ---
 partner: aarw
 partner_privacy_policy: http://www.aarw.org/contact-us
+partner_keyword: AARW
 title: AARW
 locale: en
 bubbles:

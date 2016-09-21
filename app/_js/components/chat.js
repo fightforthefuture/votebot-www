@@ -206,7 +206,7 @@ window.components.chat = function (doc, win) {
 
       // update shortcode keyword
       if (document.querySelector('section span.sms-keyword')) {
-        document.querySelector('section span.sms-keyword').textContent = window.partner.name.toUpperCase();
+        document.querySelector('section span.sms-keyword').textContent = window.partner.keyword.toUpperCase();
       }
     } else {
         overlay.querySelector('.disclosure em').innerHTML = l10n['DISCLOSURE'];

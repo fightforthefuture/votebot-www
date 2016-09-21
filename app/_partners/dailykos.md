@@ -1,6 +1,7 @@
 ---
 partner: dailykos
 partner_privacy_policy: http://www.dailykos.com/privacy
+partner_keyword: DAILYKOS
 title: Daily Kos
 locale: en
 bubbles:

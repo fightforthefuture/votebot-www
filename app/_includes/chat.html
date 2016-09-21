@@ -33,7 +33,10 @@ window.speechBubbles = [ {% for string in page.bubbles %}
 window.partner = {
   'name': '{{page.title}}',
   {% if page.partner_privacy_policy %}
-  'privacy_policy': '{{page.partner_privacy_policy}}'
+  'privacy_policy': '{{page.partner_privacy_policy}}',
+  {% endif %}
+  {% if page.partner_keyword %}
+  'keyword': '{{page.partner_keyword}}'
   {% endif %}
 };
 {% endif %}

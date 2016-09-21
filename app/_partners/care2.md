@@ -1,6 +1,7 @@
 ---
 partner: care2
 partner_privacy_policy: http://www.care2.com/help/general/privacy.html
+partner_keyword: CARE2
 locale: en
 bubbles:
  - 'Hi! This is Care2 and HelloVote!'

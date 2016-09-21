@@ -1,6 +1,7 @@
 ---
 partner: presente
 partner_privacy_policy: http://presente.org/privacy/
+partner_keyword: PRESENTE
 locale: en
 bubbles:
  - 'Hi! This is Presente and HelloVote!'

@@ -1,6 +1,7 @@
 ---
 partner: headcount
 partner_privacy_policy: https://www.headcount.org/privacy-policy/
+partner_keyword: COUNT
 title: HeadCount
 locale: en
 bubbles:
