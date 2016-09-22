@@ -2,6 +2,7 @@
 partner: mtv
 partner_link: http://mtv.com/
 partner_keyword: MTV
+title: MTV
 locale: en
 bubbles:
  - 'Hi! This is MTV and HelloVote!'
