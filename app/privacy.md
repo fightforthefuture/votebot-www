@@ -5,7 +5,7 @@ locale: en
 
 <div markdown="1" class="legal">
 
-# Privacy Policy
+# Privacy Policy &nbsp; Terms of Service
 Fight for the Future and Fight for the Future Education Fund (collectively, the “HelloVote Providers”) own and operate the HelloVote website and voter registration tool (collectively, the “HelloVote Tool”). This Privacy Policy governs the manner in which the HelloVote Providers collect, use, maintain and disclose information collected from users (“You” or “Users”) of the HelloVote Tool. 
 
 ## The Types of Information the HelloVote Providers Collect
@@ -49,6 +49,6 @@ By using this the HelloVote Tool, you signify your acceptance of this Privacy Po
 ## Contacting the HelloVote Providers
 If you have any questions about this Privacy Policy or anything relating to the HelloVote Tool, please contact the HelloVote Providers at <team@hello.vote>.
 
-September 21, 2016
+September 22, 2016
 
 </div>
