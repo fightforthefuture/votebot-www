@@ -1,5 +1,5 @@
 ---
-partner: MTV
+partner: mtv
 partner_link: http://mtv.com/
 partner_keyword: MTV
 locale: en
