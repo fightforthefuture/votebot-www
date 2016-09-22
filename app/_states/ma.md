@@ -3,6 +3,7 @@ layout: state
 state: Massachusetts
 title: Massachusetts Disclosures
 locale: en
+redirect_from: /MA/
 ---
 
 * I AM A CITIZEN OF THE UNITED STATES

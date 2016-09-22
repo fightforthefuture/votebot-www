@@ -2,6 +2,7 @@
 layout: state
 state: Georgia
 title: Georgia Disclosures
+redirect_from: /GA/
 locale: en
 ---
 

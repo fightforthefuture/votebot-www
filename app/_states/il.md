@@ -2,6 +2,7 @@
 layout: state
 state: Illinois
 title: Illinois Disclosures
+redirect_from: /IL/
 locale: en
 ---
 

@@ -2,6 +2,7 @@
 layout: state
 state: Colorado
 title: Colorado Disclosures
+redirect_from: /CO/
 locale: en
 ---
 

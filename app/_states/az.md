@@ -2,6 +2,7 @@
 layout: state
 state: Arizona
 title: Arizona Disclosures
+redirect_from: /AZ/
 locale: en
 ---
 

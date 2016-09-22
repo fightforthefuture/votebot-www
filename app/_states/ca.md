@@ -2,6 +2,7 @@
 layout: state
 state: California
 title: California Disclosures
+redirect_from: /CA/
 locale: en
 ---
 

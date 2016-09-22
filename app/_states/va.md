@@ -2,6 +2,7 @@
 layout: state
 state: Virginia
 title: Virginia Disclosures
+redirect_from: /VA/
 locale: en
 ---
 

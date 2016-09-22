@@ -59,5 +59,6 @@ collections:
 
 exclude: ['img']
 keep_files: ['img', 'js', 'css']
-
+gems:
+  - jekyll-redirect-from
 markdown: kramdown

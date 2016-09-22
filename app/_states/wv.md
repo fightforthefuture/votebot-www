@@ -2,6 +2,7 @@
 layout: state
 state: West Virginia
 title: West Virginia Disclosures
+redirect_from: /WV/
 locale: en
 ---
 

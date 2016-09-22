@@ -2,6 +2,7 @@
 layout: state
 state: Vermont
 title: Vermont Disclosures
+redirect_from: /VT/
 locale: en
 ---
 

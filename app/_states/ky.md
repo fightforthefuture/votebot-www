@@ -2,6 +2,7 @@
 layout: state
 state: Kentucky
 title: Kentucky Disclosures
+redirect_from: /KY/
 locale: en
 ---
 
