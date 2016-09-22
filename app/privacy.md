@@ -17,7 +17,7 @@ The HelloVote Providers collect non-personally identifiable information about yo
 The HelloVote Providers collect personally identifiable information, such as names, cell phone numbers, mailing addresses, dates of birth, party affiliation, social security numbers, state identification numbers, etc., from Users when they voluntarily provide such information to the HelloVote Providers in connection with using the HelloVote Tool. 
 
 ## How the HelloVote Providers Use the Information that They Collect
-The HelloVote Providers use Users’ personal information to help Users register to vote. The HelloVote Providers will also add you to their distribution lists and may contact you via mail, email and/or text message with information relating to your voter registration, the 2016 general election, as well as other information that the HelloVote Providers think will be of interest to you. If at any time you wish to stop receiving communications from the HelloVote Providers, please follow the unsubscribe instructions included on all such communications from the HelloVote Providers. By providing your cell phone number to the HelloVote Providers, you consent to be contacted at that number on any subject from the HelloVote Providers, unless and until you request that such messages stop.  
+The HelloVote Providers use Users’ personal information to help Users register to vote. The HelloVote Providers will also add you to their distribution lists and may contact you via mail, email and/or text message with information relating to your voter registration, the 2016 general election, as well as other information that the HelloVote Providers think will be of interest to you. If at any time you wish to stop receiving communications from the HelloVote Providers, please follow the unsubscribe instructions included on all such communications from the HelloVote Providers. By providing your cell phone number to the HelloVote Providers, you consent to be contacted at that number on any subject from the HelloVote Providers, unless and until you request that such messages stop. Message and data rates may apply.
 
 ## How the HelloVote Providers Protect User Information
 The HelloVote Providers adopt appropriate data collection, storage and processing practices and security measures to help protect against unauthorized access, alteration, disclosure or destruction of your personal information, but the HelloVote Providers cannot guarantee that your information is 100% secure. 
@@ -41,13 +41,13 @@ Protecting the privacy of the young is especially important. For that reason, th
 If you reside in California and have provided your personally identifiable information to the HelloVote Providers, you may request information once per calendar year about the HelloVote Providers’ disclosures of certain categories of your personally identifiable information to third parties for their direct marketing purposes. Such requests must be submitted to the HelloVote Providers at <team@hello.vote>.
 
 ## Changes to this Privacy Policy
-The HelloVote Providers may update this Privacy Policy at any time. When it does, the HelloVote Providers will revise the updated date at the bottom of this page. The HelloVote Providers encourage Users to frequently check this page for any changes to stay informed about what information the HelloVote Providers collect and how they use that information. You acknowledge and agree that it is your responsibility to review this Privacy Policy periodically and become aware of any modifications since your last visit.
+The HelloVote Providers may update this Privacy Policy at any time. When it does, the HelloVote Providers will revise the updated date at the bottom of this page. The HelloVote Providers encourage Users to frequently check this page for any changes to stay informed about what information the HelloVote Providers collect and how they use that information. You acknowledge and agree that it is you responsibility to review this Privacy Policy periodically and become aware of any modifications since your last visit.
 
 ## Your Acceptance of These Terms
 By using this the HelloVote Tool, you signify your acceptance of this Privacy Policy. If you do not agree to this policy, please do not use the HelloVote Tool. Your continued use of the HelloVote Tool following the posting of changes to this Privacy Policy will be deemed your acceptance of those changes.
 
 ## Contacting the HelloVote Providers
-If you have any questions about this Privacy Policy or anything relating to the HelloVote Tool, please contact the HelloVote Providers at <team@hello.vote>.
+If you have any questions about this Privacy Policy or anything relating to the HelloVote Tool, please contact the HelloVote Providers at <team@hello.vote>. You may also call toll-free 844-344-3556. <strong>To stop receiving text messages from the HelloVote Providers, text "STOP" to 384-387</<strong>.
 
 September 22, 2016
 
