@@ -4,11 +4,11 @@ layout: content
 
 <div class="legal">
 
-<h2>To register to vote in {{page.state}}, you must agree to the following statements:</h2>
+<h2>{% if page.heading %}{{page.heading}}{%else%}To register to vote in {{page.state}}, you must agree to the following statements:{%endif%}</h2>
 {{content}}
 
-<p>
+{% if page.suppress_affirm %}{%else%}<p>
 <button onclick="window.open('','_self').close();">I AFFIRM THE ABOVE STATEMENTS</button>
-</p>
+</p>{%endif%}
 
 </div>
