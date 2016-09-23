@@ -1,0 +1,22 @@
+.video {
+  margin: 0px auto 25px auto;
+  max-width: @chat-max-width;
+  .wrapper {
+    border: 10px solid transparent;
+    border-radius: 10px;
+    height: 0;
+    margin: 0px;
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    padding-top: 30px;
+    position: relative;
+
+    iframe, object, embed {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+    }
+  }
+}
