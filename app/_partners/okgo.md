@@ -1,5 +1,5 @@
 ---
-partner: OKGO
+partner: okgo
 partner_link: http://okgo.net/
 partner_keyword: OKGO
 title: OK Go
