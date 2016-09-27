@@ -20,7 +20,7 @@ window.components.chat = function (doc, win) {
 
 
 
-  var bubble = function(sender, html, events) {
+  var bubble = function(sender, html, events, textOnly) {
     events || (events = []);
 
     var dots = chatbox.querySelectorAll('.dots');
@@ -34,7 +34,11 @@ window.components.chat = function (doc, win) {
     clear.className = 'clear';
 
     message.className = 'message minimized '+sender;
-    message.innerHTML = html;
+
+    if (!textOnly)
+      message.innerHTML = html;
+    else
+      message.textContent = html;
 
     if (hueShift)
       doHueShift(message, hueShift);
@@ -163,7 +167,7 @@ window.components.chat = function (doc, win) {
     if (!input.value)
       return input.focus();
 
-    bubble('user', input.value);
+    bubble('user', input.value, [], true);
 
     if (!phoneNumber) {
       var _tmpPhoneNumber = validatePhone(input.value)
@@ -248,7 +252,7 @@ window.components.chat = function (doc, win) {
 
     var learnMore = overlay.querySelector('.disclosure a.learn-more');
     if (window.partner) {
-      learnMore.href = 'https://www.hello.vote/'+window.partner.name.toLowerCase()+'/#what-is-hellovote';
+      learnMore.href = 'https://www.hello.vote/'+window.partner.slug.toLowerCase()+'/#what-is-hellovote';
     } else {
       learnMore.href = 'https://www.hello.vote#what-is-hellovote';
     }
