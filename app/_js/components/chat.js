@@ -248,7 +248,7 @@ window.components.chat = function (doc, win) {
 
     var learnMore = overlay.querySelector('.disclosure a.learn-more');
     if (window.partner) {
-      learnMore.href = 'https://www.hello.vote/'+window.partner.name.toLowerCase()+'/#what-is-hellovote';
+      learnMore.href = 'https://www.hello.vote/'+window.partner.keyword.toLowerCase()+'/#what-is-hellovote';
     } else {
       learnMore.href = 'https://www.hello.vote#what-is-hellovote';
     }
