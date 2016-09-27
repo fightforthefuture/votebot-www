@@ -1,5 +1,5 @@
 ---
-partner: IAPALA
+partner: iapala
 partner_link: http://www.apalanet.org/
 partner_keyword: IAPALA
 title: IAPALA
