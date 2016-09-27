@@ -1,7 +1,7 @@
 ---
 partner: jokesforvotes
 partner_link: https://www.funnyordie.com/jokesforvotes/
-partner_keyword: JOKER
+partner_keyword: JOKES
 title: Jokes for Votes
 locale: en
 bubbles:
