@@ -17,7 +17,8 @@ window.components.chat = function (doc, win) {
       partner       = 'fftf',
       queryString   = util.parseQueryString(),
       isInStudio    = ('isInStudio' in queryString),
-      isInSafeMode  = isInStudio || ['my.hello.vote','my-hello-vote.herokuapp.com'].indexOf(location.hostname) > -1,
+      isInCustom    = document.body.classList.contains('my'),
+      isInSafeMode  = isInStudio || isInCustom,
       hueShift      = false;
 
 
@@ -154,6 +155,13 @@ window.components.chat = function (doc, win) {
     dots();
 
     var messages = window.speechBubbles.slice();
+
+    if (isInSafeMode) {
+      messages = messages.concat([
+        'I can help you register to vote, check your registration, and help your friends register.',
+        'Try me out! Enter your phone number to start<span class="mobileOnly">, or <a href="https://m.me/hellovote">chat on Facebook Messenger</a></span>.',
+      ]);
+    }
 
     animationTimeouts.push(setTimeout(text(messages.shift(), isInSafeMode), 1000));
     animationTimeouts.push(setTimeout(dots, 1100));
@@ -313,7 +321,7 @@ window.components.chat = function (doc, win) {
   localize();
   determinePartner();
   iframeHandler();
-  if (isInStudio) {
+  if (isInSafeMode) {
     // Allow for live updates
     window.initialAnimations = initialAnimations;
     window.customizeColors = customizeColors;
