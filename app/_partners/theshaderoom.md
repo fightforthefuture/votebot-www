@@ -2,7 +2,7 @@
 partner: theshaderoom
 redirect_from: /shaderoom/
 partner_link: http://theshaderoom.com/
-partner_keyword: SHADEROOM
+partner_keyword: THESHADEROOM
 title: the Shade Room
 locale: en
 bubbles:
