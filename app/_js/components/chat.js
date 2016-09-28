@@ -16,6 +16,8 @@ window.components.chat = function (doc, win) {
       failures      = 0,
       partner       = 'fftf',
       queryString   = util.parseQueryString(),
+      isInStudio    = ('isInStudio' in queryString),
+      isInSafeMode  = isInStudio || ['my.hello.vote','my-hello-vote.herokuapp.com'].indexOf(location.hostname) > -1,
       hueShift      = false;
 
 
@@ -134,29 +136,41 @@ window.components.chat = function (doc, win) {
     }, 20);
   }
 
+  var animationTimeouts = [];
+
+  var cancelAnimations = function() {
+    document.querySelector('#messages').textContent = '';
+    animationTimeouts.forEach(clearTimeout);
+  };
+
   var initialAnimations = function() {
-    function text(message) {
+    cancelAnimations();
+    function text(message, textOnly) {
       return function() {
-        bubble('bot', message);
+        bubble('bot', message, false, textOnly);
       };
     }
 
+    dots();
+
     var messages = window.speechBubbles.slice();
 
-    setTimeout(text(messages.shift()), 1000);
-    setTimeout(dots, 1100);
+    animationTimeouts.push(setTimeout(text(messages.shift()), 1000));
+    animationTimeouts.push(setTimeout(dots, 1100));
 
     var delay = 2500;
     messages.forEach(function(message, i) {
-      setTimeout(text(message), delay);
+      var isFinal = (i === messages.length - 1);
+      var textOnly = isInSafeMode && !isFinal;
+      animationTimeouts.push(setTimeout(text(message, textOnly), delay));
       delay += 500;
 
       // Show dots, if there are more messages
-      if (i === messages.length - 1) {
+      if (isFinal) {
         return;
       }
 
-      setTimeout(dots, delay);
+      animationTimeouts.push(setTimeout(dots, delay));
       delay += 500;
     });
   }
@@ -229,11 +243,11 @@ window.components.chat = function (doc, win) {
   }
 
   var doHueShift = function(elem, degree) {
-    elem.style["filter"] = 'hue-rotate('+queryString.hueShift+'deg)';
-    elem.style["-webkit-filter"] = 'hue-rotate('+queryString.hueShift+'deg)';
-    elem.style["-moz-filter"] = 'hue-rotate('+queryString.hueShift+'deg)';
-    elem.style["-ie-filter"] = 'hue-rotate('+queryString.hueShift+'deg)';
-    elem.style["-o-filter"] = 'hue-rotate('+queryString.hueShift+'deg)';
+    elem.style["filter"] = 'hue-rotate(' + degree + 'deg)';
+    elem.style["-webkit-filter"] = 'hue-rotate(' + degree + 'deg)';
+    elem.style["-moz-filter"] = 'hue-rotate(' + degree + 'deg)';
+    elem.style["-ie-filter"] = 'hue-rotate(' + degree + 'deg)';
+    elem.style["-o-filter"] = 'hue-rotate(' + degree + 'deg)';
   }
 
   var determinePartner = function() {
@@ -258,33 +272,51 @@ window.components.chat = function (doc, win) {
     }
     learnMore.target = '_blank';
 
-    var parseColor = function(str) {
-      if (str.indexOf('rgba') === 0) return unescape(str);
-      else return '#'+unescape(str);
-    }
+    customizeColors();
+  }
 
-    if (queryString.hueShift) {
-      hueShift = queryString.hueShift;
+  
+
+  var parseColor = function(str) {
+    if (str.match('rgb') || str.match('#')) {
+      return unescape(str);
+    } else {
+      return '#' + unescape(str);
+    }
+  }
+
+  var customizeColors = function(newHueShift, newDisclosureColor) {
+    if (newHueShift || queryString.hueShift) {
+      hueShift = newHueShift || queryString.hueShift;
       doHueShift(form, hueShift);
-      doHueShift(doc.querySelector('.dots'), hueShift);
+
+      var dots = doc.querySelector('.dots');
+      if (dots) {
+        doHueShift(dots, hueShift);
+      }
 
       var disclosureLinks = overlay.querySelectorAll('.disclosure a, .disclosure img');
-      for (var i=0; i<disclosureLinks.length; i++)
+      for (var i=0; i<disclosureLinks.length; i++) {
         doHueShift(disclosureLinks[i], hueShift);
+      }
+
+      var logo = document.querySelector('.logo');
+      doHueShift(logo, hueShift);
     }
 
-    if (queryString.disclosureColor)
-      overlay.querySelector('.disclosure').style.color = parseColor(queryString.disclosureColor);
-
+    if (newDisclosureColor || queryString.disclosureColor) {
+      var color = parseColor(newDisclosureColor || queryString.disclosureColor);
+      overlay.querySelector('.disclosure').style.color = color;
+    }
   }
 
   localize();
   determinePartner();
   iframeHandler();
-
-  // Allow animations to be deferred
-  if ('deferAnimations' in queryString) {
+  if (isInStudio) {
+    // Allow for live updates
     window.initialAnimations = initialAnimations;
+    window.customizeColors = customizeColors;
   } else {
     initialAnimations();
   }
