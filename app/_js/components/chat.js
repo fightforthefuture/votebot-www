@@ -155,7 +155,7 @@ window.components.chat = function (doc, win) {
 
     var messages = window.speechBubbles.slice();
 
-    animationTimeouts.push(setTimeout(text(messages.shift()), 1000));
+    animationTimeouts.push(setTimeout(text(messages.shift(), isInSafeMode), 1000));
     animationTimeouts.push(setTimeout(dots, 1100));
 
     var delay = 2500;
