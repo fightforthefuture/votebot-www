@@ -105,9 +105,12 @@
     em {
       /*display: none;*/
       vertical-align: top;
+      &.bottom { vertical-align: bottom;}
       display: inline-block;
       font-size: .6em;
       color: rgba(255, 255, 255, .7);
+      &.white { color: rgba(255, 255, 255, 1); }
+
       padding: 14px 0px 0px 2px;
 
       @media screen and (min-width: @large-phone) {
