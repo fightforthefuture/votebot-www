@@ -68,6 +68,7 @@
       max-width: 120px;
       max-height: 40px;
       height: auto;
+      transition: filter 0.5s ease-in;
 
       @media screen and (min-width: @tiny-phone) {
         margin-left: 20px;
@@ -276,6 +277,16 @@
 
       @media screen and (min-width: @large-phone) {
         padding: 10px 0px 10px 0px;
+      }
+    }
+
+    body.my & a {
+      color: white;
+      text-decoration: underline;
+
+      &.learn-more {
+        font-weight: normal;
+        opacity: 0.5;
       }
     }
 

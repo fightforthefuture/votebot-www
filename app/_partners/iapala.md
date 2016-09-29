@@ -1,11 +1,11 @@
 ---
-partner: jokesforvotes
-partner_link: https://www.funnyordie.com/jokesforvotes/
-partner_keyword: JOKES
-title: Jokes for Votes
+partner: iapala
+partner_link: http://www.apalanet.org/
+partner_keyword: IAPALA
+title: IAPALA
 locale: en
 bubbles:
- - 'Hi! This is Jokes for Votes and HelloVote!'
+ - 'Hi! This is IAPALA and HelloVote!'
  - 'I can help you register to vote, check your registration, and help your friends register'
  - 'Try me out! Enter your phone number to start.'
 ---
