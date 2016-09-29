@@ -1,5 +1,6 @@
 ---
-partner: nextgenLCF
+partner: nextgenlcf
+redirect_from: /nextgenLCF/
 partner_link: https://nextgenclimate.org/
 partner_keyword: latinos
 title: NextGen
