@@ -52,6 +52,9 @@ collections:
   posts:
     output: true
     permalink: :path/
+  translations:
+    output: true
+    permalink: :path/
 
 #############
 # Compiling #

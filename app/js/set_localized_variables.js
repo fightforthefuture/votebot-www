@@ -38,9 +38,8 @@ var fullPageTranslations = [
   {% for locale in site.data.l10n %}{% if locale.page_translation %}'{{ locale.code }}',{% endif %}{% endfor %}
 ];
 
-var overrideLocaleIndex = fullPageTranslations.indexOf(window.location.pathname.replace(/\//g, ''));
-if (overrideLocaleIndex !== -1)
-    iso = fullPageTranslations[overrideLocaleIndex];
+if (document.documentElement && document.documentElement.lang)
+    iso = document.documentElement.lang;
 
 switch (iso) {
   {% for locale in site.data.l10n %}
@@ -54,7 +53,4 @@ switch (iso) {
       {% for keyval in site.data.l10n[0] %}window.l10n['{{ keyval[0] | upcase}}'] = '{{ keyval[1] | strip | replace: "'", "’" }}';
       {% endfor %}
 }
-
-if (fullPageTranslations.indexOf(iso) !== -1 && iso != 'en' && window.location.pathname == '/')
-  window.location.replace('/' + iso + window.location.search);
 

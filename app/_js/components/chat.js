@@ -111,6 +111,9 @@ window.components.chat = function (doc, win) {
       "recipients":[
         {"username": phoneNumber}
       ],
+      "options": {
+        "locale": iso,
+      },
       "partner": partner
     };
     console.log('sending', data);
@@ -123,7 +126,7 @@ window.components.chat = function (doc, win) {
     if (_paq) { _paq.push(['trackGoal', 1]); }
 
     setTimeout(function() {
-      bubble('bot', 'Check your phone! Didn\'t get a text message? <a href="https://docs.google.com/forms/d/e/1FAIpQLSd6dYLxLhnyv_bq734QmXP-TV4WQkMo2dX8mOhF4NJ5dMIXqw/viewform">Click here.</a>');
+      bubble('bot', l10n['CHECK_YOUR_PHONE']);
       showShareForm();
     }, 4000);
   }
@@ -283,7 +286,7 @@ window.components.chat = function (doc, win) {
     customizeColors();
   }
 
-  
+
 
   var parseColor = function(str) {
     if (str.match('rgb') || str.match('#')) {

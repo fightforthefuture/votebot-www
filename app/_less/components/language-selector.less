@@ -1,0 +1,37 @@
+.language-selector {
+
+  @media screen and (max-width: 639px) {
+    &::before {
+      content: " — ";
+      color: white;
+      opacity: .5;
+    }
+  }
+
+  @media screen and (min-width: @large-phone) {
+    padding: 0px 20px 4px 20px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, .5);
+    background: darken(#272440, 20%);
+    position: absolute;
+    right: 0px;
+    top: -45px;
+    z-index: 9002;
+    -webkit-border-bottom-right-radius: 10px;
+    -webkit-border-bottom-left-radius: 10px;
+    -moz-border-radius-bottomright: 10px;
+    -moz-border-radius-bottomleft: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+  }
+
+  a {
+    font-weight: bold;
+
+    @media screen and (min-width: @large-phone) {
+      font-weight: normal;
+      color: white;
+      text-decoration: underline;
+      font-size: 11px;
+    }
+  }
+}

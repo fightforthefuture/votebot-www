@@ -2,6 +2,7 @@
 layout: default
 partner: fftf
 locale: en
+language_selector: true
 bubbles:
  - 'Hi! I''m HelloVote!'
  - 'I can help you register to vote, check your registration, and help your friends register.'
