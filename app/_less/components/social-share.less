@@ -1,3 +1,49 @@
+.side-share {
+    display: none;
+    position: fixed;
+    left: 0px;
+    top: 40%;
+    font-size: 0px;
+
+    @media screen and (min-width: 740px) {
+      display: block;
+    }
+
+    button {
+      border-width: 0px;
+      border-style: none;
+      font-size: 0px;
+      cursor: pointer;
+      box-shadow: 0px 0px 20px rgba(0, 0, 0, .2);
+
+      width: 50px;
+      height: 50px;
+      margin: 0px 0px 15px 0px;
+
+      -webkit-border-top-left-radius: 0px;
+      -webkit-border-bottom-left-radius: 0px;
+      -moz-border-radius-topleft: 0px;
+      -moz-border-radius-bottomleft: 0px;
+      border-top-left-radius: 0px;
+      border-bottom-left-radius: 0px;
+
+      &::before {
+        margin: 0px;
+        display: none;
+      }
+
+      &.twitter {
+        background: #55acee url(../images/tweet.png) center center no-repeat;
+        background-size: 35px auto;
+      }
+
+      &.facebook {
+        background: #3B579D url(../images/facebook.png) 2px center no-repeat;
+        background-size: 35px auto;
+      }
+    }
+}
+
 .share-button {
   display: inline-block;
   border-radius: 5px;
