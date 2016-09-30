@@ -2,7 +2,7 @@
 partner: nextgenca
 partner_link: https://nextgenclimate.org/
 partner_privacy_policy: https://nextgenclimate.org/privacy-policy/
-partner_keyword: NEXTGENcA
+partner_keyword: CALI
 title: NextGen CA
 locale: en
 bubbles:
