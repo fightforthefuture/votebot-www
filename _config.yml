@@ -35,6 +35,10 @@ defaults:
     values:
       layout: default
   - scope:
+      type: partners_es
+    values:
+      layout: default
+  - scope:
       type: partners_iframes
     values:
       layout: iframe
@@ -43,6 +47,9 @@ collections:
   partners:
     output: true
     permalink: :path/
+  partners_es:
+    output: true
+    permalink: :path/es/
   partners_iframes:
     output: true
     permalink: :path/iframe/
