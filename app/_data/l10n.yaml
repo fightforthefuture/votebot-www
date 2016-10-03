@@ -2,25 +2,25 @@
   lang:             English
   enter_phone:      Enter phone number
   text_me:          Text me
-  disclosure:       <a href="https://www.fightforthefuture.org/">Fight for the Future</a> & its <a href="https://fftfef.org/">Education Fund</a> will contact you.
-  disclosure_partner: <a href="https://www.fightforthefuture.org/">Fight for the Future</a>, its <a href="https://fftfef.org/">Education Fund</a> and <a class=partner>PARTNER</a> will contact you.
+  disclosure:       <a target="_blank" href="https://www.fightforthefuture.org/">Fight for the Future</a> & its <a target="_blank" href="https://fftfef.org/">Education Fund</a> will contact you.
+  disclosure_partner: <a target="_blank" href="https://www.fightforthefuture.org/">Fight for the Future</a>, its <a target="_blank" href="https://fftfef.org/">Education Fund</a> and <a target="_blank" class=partner>PARTNER</a> will contact you.
   learn_more:       Learn more
   share:            Share
   tweet:            Tweet
   donate:           Donate
   powered_by:       powered by
-  check_your_phone: Check your phone! Didn\'t get a text message? <a href="https://docs.google.com/forms/d/e/1FAIpQLSd6dYLxLhnyv_bq734QmXP-TV4WQkMo2dX8mOhF4NJ5dMIXqw/viewform">Click here.</a>
+  check_your_phone: Check your phone! Didn\'t get a text message? <a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSd6dYLxLhnyv_bq734QmXP-TV4WQkMo2dX8mOhF4NJ5dMIXqw/viewform">Click here.</a>
 
 - code:             es
   lang:             Spanish
   page_translation: true
   enter_phone:      Entre su numero móvil
   text_me:          Iniciar
-  disclosure:       <a href="https://www.fightforthefuture.org/">Fight for the Future</a> y su <a href="https://fftfef.org/">Fondo de Educación</a> le enviará mensajes.
-  disclosure_partner: <a href="https://www.fightforthefuture.org/">Fight for the Future</a> y su <a href="https://fftfef.org/">Fondo de Educación</a> y <a class=partner>PARTNER</a> le enviará mensajes.
+  disclosure:       <a target="_blank" href="https://www.fightforthefuture.org/">Fight for the Future</a> y su <a target="_blank" href="https://fftfef.org/">Fondo de Educación</a> le enviará mensajes.
+  disclosure_partner: <a target="_blank" href="https://www.fightforthefuture.org/">Fight for the Future</a> y su <a target="_blank" href="https://fftfef.org/">Fondo de Educación</a> y <a target="_blank" class=partner>PARTNER</a> le enviará mensajes.
   learn_more:       Leer mas
   share:            Compartir
   tweet:            Tweet
   donate:           Donar
   powered_by:       impulsado por
-  check_your_phone: ¡Revise su teléfono! ¿No tiene un mensaje de texto? <a href="https://docs.google.com/forms/d/e/1FAIpQLSd6dYLxLhnyv_bq734QmXP-TV4WQkMo2dX8mOhF4NJ5dMIXqw/viewform">Haga click aquí.</a>
+  check_your_phone: ¡Revise su teléfono! ¿No tiene un mensaje de texto? <a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSd6dYLxLhnyv_bq734QmXP-TV4WQkMo2dX8mOhF4NJ5dMIXqw/viewform">Haga click aquí.</a>
