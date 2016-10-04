@@ -1,7 +1,8 @@
 ---
-partner: fairness
+partner: fairnessproject
+redirect_from: /fairness/
 partner_link: http://www.thefairnessproject.org
-partner_keyword: FAIRNESS
+partner_keyword: FAIR
 title: The Fairness Project
 locale: en
 bubbles:
