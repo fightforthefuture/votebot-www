@@ -1,6 +1,7 @@
 ---
 partner: lvp
 partner_link: http://latinovictory.us/
+partner_image: /images/partners/lvp.png
 partner_keyword: LVP
 title: Latino Victory Project
 locale: en

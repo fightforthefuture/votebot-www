@@ -1,6 +1,7 @@
 ---
 partner: krcla
 partner_link: http://www.krcla.org/
+partner_image: /images/partners/krcla.png
 partner_keyword: KRCLA
 title: KRC LA
 locale: en

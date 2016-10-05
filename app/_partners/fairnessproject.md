@@ -2,6 +2,7 @@
 partner: fairnessproject
 redirect_from: /fairness/
 partner_link: http://www.thefairnessproject.org
+partner_image: /images/partners/fairness.png
 partner_keyword: FAIR
 title: The Fairness Project
 locale: en

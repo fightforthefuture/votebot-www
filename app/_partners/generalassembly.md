@@ -1,6 +1,7 @@
 ---
 partner: generalassembly
 partner_link: https://generalassemb.ly/
+partner_image: /images/partners/ga.png
 partner_keyword: GA
 title: General Assembly
 locale: en

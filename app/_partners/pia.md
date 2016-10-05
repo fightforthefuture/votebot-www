@@ -1,6 +1,7 @@
 ---
 partner: pia
 partner_link: https://www.privateinternetaccess.com
+partner_image: /images/partners/pia.png
 partner_keyword: PIA
 title: Private Internet Access
 locale: en

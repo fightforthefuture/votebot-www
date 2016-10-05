@@ -1,6 +1,7 @@
 ---
 partner: twilio
 partner_link: http://twilio.com/
+partner_image: /images/partners/twilio.png
 partner_keyword: TWILIO
 title: Twilio
 locale: en

@@ -1,6 +1,7 @@
 ---
 partner: salesforce
 partner_link: https://www.salesforce.com
+partner_image: /images/partners/salesforce.png
 partner_keyword: VOTESALESFORCE
 title: Salesforce
 locale: en

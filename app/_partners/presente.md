@@ -1,7 +1,7 @@
 ---
 partner: presente
 partner_link: http://presente.org/
-partner_privacy_policy: http://presente.org/privacy/
+partner_image: /images/partners/presente.png
 partner_keyword: PRESENTE
 locale: en
 bubbles:

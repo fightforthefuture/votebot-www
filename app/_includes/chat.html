@@ -1,7 +1,15 @@
 <div class="chat">
   <div class="flex">
     <div class="logos">
-      {% include partners/{{ page.partner }}.html %}
+      {% if page.partner_image %}
+        <div class="powered-by">
+          <strong></strong>
+          <img src="/images/logo.svg">
+        </div>
+        <img src="{{page.partner_image}}" class="logo partner">
+      {% else %}
+        {% include partners/{{ page.partner }}.html %}
+      {% endif %}
     </div>
     <div id="messages">
       <div class="dots"><div><div></div></div><div><div></div></div><div><div></div></div></div>

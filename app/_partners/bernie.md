@@ -1,6 +1,7 @@
 ---
 partner: bernie
 partner_link: https://berniesanders.com/
+partner_image: /images/partners/bernie.png
 partner_keyword: BERNIE
 title: Bernie Sanders
 locale: en

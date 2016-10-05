@@ -1,7 +1,7 @@
 ---
 partner: aarw
 partner_link: http://www.aarw.org/
-partner_privacy_policy: http://www.aarw.org/contact-us
+partner_image: /images/partners/aarw.png
 partner_keyword: AARW
 title: AARW
 locale: en

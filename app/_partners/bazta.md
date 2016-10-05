@@ -1,6 +1,7 @@
 ---
 partner: bazta
 partner_link: http://baztaarpaio.com/
+partner_image: /images/partners/bazta.png
 partner_keyword: BAZTA
 locale: en
 bubbles:

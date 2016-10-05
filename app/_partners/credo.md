@@ -1,6 +1,7 @@
 ---
 partner: credo
 partner_link: http://credoaction.com/
+partner_image: /images/partners/credo.png
 partner_keyword: CREDO
 title: CREDO Action
 locale: en

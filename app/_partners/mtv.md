@@ -1,6 +1,7 @@
 ---
 partner: mtv
 partner_link: http://mtv.com/
+partner_image: /images/partners/mtv.png
 partner_keyword: MTV
 title: MTV
 locale: en

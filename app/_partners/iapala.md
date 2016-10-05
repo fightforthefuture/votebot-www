@@ -1,6 +1,7 @@
 ---
 partner: iapala
 partner_link: http://www.apalanet.org/
+partner_image: /images/partners/iapala.png
 partner_keyword: IAPALA
 title: IAPALA
 locale: en

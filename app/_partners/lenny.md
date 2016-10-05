@@ -1,6 +1,7 @@
 ---
 partner: lenny
 partner_link: http://www.lennyletter.com/
+partner_image: /images/partners/lenny.png
 partner_keyword: LENNY
 title: Lenny Letter
 locale: en
