@@ -43,6 +43,9 @@ window.partner = {
   'name': '{{page.title}}',
   'link': '{{page.partner_link}}',
   'slug': '{{page.partner}}',
+  {% if page.partner_no_disclosure %}
+  'no_disclosure': true,
+  {%endif%}
   {% if page.partner_privacy_policy %}
   'privacy_policy': '{{page.partner_privacy_policy}}',
   {% endif %}

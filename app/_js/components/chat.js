@@ -228,13 +228,13 @@ window.components.chat = function (doc, win) {
     overlay.querySelector('input').placeholder = l10n['ENTER_PHONE'];
     overlay.querySelector('button').textContent = l10n['TEXT_ME'];
 
-    if (window.partner) {
+    if (window.partner && !window.partner.no_disclosure) {
       overlay.querySelector('.disclosure em').innerHTML = l10n['DISCLOSURE_PARTNER'];
       overlay.querySelector('.disclosure em a.partner').textContent = window.partner.name;
       overlay.querySelector('.disclosure em a.partner').href = window.partner.link;
 
       // update shortcode keyword
-      if (document.querySelector('section span.sms-keyword')) {
+      if (document.querySelector('section span.sms-keyword') && window.partner.keyword) {
         document.querySelector('section span.sms-keyword').textContent = window.partner.keyword.toUpperCase();
       }
     } else {

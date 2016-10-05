@@ -39,6 +39,10 @@ defaults:
     values:
       layout: default
   - scope:
+      type: celebs
+    values:
+      layout: default
+  - scope:
       type: partners_iframes
     values:
       layout: iframe
@@ -50,6 +54,9 @@ collections:
   partners_es:
     output: true
     permalink: :path/es/
+  celebs:
+    output: true
+    permalink: :path/
   partners_iframes:
     output: true
     permalink: :path/iframe/
