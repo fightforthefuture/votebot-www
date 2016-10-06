@@ -1,7 +1,7 @@
 ---
 partner: headcount
 title: HeadCount
-partner_privacy_policy: https://www.headcount.org/privacy-policy/
+partner_image: /images/partners/headcount.png
 locale: en
 bubbles:
  - 'Hi! This is HeadCount and HelloVote!'

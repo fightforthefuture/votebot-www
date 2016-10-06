@@ -1,6 +1,7 @@
 ---
 partner: headcount
 partner_link: https://www.headcount.org/
+partner_image: /images/partners/headcount.png
 partner_keyword: COUNT
 title: HeadCount
 locale: en

@@ -1,6 +1,7 @@
 ---
 partner: onearizona
 partner_link: http://onearizona.org/
+partner_image: /images/partners/onearizona.png
 partner_keyword: OneAZ
 title: One Arizona
 locale: en

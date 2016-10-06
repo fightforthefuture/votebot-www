@@ -10,5 +10,3 @@ bubbles:
  - 'Try me out! Enter your phone number to start.'
 ---
 {% include chat.html %}
-
-
