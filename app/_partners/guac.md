@@ -6,7 +6,7 @@ partner_keyword: GUAC
 title: Hispanic Chamber of Commerce
 locale: en
 bubbles:
- - 'Hi! This is the National Hispanic Chamber of Commerce and HelloVote. Let’s Guac the Vote'
+ - 'Hi! This is the US Hispanic Chamber of Commerce and HelloVote. Let’s Guac the Vote'
  - 'I can help you register to vote, check your registration, and help your friends register'
  - 'Try me out! Enter your phone number to start.'
 ---
