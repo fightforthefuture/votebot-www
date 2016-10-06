@@ -1,5 +1,5 @@
 ---
-redirect_from: /hunter/
+redirect_from: /hunter_walk/
 partner: hunter
 partner_keyword: hunter
 partner_image: /images/celebs/hunter_walk.png

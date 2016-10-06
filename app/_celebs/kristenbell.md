@@ -1,11 +1,12 @@
 ---
-partner: daymond_john
-partner_image: /images/celebs/daymond_john.jpg
+redirect_from: /kristen_bell/
+partner: kristen_bell
+partner_image: /images/celebs/kristen_bell.jpg
 partner_no_disclosure: true
-title: Daymond John
+title: Kristen Bell
 locale: en
 bubbles:
- - "Hey, it's Daymond John."
+ - "Hey, it's Kristen Bell."
  - "Thanks for checking out HelloVote with me."
  - "Let's get started."
 ---

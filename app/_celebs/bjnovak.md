@@ -1,11 +1,12 @@
 ---
-partner: john_legend
-partner_image: /images/celebs/john_legend.jpg
+redirect_from: /bj_novak/
+partner: bj_novak
+partner_image: /images/celebs/bj_novak.jpg
 partner_no_disclosure: true
-title: John Legend
+title: BJ Novak
 locale: en
 bubbles:
- - "Hey, it's John Legend."
+ - "Hey, it's BJ Novak."
  - "Thanks for checking out HelloVote with me."
  - "Let's get started."
 ---

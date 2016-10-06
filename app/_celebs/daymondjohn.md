@@ -1,11 +1,12 @@
 ---
-partner: edward_norton
-partner_image: /images/celebs/edward_norton.jpg
+redirect_from: /daymond_john/
+partner: daymond_john
+partner_image: /images/celebs/daymond_john.jpg
 partner_no_disclosure: true
-title: Edward Norton
+title: Daymond John
 locale: en
 bubbles:
- - "Hey, it's Edward Norton."
+ - "Hey, it's Daymond John."
  - "Thanks for checking out HelloVote with me."
  - "Let's get started."
 ---

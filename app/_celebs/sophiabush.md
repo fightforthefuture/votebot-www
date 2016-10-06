@@ -1,4 +1,5 @@
 ---
+redirect_from: /sophia_bush/
 partner: sophia_bush
 partner_image: /images/celebs/sophia_bush.jpg
 partner_no_disclosure: true

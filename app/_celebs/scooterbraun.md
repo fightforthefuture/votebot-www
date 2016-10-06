@@ -1,4 +1,5 @@
 ---
+redirect_from: /scooter_braun/
 partner: scooter_braun
 partner_image: /images/celebs/scooter_braun.jpg
 partner_no_disclosure: true

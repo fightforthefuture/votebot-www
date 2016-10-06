@@ -1,5 +1,5 @@
 ---
-redirect_from: /mindy/
+redirect_from: /mindy_kaling/
 partner: mindy
 partner_link: https://twitter.com/MindyKaling
 partner_image: /images/celebs/mindy_kaling.jpg
