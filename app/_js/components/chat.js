@@ -237,7 +237,7 @@ window.components.chat = function (doc, win) {
         overlay.querySelector('.disclosure em').innerHTML = l10n['DISCLOSURE'];
     }
     // update shortcode keyword
-    if (document.querySelector('section span.sms-keyword') && window.partner.keyword) {
+    if (document.querySelector('section span.sms-keyword') && window.partner && window.partner.keyword) {
       document.querySelector('section span.sms-keyword').textContent = window.partner.keyword.toUpperCase();
     }
 
