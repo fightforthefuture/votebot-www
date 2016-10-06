@@ -233,12 +233,12 @@ window.components.chat = function (doc, win) {
       overlay.querySelector('.disclosure em a.partner').textContent = window.partner.name;
       overlay.querySelector('.disclosure em a.partner').href = window.partner.link;
 
-      // update shortcode keyword
-      if (document.querySelector('section span.sms-keyword') && window.partner.keyword) {
-        document.querySelector('section span.sms-keyword').textContent = window.partner.keyword.toUpperCase();
-      }
     } else {
         overlay.querySelector('.disclosure em').innerHTML = l10n['DISCLOSURE'];
+    }
+    // update shortcode keyword
+    if (document.querySelector('section span.sms-keyword') && window.partner.keyword) {
+      document.querySelector('section span.sms-keyword').textContent = window.partner.keyword.toUpperCase();
     }
 
     overlay.querySelector('.facebook').textContent = l10n['SHARE'];
