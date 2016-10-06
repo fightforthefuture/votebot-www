@@ -1,7 +1,7 @@
 ---
 partner: hispanic_chamber
 partner_link: http://ushcc.com
-partner_image: /images/partners/guac_the_vote.jpg
+partner_image: /images/partners/guac_the_vote.png
 partner_keyword: GUAC
 title: Hispanic Chamber of Commerce
 locale: en
