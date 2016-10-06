@@ -7,7 +7,7 @@ title: Hispanic Chamber of Commerce
 locale: en
 bubbles:
  - 'Hi! This is the US Hispanic Chamber of Commerce and HelloVote. Let’s Guac the Vote'
- - 'I can help you register to vote, check your registration, and help your friends register'
+ - 'I can help you register to vote, check your registration, and help your friends register.'
  - 'Try me out! Enter your phone number to start.'
 ---
 {% include chat.html %}
