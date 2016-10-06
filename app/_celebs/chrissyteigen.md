@@ -3,6 +3,7 @@ redirect_from: /chrissy_teigen/
 partner: chrissy_teigen
 partner_image: /images/celebs/chrissy_teigen.jpg
 partner_no_disclosure: true
+partner_keyword: chrissyteigen
 title: Chrissy Teigen
 locale: en
 bubbles:

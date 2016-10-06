@@ -3,6 +3,7 @@ redirect_from: /bj_novak/
 partner: bj_novak
 partner_image: /images/celebs/bj_novak.jpg
 partner_no_disclosure: true
+partner_keyword: bjnovak
 title: BJ Novak
 locale: en
 bubbles:
