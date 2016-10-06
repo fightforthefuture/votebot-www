@@ -1,7 +1,7 @@
 ---
 partner: surj
 partner_link: http://www.showingupforracialjustice.org
-partner_image: /images/partners/surj.jpg
+partner_image: /images/partners/surj.png
 partner_keyword: SURJ
 title: SURJ
 locale: en
