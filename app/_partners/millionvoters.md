@@ -1,7 +1,6 @@
 ---
 partner: millionvoters
 partner_link: https://millionvotersproject.org
-partner_image: /images/partners/millionvoters.png
 partner_keyword: MILLIONVOTERS
 title: The Million Voters Project
 locale: en
