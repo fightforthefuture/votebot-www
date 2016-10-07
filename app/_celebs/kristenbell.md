@@ -3,7 +3,7 @@ redirect_from: /kristen_bell/
 partner: kristen_bell
 partner_image: /images/celebs/kristen_bell.jpg
 partner_no_disclosure: true
-partner_keyword: kristenbell
+partner_keyword: kristen
 title: Kristen Bell
 locale: en
 bubbles:

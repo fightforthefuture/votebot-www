@@ -8,9 +8,9 @@ partner_keyword: mindy
 title: Mindy Kaling
 locale: en
 bubbles:
- - 'Hi! This is Mindy Kaling and HelloVote!'
- - 'I can help you register to vote, check your registration, and help your friends register.'
- - 'Try me out! Enter your phone number to start.'
+ - "Hey, it's Mindy Kaling."
+ - "Thanks for checking out HelloVote with me."
+ - "Let's get started."
 ---
 {% include chat.html %}
 

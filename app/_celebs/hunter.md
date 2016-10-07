@@ -7,8 +7,8 @@ partner_no_disclosure: true
 title: Hunter
 locale: en
 bubbles:
- - 'Hi! This is Hunter Walk and HelloVote!'
- - 'I can help you register to vote, check your registration, and help your friends register.'
- - 'Try me out! Enter your phone number to start.'
+ - "Hey, it's Hunter Walk."
+ - "Thanks for checking out HelloVote with me."
+ - "Let's get started."
 ---
 {% include chat.html %}
