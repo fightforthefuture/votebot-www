@@ -1,6 +1,7 @@
 ---
 partner: commoncause
 partner_link: http://www.commoncause.org/
+partner_image: /images/partners/commoncause.png
 partner_keyword: COMMON
 title: Common Cause
 locale: en

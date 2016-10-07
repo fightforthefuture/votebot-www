@@ -1,6 +1,6 @@
 ---
 partner: genius
-partner_privacy_policy: http://genius.com/static/privacy_policy
+partner_image: /images/partners/genius.png
 locale: en
 bubbles:
  - 'Hi! This is Genius and HelloVote!'
