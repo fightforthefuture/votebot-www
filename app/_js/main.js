@@ -5,7 +5,7 @@
     win.components = win.components || {};
     var
       i = 0,
-      components = doc.getElementsByTagName('body')[0].dataset.components;
+      components = doc.querySelector('body').getAttribute('data-components');
 
     if (components !== undefined) {
       components = components.split(' ');
