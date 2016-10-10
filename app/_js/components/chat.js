@@ -232,7 +232,9 @@ window.components.chat = function (doc, win) {
       overlay.querySelector('.disclosure em').innerHTML = l10n['DISCLOSURE_PARTNER'];
       overlay.querySelector('.disclosure em a.partner').textContent = window.partner.name;
       overlay.querySelector('.disclosure em a.partner').href = window.partner.link;
-
+      if (window.partner.extra_disclosure) {
+        overlay.querySelector('.disclosure em').innerHTML += window.partner.extra_disclosure;
+      }
     } else {
         overlay.querySelector('.disclosure em').innerHTML = l10n['DISCLOSURE'];
     }

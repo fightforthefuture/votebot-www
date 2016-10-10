@@ -46,6 +46,9 @@ window.partner = {
   {% if page.partner_no_disclosure %}
   'no_disclosure': true,
   {%endif%}
+  {% if page.partner_extra_disclosure %}
+  'extra_disclosure': '{{page.partner_extra_disclosure}}',
+  {%endif%}
   {% if page.partner_privacy_policy %}
   'privacy_policy': '{{page.partner_privacy_policy}}',
   {% endif %}

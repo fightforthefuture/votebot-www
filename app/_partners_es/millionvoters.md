@@ -4,10 +4,10 @@ partner_link: https://millionvotersproject.org
 partner_keyword: MILLIONVOTERS
 partner_extra_disclosure: '<br>Powered by <a href="https://presente.org">Presente</a>.'
 title: Million Voters Project
-locale: en
+locale: es
 bubbles:
- - 'Hi! This is the Million Voters Project and HelloVote!'
- - 'I can help you register to vote, check your registration, and help your friends register.'
- - 'Try me out! Enter your phone number to start.'
+ - '¡Saludos! Soy Million Voters y HelloVote.'
+ - 'Yo puedo ayudarle a registrarse para votar, revisar su registro, y también ayudar a que se registren sus amigos.'
+ - '¡Inténtelo!  Solo entre su numero de telefono para empezar.'
 ---
 {% include chat.html %}
