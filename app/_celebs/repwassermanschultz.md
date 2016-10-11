@@ -6,8 +6,9 @@ partner_keyword: debbie
 title: Congresswoman Wasserman Schultz
 locale: en
 bubbles:
- - "Hey, it's Congresswoman Debbie Wasserman Schultz."
+ - "Hi, it's Congresswoman Debbie Wasserman Schultz."
  - "Thanks for checking out HelloVote with me."
+ - "Florida's deadline has been extended to October 12th."
  - "Let's get started."
 ---
 {% include chat.html %}

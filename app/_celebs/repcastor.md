@@ -1,12 +1,12 @@
 ---
-partner: sen_bill_nelson
-partner_image: /images/celebs/sen_bill_nelson.jpg
+partner: rep_castor
+partner_image: /images/celebs/rep_kathy_castor.jpg
 partner_no_disclosure: true
-partner_keyword: nelson
-title: Senator Bill Nelson
+partner_keyword: castor
+title: Congresswoman Kathy Castor 
 locale: en
 bubbles:
- - "Hi, it's Senator Bill Nelson."
+ - "Hi, it's Congresswoman Kathy Castor."
  - "Thanks for checking out HelloVote with me."
  - "Florida's deadline has been extended to October 12th."
  - "Let's get started."
