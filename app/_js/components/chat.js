@@ -124,7 +124,6 @@ window.components.chat = function (doc, win) {
     submission.setRequestHeader("Content-Type", "application/json");
     submission.send(JSON.stringify(data));
     if (_paq) { _paq.push(['trackGoal', 1]); }
-    if (fbq) { fbq('track', 'CompleteRegistration'); }
 
     setTimeout(function() {
       bubble('bot', l10n['CHECK_YOUR_PHONE']);
