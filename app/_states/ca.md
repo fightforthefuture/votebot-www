@@ -1,12 +1,14 @@
 ---
 layout: state
 state: California
-title: California Disclosures
+title: Voting in California
 redirect_from: /CA/
 locale: en
 ---
 
-### I declare under penalty of perjury under the laws of the State of California that:
+## Registration Disclosure
+
+### To register to vote in California, you must agree to the following statements:
 
 * I am a U.S. citizen and will be at least 18 years old on election day.
 * I am not currently imprisoned or on parole for the conviction of a felony.

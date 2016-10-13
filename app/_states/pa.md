@@ -1,14 +1,9 @@
 ---
-layout: default
-partner: fftf
+layout: state
+state: Pennsylvania
+title: Voting in Pennsylvania
+redirect_from: /PA/
 locale: en
-language_selector: true
-bubbles:
- - 'Hi! I''m HelloVote!'
- - 'I can help you register to vote, check your registration, and help your friends register.'
- - 'Try me out! Enter your phone number to start<span class="mobileOnly">, or <a href="https://m.me/hellovote">chat on Facebook Messenger</a></span>.'
 ---
-{% include chat.html %}
 
-
-
+## Check back later for more information on voting in Pennsylvania

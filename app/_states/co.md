@@ -1,10 +1,15 @@
 ---
 layout: state
 state: Colorado
-title: Colorado Disclosures
+title: Voting in Colorado
 redirect_from: /CO/
 locale: en
 ---
+
+## Registration Disclosure
+
+### To register to vote in Colorado, you must agree to the following statements:
+
 
 I am aware that if I register to vote in Colorado I am also considered a resident of Colorado for motor vehicle registration and operation purposes and for income tax purposes.
 

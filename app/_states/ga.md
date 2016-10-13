@@ -1,10 +1,15 @@
 ---
 layout: state
 state: Georgia
-title: Georgia Disclosures
+title: Voting in Georgia
 redirect_from: /GA/
 locale: en
 ---
+
+## Registration Disclosure
+
+### To register to vote in Georgia, you must agree to the following statements:
+
 
 * I am a citizen of the United States.
 * I am a legal resident of the county.

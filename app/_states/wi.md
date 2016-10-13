@@ -1,12 +1,12 @@
 ---
 layout: state
 state: Wisconsin
-title: Wisconsin Voter Registration
+title: Voting in Wisconsin
 redirect_from: /WI/
 locale: en
-heading: Wisconsin Voter Registration Form
-suppress_affirm: true
 ---
+
+## Registering to Vote
 
 ### Registration requirements
 * Be a US citizen

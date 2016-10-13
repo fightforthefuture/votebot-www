@@ -1,10 +1,15 @@
 ---
 layout: state
 state: Illinois
-title: Illinois Disclosures
+title: Voting in Illinois
 redirect_from: /IL/
 locale: en
 ---
+
+## Registration Disclosure
+
+### To register to vote in Illinois, you must agree to the following statements:
+
 
 * I am a citizen of the United States.
 * I will be 17 years old on or before the date of the Primary Election and turn 18 on or before the date of the General Election.

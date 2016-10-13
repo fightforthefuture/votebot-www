@@ -1,10 +1,14 @@
 ---
 layout: state
 state: Vermont
-title: Vermont Disclosures
+title: Voting in Vermont
 redirect_from: /VT/
 locale: en
 ---
+
+## Registration Disclosure
+
+### To register to vote in Vermont, you must agree to the following statements:
 
 * I am a citizen of the United States of America.
 * I will be 18 years old on or before the next Election.
@@ -14,7 +18,7 @@ locale: en
 * I meet all of the eligibility requirements to vote in this municipality. I hereby swear, or affirm, under penalty of perjury and other potential federal or state criminal penalties of up to a $10,000 fine, or imprisonment for not more than fifteen years, or both, that the statements made by me in this application are true.,
 
 
-## Important
+### Important
 
 If you are registering to vote in Vermont for the first time, you must send a photocopy of an acceptable form of ID to your [town clerk](https://www.sec.state.vt.us/media/686155/townclerkguide.pdf).
 

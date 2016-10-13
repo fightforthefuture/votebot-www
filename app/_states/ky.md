@@ -1,10 +1,14 @@
 ---
 layout: state
 state: Kentucky
-title: Kentucky Disclosures
+title: Voting in Kentucky
 redirect_from: /KY/
 locale: en
 ---
+
+## Registration Disclosure
+
+### To register to vote in Kentucky, you must agree to the following statements:
 
 * I am a U.S. Citizen.
 * I am a current resident of Kentucky.

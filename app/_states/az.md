@@ -1,10 +1,14 @@
 ---
 layout: state
 state: Arizona
-title: Arizona Disclosures
+title: Voting in Arizona
 redirect_from: /AZ/
 locale: en
 ---
+
+## Registration Disclosure
+
+### To register to vote in Arizona, you must agree to the following statements:
 
 * I am a RESIDENT of Arizona.
 * I am NOT a convicted FELON, or my civil rights are restored.

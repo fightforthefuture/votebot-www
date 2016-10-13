@@ -1,10 +1,14 @@
 ---
 layout: state
 state: Virginia
-title: Virginia Disclosures
+title: Voting in Virgina
 redirect_from: /VA/
 locale: en
 ---
+
+## Registration Disclosure
+
+### To register to vote in Virginia, you must agree to the following statements:
 
 * I am a U.S. citizen, a resident of Virginia, at least 18 years old by the next general election, have had voting rights restored if convicted of a felony, and have had capacity restored by court order if declared mentally incapacitated.
 * I swear/affirm, under felony penalty for making willfully false material statements or entries, that the information provided on this form is true. I authorize the cancellation of my current registration.

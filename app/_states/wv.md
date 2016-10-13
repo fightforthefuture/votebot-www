@@ -1,10 +1,14 @@
 ---
 layout: state
 state: West Virginia
-title: West Virginia Disclosures
+title: Voting in West Virginia
 redirect_from: /WV/
 locale: en
 ---
+
+## Registration Disclosure
+
+### To register to vote in West Virginia, you must agree to the following statements:
 
 * You are a citizen of the United States of America and a legal resident of West Virginia.
 * You are at least 17 years of age and will you be 18 by the next general election.
