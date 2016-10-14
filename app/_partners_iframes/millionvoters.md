@@ -3,7 +3,7 @@ partner: millionvoters
 partner_link: https://millionvotersproject.org
 partner_image: /images/partners/millionvoters.png
 partner_extra_disclosure: '<br>Powered by <a target="_blank" href="https://presente.org">Presente</a>.'
-partner_keyword: MILLIONVOTERS
+partner_keyword: MVP
 title: Million Voters Project
 locale: en
 bubbles:
