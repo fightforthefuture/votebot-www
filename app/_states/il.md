@@ -6,10 +6,13 @@ redirect_from: /IL/
 locale: en
 ---
 
-## Registration Disclosure
+## Voter ID
+
+If you did not submit a copy of your ID with your voter registration, you must provide election officials at the polling place with a driver’s license or SSN; or current and valid photo identification; or copy of a current utility bill, bank statement, government check, paycheck, or other government document that shows your name and address.
+
+## Registering to Vote
 
 ### To register to vote in Illinois, you must agree to the following statements:
-
 
 * I am a citizen of the United States.
 * I will be 17 years old on or before the date of the Primary Election and turn 18 on or before the date of the General Election.

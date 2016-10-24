@@ -6,7 +6,11 @@ redirect_from: /WV/
 locale: en
 ---
 
-## Registration Disclosure
+## Voter ID
+
+If you are a first-time voter and did not submit a copy of a current and valid ID with your voter registration application, you must present one of the following forms of identification at the polls: a current and valid photo ID, a current utility bill, a bank statement, a government check, a paycheck, or any other official government document.
+
+## Registering to Vote
 
 ### To register to vote in West Virginia, you must agree to the following statements:
 

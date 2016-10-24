@@ -6,7 +6,13 @@ redirect_from: /VT/
 locale: en
 ---
 
-## Registration Disclosure
+## Voter ID
+
+If you are a first-time voter in the municipality who registered by mail and who has not provided required identification before the opening of the polls, you will need to present any one of the following: a valid photo identification; a copy of a current utility bill; a copy of a current bank statement; or a copy of a government check, paycheck, or any other government document that shows the current name and address of the voter. If you have voted previously in this municipality, or registered to vote in person, you do not need to show ID in order to vote.
+
+Voters without ID: If you are unable to produce the required information, you shall be afforded the opportunity to cast a provisional ballot. The elections official shall note upon the checklist if you are a first-time voter in the municipality who has registered by mail and who produces the required information, and place a mark next to your name on the checklist and allow you to proceed to the voting booth for the purpose of voting.
+
+## Registering to Vote
 
 ### To register to vote in Vermont, you must agree to the following statements:
 

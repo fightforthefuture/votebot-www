@@ -6,4 +6,8 @@ redirect_from: /ND/
 locale: en
 ---
 
-## Check back later for more information on voting in North Dakota
+## Voter ID
+
+You must show ID in order to vote in North Dakota.
+
+Identification must include the voter’s name, current residential street address, and date of birth.  Acceptable forms include: a valid driver's license or state ID card; a valid government-issued tribal ID card; or a long-term care identification certificate (provided by ND facility).

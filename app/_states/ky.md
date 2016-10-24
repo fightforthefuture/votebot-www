@@ -6,7 +6,13 @@ redirect_from: /KY/
 locale: en
 ---
 
-## Registration Disclosure
+## Voter ID
+
+Unless you are acquainted with the precinct election officers, you will be asked to show identification before voting. Types of identification that are allowed include: driver’s license, social security card, credit card, or another form of identification containing both picture and signature.
+
+Voters without ID: When the officers of an election disagree as to the qualifications of a voter or if his right to vote is disputed by a challenger, the voter shall sign a written oath as to his qualifications before he is permitted to vote.
+
+## Registering to Vote
 
 ### To register to vote in Kentucky, you must agree to the following statements:
 

@@ -6,7 +6,13 @@ redirect_from: /VA/
 locale: en
 ---
 
-## Registration Disclosure
+## Voter ID
+
+Virginia law requires all voters to provide an acceptable form of photo ID at the polls. Acceptable forms include a valid (non-expired): Virginia driver’s license or identification card,  Virginia DMV-issued veteran’s ID card, US Passport, other government-issued photo ID cards (must be issued by US Government, the Commonwealth of Virginia, or a political subdivision of the Commonwealth), college or university student photo ID card (must be from an institution of higher education located in Virginia), employee ID card containing a photograph of the voter and issued by an employer of the voter in the ordinary course of the employer’s business, or a Virginia voter photo ID Card obtained through any local general registrar’s office.
+
+Voters without ID: A voter who arrives at the polling place without an acceptable form of photo identification will be given the opportunity to vote a provisional ballot. After completing the provisional ballot, the individual voting will be given written instructions from the election officials on how to submit a copy of his/her identification so that his/her vote can be counted. A voter will have until noon on the Friday following the election to deliver a copy of the identification to the local electoral board. Voters may submit a copy of their ID via fax, email, in-person submission, or through USPS or commercial delivery service.
+
+## Registering to Vote
 
 ### To register to vote in Virginia, you must agree to the following statements:
 

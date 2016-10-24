@@ -6,6 +6,12 @@ redirect_from: /WI/
 locale: en
 ---
 
+## Voter ID
+
+You will need a photo ID to vote in Wisconsin. 
+
+The following are acceptable for voting purposes, and can be unexpired or expired after the date of the most recent general election: Wisconsin driver’s license, Wisconsin DOT-issued ID card, military ID, a tribal ID card issued by a federally recognized Indian tribe in Wisconsin, or a US passport. These photo IDs are also acceptable for voting purposes, but must be unexpired: veteran's photo ID card issued by the Veterans Health Administration of the federal Department of Veterans Affairs; certificate of naturalization (issued two years before the date of the election it is presented); driving receipt issued by Wisconsin DOT (valid for 45 days); ID card receipt issued by Wisconsin DOT (valid for 45 days); photo ID card issued by a Wisconsin accredited university or college that contains date of issuance, signature of student, and an expiration date no later than two years after date of issuance (the university or college ID must be accompanied by a separate document that proves enrollment); or a citation or notice of intent to revoke or suspend a Wisconsin DOT-issued driver license that is dated within 60 days of the date of the election.
+
 ## Registering to Vote
 
 ### Registration requirements
