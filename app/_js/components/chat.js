@@ -16,6 +16,7 @@ window.components.chat = function (doc, win) {
       failures      = 0,
       partner       = 'fftf',
       queryString   = util.parseQueryString(),
+      isInMyPage    = ('isInMyPage' in queryString),
       isInStudio    = ('isInStudio' in queryString),
       isInCustom    = document.body.classList.contains('my'),
       isInSafeMode  = isInStudio || isInCustom,
@@ -285,7 +286,11 @@ window.components.chat = function (doc, win) {
     }
     learnMore.target = '_blank';
 
-    customizeColors();
+    if (isInMyPage) {
+      doc.body.classList.add('my-page');
+    } else {
+      customizeColors();
+    }
   }
 
 

@@ -1,0 +1,28 @@
+body.iframe.my-page .flex {
+    .input {
+        padding: 8px;
+
+        form {
+            border: none;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.16);
+
+            button {
+                background-color: #2443ff;
+                border-radius: 7px;
+            }
+
+            input {
+                @media screen and (min-width: 640px) {
+                    background-image: url(/images/phonepad.svg);
+                    background-position: 19px 50%;
+                    background-size: 21px 29px;
+                }
+            }
+        }
+
+    }
+
+    .disclosure {
+        display: none;
+    }
+}
