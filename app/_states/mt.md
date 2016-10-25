@@ -8,8 +8,6 @@ locale: en
 
 ## Voter ID
 
-Before an elector is permitted to receive a ballot or vote, the elector shall present to an election judge a current photo identification showing the elector's name.
+You will need to show ID to vote in Montana. Acceptable forms include: a current photo ID showing your name; or a current utility bill, bank statement, paycheck, voter registration confirmation, government check or other government document showing your current name and address.
 
-If the elector does not present photo identification the elector shall present one of several specified documents showing the elector’s name and current address. Acceptable forms of ID include: driver’s license; school district or postsecondary education photo identification; tribal photo identification; current utility bill, bank statement, paycheck, notice of confirmation of voter registration, government check, or other government document that shows the elector's name and current address.
-
-Voters without ID: If the identification presented is insufficient to verify the elector's identity and eligibility to vote or if the elector's name does not appear in the precinct register, the elector may sign the precinct register and cast a provisional ballot.
+Voters without ID: If you do not have any form of ID, you can still vote by requesting and filling out a “Polling Place Elector ID” form. Or, you can vote a provisional ballot. Your provisional ballot will be counted if you provide one of the items on the list to the county election office by 5:00 p.m. the day after the election, or mail it to the county election office postmarked by the day after the election.

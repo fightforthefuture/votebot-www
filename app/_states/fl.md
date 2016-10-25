@@ -8,8 +8,8 @@ locale: en
 
 ## Voter ID
 
-You will be asked to provide a valid photo ID with signature at the polls.
+You will need to show a valid photo ID with signature to vote in Florida.
 
-Any one of the following photo IDs will be accepted: Florida driver’s license, Florida ID card issued by the Department of Highway Safety and Motor Vehicles, U.S. passport, debit or credit card, military ID, student ID, retirement center ID, neighborhood association ID, or public assistance ID. If your photo ID does not include your signature, you will be asked to provide another ID that has your signature.
+Acceptable forms include: Florida driver’s license or ID card issued by the Department of Highway Safety and Motor Vehicles; US passport; debit or credit card; military ID; student ID; retirement center ID; neighborhood association ID; public assistance ID; veteran health ID; license to carry a concealed weapon or firearm; or an employee ID card issued by the federal government, the state of Florida, or any county or municipality. If your photo ID does not include your signature, you will be asked to provide another ID that has your signature.
 
-Voters without ID: If you do not bring proper ID, you can still vote a provisional ballot. As long as you are eligible and voted in the proper precinct, your provisional ballot will count provided the signature on your provisional ballot matches the signature in your registration record.
+Voters without ID: If you do not bring the proper ID, you can still vote a provisional ballot. As long as you are eligible and voted in the proper precinct, your provisional ballot will count provided the signature on your provisional ballot matches the signature in your registration record.

@@ -8,10 +8,8 @@ locale: en
 
 ## Voter ID
 
-If you registered for the first time in New Mexico using a mail-in application and did not include one of the required forms of ID with your application, you will be required to present one of the following forms of identification when voting for the first time:
+If you've voted in New Mexico before, you don’t need to provide ID to vote.
 
-(A) a physical form of identification, which may be: (1) an original or copy of a current and valid photo identification with or without an address, which address is not required to match the voter's certificate of registration or a voter identification card: or (2) an original or copy of a utility bill, bank statement, government check, paycheck, student identification card or other government document, including identification issued by an Indian nation, tribe or pueblo, that shows the name and address of the person, the address of which is not required to match the voter's certificate of registration;
+If you're a first-time voter who registered by mail, and didn't include a copy of ID when you registered, you will need to show ID to vote. Acceptable forms include: photo ID; student ID card; ID issued by an Indian nation, tribe or pueblo; or a copy of a utility bill, bank statement, government check, paycheck, or other government document that shows your name and current address.
 
-or (B) a verbal or written statement by the voter of the voter's name, year of birth and registered address; provided, however, that the statement of the voter's name need not contain the voter's middle initial or suffix.
-
-If you fail to provide either the written or verbal required identification, you will be allowed to vote on a provisional ballot.
+You will be issued a provisional ballot if your name does not appear on the roster at your polling place or If you're a first-time voter who registered by mail and do not provide the required identification.

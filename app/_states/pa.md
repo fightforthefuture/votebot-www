@@ -8,4 +8,6 @@ locale: en
 
 ## Voter ID
 
-All first-time voters must show proof of identification to vote in Pennsylvania. Approved forms of photo ID include: Pennsylvania driver’s license or PennDOT ID card, ID issued by any Commonwealth agency, ID issued by the U.S. Government, U.S. passport, U.S. Armed Forces ID, student ID, or an employee ID. If you do not have a photo ID, you can use a non-photo identification that includes your name and address. Approved forms of non-photo identification include: confirmation issued by the County Voter Registration Office, Non-photo ID issued by the Commonwealth, non-photo ID issued by the U.S. government, firearm permit, current utility bill, current bank statement, current paycheck, or a government check.
+If you've voted in Pennsylvania before, you don't need to show ID to vote.
+
+If you're a first-time voter, you must show photo ID to vote. Acceptable forms include: Pennsylvania driver’s license or PennDOT ID card; ID issued by Pennsylvania or the US government; US passport; US military ID; student ID; employee ID; a confirmation issued by the County Voter Registration Office; non-photo ID issued by Pennsylvania or the US government; firearm permit; or a copy of a current utility bill, bank statement, paycheck, or a government check that includes your name and address.

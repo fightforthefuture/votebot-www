@@ -8,7 +8,9 @@ locale: en
 
 ## Voter ID
 
-If you did not submit a copy of your ID with your voter registration, you must provide election officials at the polling place with a driver’s license or SSN; or current and valid photo identification; or copy of a current utility bill, bank statement, government check, paycheck, or other government document that shows your name and address.
+If you've voted in Illinois before, you don’t need to provide ID to vote.
+
+If you’re a first-time voter who registered by mail, and didn’t provide your driver’s license number, state ID number, last 4 digits of your social security number, or a copy of a current ID or government document that shows your name and address when you registered, you’ll need to provide one of these when you vote.
 
 ## Registering to Vote
 

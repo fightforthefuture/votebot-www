@@ -8,6 +8,6 @@ locale: en
 
 ## Voter ID
 
-If the driver's license number or social security number on your voter registration form was verified, you do not need to provide ID in order to vote.
+If you've voted in New Jersey before, you don’t need to provide ID to vote.
 
-Otherwise, as a first-time voter in New Jersey, you must bring a valid, current photo ID, NJ driver's license, military or other government ID, student or job ID, store membership card, or bank statement, pay check, car registration, rent receipt, sample ballot, government check, or document, utility bill, non-photo NJ driver's license.
+If you’re voting for the first-time in your county, registered to vote by mail, and didn’t provide an ID number or copy of ID when you registered, you must show ID to vote. Acceptable forms include: NJ photo or non-photo driver's license; military or other government ID; student ID; employee ID; store membership card; US passport; or bank statement, car registration, government check or document, rent receipt, sample ballot, utility bill, or any other official document.

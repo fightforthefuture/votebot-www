@@ -8,9 +8,9 @@ locale: en
 
 ## Voter ID
 
-Unless you are acquainted with the precinct election officers, you will be asked to show identification before voting. Types of identification that are allowed include: driver’s license, social security card, credit card, or another form of identification containing both picture and signature.
+You will need to show ID, or be known personally by a precinct election officer, to vote in Kentucky. Acceptable forms include: driver’s license, social security card, ID issued by the US government, ID issued by the Kentucky government, or any form of ID containing both your picture and signature.
 
-Voters without ID: When the officers of an election disagree as to the qualifications of a voter or if his right to vote is disputed by a challenger, the voter shall sign a written oath as to his qualifications before he is permitted to vote.
+You can vote a provisional ballot (federal elections only) in the following circumstances: you do not have ID; your name does not appear on the precinct roster and your registration status cannot be verified; your name is not on the precinct roster and you have been verified as ineligible to vote; you are voting as a result of a federal or state court order or any order under state law in effect 10 days prior to Election Day that extends polling hours; or you were challenged by all four precinct election officers.
 
 ## Registering to Vote
 

@@ -8,4 +8,6 @@ locale: en
 
 ## Voter ID
 
-If you mailed in your voter registration form and are voting in Wyoming for the first time, you will need to provide a current, valid photo ID; or copy of current utility  bill, bank statement, paycheck, government check or other government document which shows his name and address. Other voters do not need to show ID in order to vote in Wyoming.
+If you've voted in Wyoming before,  you do not need to show ID to vote.
+
+If you're a first-time voter that registered by mail, you will need to show ID to vote. Acceptable forms include: Wyoming driver’s license or state-issued ID card; or a current utility bill, bank statement, government check, paycheck, or government document that shows your name and address.

@@ -8,8 +8,6 @@ locale: en
 
 ## Voter ID
 
-Some first-time voters in Maryland will be asked to show ID before voting.
+If you've voted in Maryland before, you don’t need to provide ID to vote.
 
-If you are asked to show ID, please show an election judge one of the following forms of ID: a copy of a current and valid photo ID (i.e., Maryland driver's license, MVA ID card, student, employee, or military ID card, U.S. passport, or any other State or federal government-issued ID card); or a copy of a current utility bill, bank statement, government check, paycheck or other government document that shows your name and address. Current means that the document is dated within 3 months of the election.
-
-ID is not required if (A) the State Board has matched with an existing state identification record the individual's name, date of birth, and the MVA identification number or at least the last four digits of the Social Security number provided by the individual on or with the VRA; or (B) the individual has previously submitted to the local board a copy of personal identification information.
+If you’re a first-time voter that registered by mail, and didn’t provide a copy of your Maryland driver’s license, state ID card, or a current utility bill, bank statement, government check, paycheck, or government document that shows your name and address when you registered, you may need to show one of these documents to vote.

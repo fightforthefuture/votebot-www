@@ -8,11 +8,6 @@ locale: en
 
 ## Voter ID
 
-You may be asked to show identification in Iowa if:
+If you've voted in Iowa before, you don’t need to provide ID to vote.
 
-* you registered to vote by mail after January 1, 2003 and have never voted in a primary or general election in your county;
-* you have moved from where you are registered to vote;
-* your right to vote has been challenged;
-* or the precinct election officials do not know you.
-
-If you are asked to show identification, you may use a current and valid photo ID or any of the following documents if they show your name and current address: current utility bill (including cell phone bill), bank statement, paycheck or government check, or other current government document.
+If you’re a first-time voter who registered by mail, and didn’t provide your driver’s license number, state ID number, or the last 4 digits of your social security number on your registration form, you might need to present ID to vote.  Acceptable forms include: current and valid photo ID; or a current utility bill (including cell phone bill), bank statement, paycheck or government check, or other current government document that shows your name and address.

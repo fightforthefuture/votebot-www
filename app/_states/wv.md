@@ -8,7 +8,9 @@ locale: en
 
 ## Voter ID
 
-If you are a first-time voter and did not submit a copy of a current and valid ID with your voter registration application, you must present one of the following forms of identification at the polls: a current and valid photo ID, a current utility bill, a bank statement, a government check, a paycheck, or any other official government document.
+If you've voted in West Virginia before, you don’t need to show ID to vote.
+
+If you're a first-time voter that registered to vote by mail, you’ll need to show ID to vote. Acceptable forms include: photo ID; or a current utility bill, bank statement, government check, paycheck, or other current government document that shows your name and address.
 
 ## Registering to Vote
 

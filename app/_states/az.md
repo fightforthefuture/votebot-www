@@ -8,13 +8,13 @@ locale: en
 
 ## Voter ID
 
-You will need to show a photo ID or 2 non-photo IDs to vote in Arizona.
+You will need to show ID to vote in Arizona. This is either one photo ID or two non-photo ID. Your ID must bear your name and address. 
 
-Every qualified elector shall present one form of identification that bears the name, address and photograph of the elector OR two different forms of identification that bear the name and address of the elector. Acceptable forms of ID include valid (non-expired): Arizona driver's license; Arizona non-driver identification; tribal enrollment card or other form of tribal identification;  U.S. federal, state or local government-issued identification; utility bill dated within 90 days of the election; bank or credit union statement dated within 90 days of the election; Arizona vehicle registration; Indian census card; property tax statement; vehicle insurance card; recorder’s certificate.
+Acceptable forms of valid (non-expired) photo ID include (present 1): Arizona driver's license; Arizona non-driver identification; tribal enrollment card or other form of tribal identification; US federal, state or local government-issued identification. Acceptable forms of non-photo ID include (present 2): utility bill dated within 90 days of the election; bank or credit union statement dated within 90 days of the election; valid Arizona vehicle registration; Indian census card; property tax statement; tribal enrollment card of other form of tribal identification; Arizona vehicle insurance card; recorder’s certificate; valid US federal, state, or local government issued identification, including a voter registration card issued by the County Recorder; or any mailing to the elector marked “Official Election Material”.
 
-If you are unable to produce a photo ID or 2 non-photo IDs, you may: show any valid photo ID in which the address does not reasonably match the precinct register accompanied by a non-photo ID with an address does reasonably match the precinct register; U.S. Passport without address and one valid item of non-photo ID; or U.S. Military identification without address and one valid item of non-photo ID ((A.R.S. § 16-579(A)).
+If you are unable to produce 1 photo ID or 2 non-photo IDs, you may show: any valid photo ID with an address that does not match the precinct register accompanied by a non-photo ID with an address that matches the precinct register; US Passport without address and one valid item of non-photo ID; or US Military ID without address and one valid item of non-photo ID.
 
-Voters without ID: An elector who does not provide the required identification shall receive a conditional provisional ballot. Conditional provisional ballots are counted only if the elector provides ID to their polling location before 7pm on Election Day or to the county recorder by 5pm on the fifth business day after a general election that includes an election for federal office, or by 5pm on the third business day after any other election.
+Voters without ID: If you do not provide the required ID, you will be allowed to vote a conditional provisional ballot. Conditional provisional ballots are counted only if you present ID at your polling location before 7:00 pm on Election Day OR at the county elections office within five (5) business days after a general election and three (3) business days after any other election.
 
 ## Registering to Vote
 

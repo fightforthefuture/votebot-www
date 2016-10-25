@@ -8,8 +8,6 @@ locale: en
 
 ## Voter ID
 
-You may need to show ID to vote in Hawaii.
+If you've voted in Hawaii before, you don’t need to provide ID to vote.
 
-Forms of acceptable ID include a valid photo ID (driver’s license, state-issued ID), copy of a current utility bill, bank statement, paycheck, or other government issued document that shows your name and address. If you did not provide the required proof of identification with your voter registration application, you will be required to do so at your polling place.
-
-Voters without ID: If the voter has no identification, the voter will be asked to recite his/her date of birth and residence address to corroborate the information provided in the poll book.
+If you’re a first-time voter who registered by mail, and didn’t provide a copy of your ID when you registered, you will need to show ID to vote. Acceptable forms include: current driver's license or state ID card; or a copy of a current utility bill, bank statement, paycheck, or other government issued document that shows your name and address.

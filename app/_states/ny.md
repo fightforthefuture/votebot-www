@@ -8,6 +8,6 @@ locale: en
 
 ## Voter ID
 
-If the driver's license number or social security number on your voter registration form was verified, you do not need to provide ID in order to vote.
+If you've voted in New York before, you don’t need to provide ID to vote.
 
-Otherwise, as a first-time New York voter, you must show a current and valid photo identification or a copy of a current utility bill, bank statement, government check, paycheck, or other government document that shows your name and address.
+If you’re a first-time voter who registered by mail, and didn't provide a copy of your ID with your registration, you may need to show ID to vote. Acceptable forms include: a current and valid photo ID, or a copy of a current utility bill, bank statement, government check, paycheck, or other government document that shows your name and address.

@@ -8,6 +8,8 @@ locale: en
 
 ## Voter ID
 
-If you are voting in Maine for the first time, you must show ID. Acceptable forms of ID include: Maine driver's license or other valid photo ID, or a current utility bill, or bank statement, or paycheck, or other government document that shows the voter's name and address.
+If you've voted in Maine before, you don’t need to provide ID to vote.
 
-Voters without ID may cast a challenged ballot and may be asked to produce ID afterward.
+If you’re a first-time voter that registered by mail, and didn’t provide a copy of your Maine driver’s license, Maine state ID card, or a current utility bill, bank statement, government check, paycheck, or government document that shows your name and address when you registered, you may need to show one of these documents to vote.
+
+Voters without ID: If you don’t have ID or proof of residence, you can cast a challenged ballot.  You may be asked to show ID after the election.

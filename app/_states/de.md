@@ -8,8 +8,6 @@ locale: en
 
 ## Voter ID
 
-You will be asked to show ID to vote in Delaware.
+You will be asked to show ID to vote in Delaware. Acceptable forms include: photo ID; utility bill; paycheck; any government document with voter’s name and address.
 
-Acceptable forms of ID include: photo ID; utility bill; paycheck; any government document with voter’s name and address.
-
-Voters without ID: In the event the voter does not have proof of identity with them, they will be asked to sign an affidavit of affirmation that they are the person listed on the election district record.
+Voters without ID: If you do not have proof of identity, you will be asked to sign an affidavit of affirmation that you are the person listed on the election district record.

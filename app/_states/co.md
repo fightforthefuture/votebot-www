@@ -8,9 +8,9 @@ locale: en
 
 ## Voter ID
 
-You will need to show ID to vote in Colorado.
+If you choose to vote in-person in Colorado, you will need to show ID. Your ID must show your Colorado address to qualify. 
 
-Acceptable forms of ID include: Colorado driver’s license; valid identification card issued by the Department of Revenue; passport; employee identification card with photo issued by government; pilot’s license; U.S. military identification card with photo; current utility bill, bank statement, government check, paycheck, or other government document showing name and address; identification card issued by a federally recognized tribal government; Medicare or Medicaid card; U.S. birth certificate for the elector issued in the United States; certified documentation of naturalization; or student identification card with photo issued by a Colorado institute of higher education, as defined in section 23-3.1-102(5), C.R.S.
+Acceptable forms include: Colorado driver’s license; valid photo ID card issued by the Department of Revenue; US passport; employee ID with photo issued by any entity of the US government or Colorado; pilot’s license issued by the FAA or other authorized agency of the US; US military ID with photo; ID card issued by a federally recognized tribal government; Medicare or Medicaid card; certified copy of your US birth certificate; certificate of Degree of Indian or Alaskan Native Blood; certified documentation of naturalization; student ID with photo issued by a Colorado institute of higher education, as defined in section 23-3.1-102(5), C.R.S; veteran ID with photo issued by the VA; or a current utility bill, bank statement, government check, paycheck, or other government document showing name and address (within last 60 days).
 
 ## Registering to Vote
 

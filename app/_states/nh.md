@@ -10,9 +10,9 @@ suppress_affirm: true
 
 ## Voter ID
 
-A ballot clerk will request that you present a valid photo ID to vote. The following IDs will be accepted if the name on the ID is substantially similar to that on the voter registration record and the expiration date does not exceed five years: a driver's license from any state; a non-driver ID issued by the motor vehicle agency of any state; a U.S. armed services ID card; some NH student ID cards; or a U.S. passport.
+You will be requested to show photo ID to vote in New Hampshire. Acceptable forms include (the name on the ID must be substantially similar to the voter registration record and the expiration date cannot exceed five years): a driver's license from any state; a non-driver ID issued by the motor vehicle agency of any state; a US armed services ID card; some NH student ID cards; or a US passport.
 
-If a voter does not have a valid photo identification, the ballot clerk shall inform the voter that he or she may execute a challenged voter affidavit. The voter may then cast a regular ballot. Within 60 days after the election, the Secretary of State is required to mail a non-forwardable letter to each voter who executed a qualified voter affidavit, notifying the person that a person who did not present valid photo identification voted using his or her name and address and instruct the person to return the letter within 90 days with a written confirmation that the person voted or to contact the Attorney General immediately if he or she did not vote. Any such letters returned as undeliverable must be turned over to the Attorney General, who shall investigate for voter fraud. Notice from any voter receiving such a letter that s/he did not vote is also forwarded to the Attorney General for investigation. The Secretary must also turn over to the Attorney General a list of all voters who fail to respond to the letter to confirm that they voted.
+Voters without ID: If you do not have a valid photo ID, you can either have your identity verified by a voting official at your voting location, or be photographed by a voting official at your voting location before you vote (if you object to being photographed for religious reasons, you can sign a sworn statement instead).
 
 ## Registering by Mail
 
