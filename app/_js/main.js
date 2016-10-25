@@ -65,6 +65,8 @@
       }
     }
 
+    initModal();
+
     // JL NOTE ~ strip all this junk out when the "beta" is over ---------------
     // -------------------------------------------------------------------------
     // var showMainPage = function(immediately) {
@@ -104,6 +106,29 @@
 
   };
 
+  var initModal = function() {
+    var overlay = doc.getElementById('overlay1');
+
+    if (!overlay)
+      return;
+
+    overlay.style.position = 'fixed';
+    overlay.style.left = '0px';
+    overlay.style.top = '0px';
+    overlay.style.display = 'none';
+    overlay.classList.add('hidden');
+
+    overlay.addEventListener('click', function(e) {
+      if (e.target == overlay)
+        modal.hide('overlay1');
+    });
+
+    overlay.querySelector('.x').addEventListener('click', function(e) {
+      e.preventDefault();
+      modal.hide('overlay1');
+    });
+  }
+
   var isReady = document.readyState;
 
   if (isReady == "complete" || isReady == "loaded" || isReady == "interactive")
@@ -113,3 +138,31 @@
 
 
 })(document, window);
+
+var modal = {
+  show: function(id) {
+    var overlay = document.getElementById(id);
+
+    if (!overlay)
+      return;
+
+    overlay.style.display = 'block';
+
+    setTimeout(function() {
+      overlay.classList.remove('hidden');
+    }, 25);
+
+  },
+  hide: function(id) {
+    var overlay = document.getElementById(id);
+
+    if (!overlay)
+      return;
+
+    overlay.classList.add('hidden');
+    setTimeout(function() {
+      overlay.style.display = 'none';
+    }, 350);
+
+  }
+}

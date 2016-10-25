@@ -130,6 +130,10 @@ window.components.chat = function (doc, win) {
       bubble('bot', l10n['CHECK_YOUR_PHONE']);
       showShareForm();
     }, 4000);
+
+    setTimeout(function() {
+      if (modal) modal.show('overlay1');
+    }, 4000);
   }
 
   var showShareForm = function() {
