@@ -16,6 +16,7 @@ window.components.chat = function (doc, win) {
       failures      = 0,
       partner       = 'fftf',
       queryString   = util.parseQueryString(),
+      isInTest      = ('isInTest' in queryString) || (document.location.pathname.indexOf('test') > -1),
       isInMyPage    = ('isInMyPage' in queryString),
       isInStudio    = ('isInStudio' in queryString),
       isInCustom    = document.body.classList.contains('my'),
@@ -120,8 +121,13 @@ window.components.chat = function (doc, win) {
     console.log('sending', data);
 
     var submission = new XMLHttpRequest();
-    submission.open('POST', 'https://votebot-api.herokuapp.com/conversations/', true);
-    //submission.open('POST', 'http://ubuntu:3000/conversations/', true);
+    if (isInTest) {
+      // get conversation type from querystring
+      data['chain'] = queryString.conv || 'vote_1';
+      submission.open('POST', 'https://votebot-api-staging.herokuapp.com/conversations/', true);
+    } else {
+      submission.open('POST', 'https://votebot-api.herokuapp.com/conversations/', true);
+    }
     submission.setRequestHeader("Content-Type", "application/json");
     submission.send(JSON.stringify(data));
     if (_paq) { _paq.push(['trackGoal', 1]); }
