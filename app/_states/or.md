@@ -9,3 +9,7 @@ locale: en
 ## Voter ID
 
 ID is not required to vote in Oregon
+
+## Check Your Registration
+
+<https://secure.sos.state.or.us/orestar/vr/showVoterSearch.do?lang=eng&source=SOS>

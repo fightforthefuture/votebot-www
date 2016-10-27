@@ -25,3 +25,7 @@ I am aware that if I register to vote in Colorado I am also considered a residen
 I further affirm that my present address as stated herein is my sole legal place of residence, that I claim no other place as my legal residence, and that I understand that I am committing a felony if I knowingly give false information regarding my place of present residence.
 
 I certify under penalty of perjury that I meet the registration qualifications; that the information I have provided on this application is true to the best of my knowledge and belief; and that I have not, nor will I, cast more than one ballot in any election.
+
+## Check Your Registration
+
+<https://www.sos.state.co.us/voter-classic/pages/pub/olvr/findVoterReg.xhtml>

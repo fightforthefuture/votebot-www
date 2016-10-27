@@ -22,3 +22,7 @@ Voters without ID: If you're a first-time voter that is unable to present ID whe
 * I am not temporarily or permanently disqualified by law from voting because of corrupt practices in respect to elections
 * I am not currently incarcerated for a felony conviction
 * and I consider this residence to be my home.
+
+## Check Your Registration
+
+<https://www.sec.state.ma.us/VoterRegistrationSearch/MyVoterRegStatus.aspx>

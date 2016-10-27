@@ -22,3 +22,7 @@ You can vote a provisional ballot (federal elections only) in the following circ
 * I am not a convicted felon, or if I have been convicted of a felony, my civil rights have been restored by executive pardon.
 * I have not been judged "mentally incompetent" in a court of law.
 * I do not claim the right to vote anywhere outside Kentucky.
+
+## Check Your Registration
+
+<https://vrsws.sos.ky.gov/vic/>

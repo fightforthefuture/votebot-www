@@ -33,5 +33,5 @@ Voters without ID: If you do not have a valid photo ID, you can either have your
 ### Send the form
 * Send the form to your city or town clerk by Oct 29
 
-## Check if you're registered to vote
-[NH Secretary of State](https://app.sos.nh.gov)
+## Check Your Registration
+<https://app.sos.nh.gov/Public/PartyInfo.aspx>

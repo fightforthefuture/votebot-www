@@ -20,3 +20,7 @@ If you’re a first-time voter who registered by mail, and didn’t include your
 * I am not currently imprisoned or on parole for the conviction of a felony.
 * I understand that it is a crime to intentionally provide incorrect information on this form.
 * The information on this form is true and correct.
+
+## Check Your Registration
+
+<http://www.sos.ca.gov/elections/registration-status/>

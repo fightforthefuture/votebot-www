@@ -28,3 +28,7 @@ Voters without ID: If you do not provide the required ID, you will be allowed to
 * I authorize the Motor Vehicle Division to release my information, including my digitized signature and address, to the County Recorder for the purposes of maintaining the voter registration rolls.
 * I hereby affirm that the information I have provided in this application for voter registration is true and correct and agree that it is my obligation to keep this information up-to-date.
 * I further acknowledge that I am aware that providing false information is a Class 6 felony.
+
+## Check Your Registration
+
+<https://voter.azsos.gov/VoterView/RegistrantSearch.do>

@@ -48,5 +48,6 @@ You must include a copy of ID that proves where you live. The following IDs are 
 ### Send the form
 Your completed form must be postmarked by *Oct 19* and mailed to your [municipal clerk’s office](https://myvote.wi.gov/en-US/MyMunicipalClerk)
 
-## Check if you're registered to vote
-[My Vote Wisconsin](https://myvote.wi.gov/en-us/UpdateMyNameorAddress)
+## Check Your Registration
+
+<https://myvote.wi.gov/en-us/UpdateMyNameorAddress>

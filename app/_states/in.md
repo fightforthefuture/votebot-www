@@ -13,3 +13,7 @@ You will need to show photo ID to vote in Indiana. Your photo ID must display yo
 If you're a first-time voter who registered by mail, you will need to provide proof of residence to vote. Acceptable forms include (must show current name and current address): Indiana driver’s license or state-issued ID card; any current and valid photo ID; or a current utility bill, bank statement, government check, paycheck, or other government document.
 
 Voters without ID: If you are unable or unwilling to present ID, you may cast a provisional ballot. If you cast a provisional ballot, you have until noon 10 days after the election to follow up with the county election board and either provide the necessary documentation or affirm one of the law’s exemptions applies to you.
+
+## Check Your Registration
+
+<https://indianavoters.in.gov/PublicSite/Public/FT1/PublicLookupMain.aspx?Link=Registration>

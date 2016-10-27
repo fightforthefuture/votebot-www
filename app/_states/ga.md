@@ -19,3 +19,7 @@ You will need to show photo ID to vote in Georgia. Acceptable forms include: any
 * I am 17 1/2 years of age at the time of registration and will be 18 years of age by the time I can vote.
 * I am not serving a sentence for conviction of a felony involving moral turpitude.
 * I have not been found mentally incompetent by a judge.
+
+## Check Your Registration
+
+<https://www.mvp.sos.ga.gov/MVP/mvp.do>

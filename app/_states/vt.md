@@ -38,3 +38,7 @@ Acceptable forms of ID are:
 * Another government document
 
 Make a photocopy of one of these documents and include it with your mailed submission.
+
+## Check Your Registration
+
+<https://mvp.sec.state.vt.us/>
