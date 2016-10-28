@@ -143,12 +143,15 @@ window.components.chat = function (doc, win) {
   }
 
   var showShareForm = function() {
-    share.style.display = 'block';
     form.classList.add('hidden');
 
-    setTimeout(function() {
-      share.style.opacity = 1;
-    }, 20);
+    share.style.display = 'block';
+    void share.offsetWidth; // Layout
+    share.style.opacity = 1;
+
+    if (isInMyPage) {
+      top.postMessage('show-share-form', 'https://my.hello.vote');
+    }
   }
 
   var animationTimeouts = [];
