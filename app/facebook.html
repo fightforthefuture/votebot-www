@@ -1,6 +1,14 @@
 ---
 layout: none
 ---
+<a style="display:inline-block; padding: 5px 20px; font-size:18px; background: #3b5998; color: #fff; text-decoration: none; font-weight: bold; margin: 0px 10px; border-radius: 3px; " href="https://fftf.io/hellovote">Share</a>
+
 <script type="text/javascript">
-window.location.replace('https://fftf.io/hellovote');
+{% include mobile_detect.js %}
+
+var native_link = 'fb://post/'+
+                encodeURIComponent("https://fftf.io/f/b9aa18");
+var web_fallback = 'https://fftf.io/hellovote';
+
+util.openNativeAppLink(native_link, web_fallback);
 </script>

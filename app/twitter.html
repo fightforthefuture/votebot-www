@@ -1,6 +1,16 @@
 ---
 layout: none
+redirect_from: /tweet/
 ---
+
+<a style="display:inline-block; padding: 5px 15px; font-size:18px; background: #55acee; color: #fff; text-decoration: none; font-weight: bold; margin: 0px 10px; border-radius: 3px; " href="https://fftf.io/hellovote_twitter">Tweet</a>
+
 <script type="text/javascript">
-window.location.replace('https://fftf.io/hellovote_twitter');
+{% include mobile_detect.js %}
+
+var native_link = 'twitter://post?message='+
+                encodeURIComponent("Register to vote with just a few text messages. Check out https://hello.vote or text HELLO to 384-387 https://fftf.io/t/5a9617");
+var web_fallback = 'https://fftf.io/hellovote_twitter';
+
+util.openNativeAppLink(native_link, web_fallback);
 </script>
