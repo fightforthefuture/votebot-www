@@ -13,13 +13,7 @@ You will be requested to show photo ID to vote in New Hampshire. Acceptable form
 
 Voters without ID: If you do not have a valid photo ID, you can either have your identity verified by a voting official at your voting location, or be photographed by a voting official at your voting location before you vote (if you object to being photographed for religious reasons, you can sign a sworn statement instead).
 
-## Registering by Mail
-
-### Eligibility
-* You may only register by mail if you'll be temporarily absent or have a physical disability that prevents you from registering in person
-* You may also register to vote in person at [your polling place](https://gttp.votinginfoproject.org) on Election Day
-
-## Registering in Person
+## Registering to Vote
 
 ### Same Day Registration
 * You can register to vote on Election Day at [your polling place](https://gttp.votinginfoproject.org)
@@ -31,10 +25,14 @@ Voters without ID: If you do not have a valid photo ID, you can either have your
 * Provide your name, date of birth, and name at birth (if different)
 * Provide your New Hampshire address and your mailing address (if different)
 * (Optional) Provide your telephone number and email address
-
-### Send the form
-* Send the form to your city or town clerk by Oct 29
+* Take the form to your city or town clerk by Oct 29
 * Or register in person on Election Day at [your polling place](https://gttp.votinginfoproject.org)
+
+## Registering by Mail
+
+### Eligibility
+* You may only register by mail if you'll be temporarily absent or have a physical disability that prevents you from registering in person
+* You may also register to vote in person at [your polling place](https://gttp.votinginfoproject.org) on Election Day
 
 ## Check Your Registration
 <https://app.sos.nh.gov/Public/PartyInfo.aspx>
