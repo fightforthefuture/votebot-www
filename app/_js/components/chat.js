@@ -287,6 +287,12 @@ window.components.chat = function (doc, win) {
       return partner = metaTag.content;
   }
 
+  var prefillPhone = function() {
+    if (queryString.phone) {
+      overlay.querySelector('input').value = queryString.phone;
+    }
+  }
+
   var iframeHandler = function() {
     if (doc.body.className.indexOf('iframe') === -1)
       return;
@@ -343,6 +349,7 @@ window.components.chat = function (doc, win) {
 
   localize();
   determinePartner();
+  prefillPhone();
   iframeHandler();
   if (isInSafeMode) {
     // Allow for live updates
