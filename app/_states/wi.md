@@ -14,6 +14,9 @@ These photo IDs are also acceptable, but must be unexpired: veteran's photo ID c
 
 ## Registering to Vote
 
+### Same Day Registration
+* You can register to vote on Election Day at [your polling place](https://gttp.votinginfoproject.org)
+
 ### Registration requirements
 * Be a US citizen
 * Be 18 years old by Election Day, Nov 8
@@ -46,7 +49,8 @@ You must include a copy of ID that proves where you live. The following IDs are 
 * A bank statement, a paycheck, a check or other government-issued document
 
 ### Send the form
-Your completed form must be postmarked by *Oct 19* and mailed to your [municipal clerk’s office](https://myvote.wi.gov/en-US/MyMunicipalClerk)
+* Your completed form must be postmarked by *Oct 19* and mailed to your [municipal clerk’s office](https://myvote.wi.gov/en-US/MyMunicipalClerk)
+* Or register in person on Election Day at [your polling place](https://gttp.votinginfoproject.org)
 
 ## Check Your Registration
 

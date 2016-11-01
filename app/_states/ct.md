@@ -16,6 +16,11 @@ If you're a first-time voter who registered by mail, is voting in a primary/gene
 
 Voters without ID: If you do not show ID, you will need to cast a provisional ballot.
 
+## Registering to Vote
+
+### Same Day Registration
+* You can register to vote on Election Day at [your polling place](https://gttp.votinginfoproject.org)
+
 ## Check Your Registration
 
 <http://www.dir.ct.gov/sots/LookUp.aspx>

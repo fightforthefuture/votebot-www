@@ -14,6 +14,9 @@ Acceptable forms include: Colorado driver’s license; valid photo ID card issue
 
 ## Registering to Vote
 
+### Same Day Registration
+* You can register to vote on Election Day at [your polling place](https://gttp.votinginfoproject.org)
+
 ### To register to vote in Colorado, you must agree to the following statements:
 
 I am aware that if I register to vote in Colorado I am also considered a resident of Colorado for motor vehicle registration and operation purposes and for income tax purposes.

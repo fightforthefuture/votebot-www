@@ -12,6 +12,12 @@ You do not need to show ID to vote in Minnesota if your voter registration is cu
 
 If you're a first-time voter who registered by mail, and whose ID number could not be verified by the state, you will have to show ID to vote. Acceptable forms include: a valid ID with current name and address (e.g. Minnesota driver’s license, Minnesota ID card, Minnesota learner’s permit, or a tribal ID card with name, address, photo and signature); a photo ID and a document with current name and address (e.g. utility bill, bank statement, or lease); a registered voter from your precinct who can confirm your name and address; notice of late registration; valid registration in the same precinct; college student ID (if a student housing list is provided); or a staff person of a residential facility.
 
+## Registering to Vote
+
+### Same Day Registration
+* You can register to vote on Election Day at [your polling place](https://gttp.votinginfoproject.org)
+
+
 ## Check Your Registration
 
 <https://mnvotes.sos.state.mn.us/VoterStatus.aspx>

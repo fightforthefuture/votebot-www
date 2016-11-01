@@ -1,7 +1,7 @@
 ---
 layout: state
 state: Massachusetts
-title: Massachusetts Disclosures
+title: Voting in Massachusetts
 locale: en
 redirect_from: /MA/
 ---

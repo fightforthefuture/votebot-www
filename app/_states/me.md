@@ -14,6 +14,11 @@ If you’re a first-time voter that registered by mail, and didn’t provide a c
 
 Voters without ID: If you don’t have ID or proof of residence, you can cast a challenged ballot.  You may be asked to show ID after the election.
 
+## Registering to Vote
+
+### Same Day Registration
+* You can register to vote on Election Day at [your polling place](https://gttp.votinginfoproject.org)
+
 ## Check Your Registration
 
 Call [(207) 624-7650](tel:207-624-7650) or your [local registrar](http://www.maine.gov/sos/cec/elec/munic.html)

@@ -12,6 +12,11 @@ You will need to show photo ID to vote in Idaho. Acceptable forms include: Idaho
 
 Voters without ID: If you are not able to show ID, you will be given the option to sign the Personal Identification Affidavit in order to cast a ballot.
 
+## Registering to Vote
+
+### Same Day Registration
+* You can register to vote on Election Day at [your polling place](https://gttp.votinginfoproject.org)
+
 ## Check Your Registration
 
 <http://www.idahovotes.gov/ypp_new/amiregistered.aspx>

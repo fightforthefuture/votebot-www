@@ -1,11 +1,10 @@
 ---
 layout: state
 state: New Hampshire
-title: New Hampshire Voter Registration
+title: Voting in New Hampshire
 redirect_from: /NH/
 locale: en
 heading: New Hampshire prefers that you register in person
-suppress_affirm: true
 ---
 
 ## Voter ID
@@ -18,9 +17,12 @@ Voters without ID: If you do not have a valid photo ID, you can either have your
 
 ### Eligibility
 * You may only register by mail if you'll be temporarily absent or have a physical disability that prevents you from registering in person
-* You may also register to vote in person at your polling place on Election Day
+* You may also register to vote in person at [your polling place](https://gttp.votinginfoproject.org) on Election Day
 
 ## Registering in Person
+
+### Same Day Registration
+* You can register to vote on Election Day at [your polling place](https://gttp.votinginfoproject.org)
 
 ### Get the voter registration from
 * Contact your [city or town clerk](http://app.sos.nh.gov/Public/ClerkDetails.aspx) to request the necessary forms
@@ -32,6 +34,7 @@ Voters without ID: If you do not have a valid photo ID, you can either have your
 
 ### Send the form
 * Send the form to your city or town clerk by Oct 29
+* Or register in person on Election Day at [your polling place](https://gttp.votinginfoproject.org)
 
 ## Check Your Registration
 <https://app.sos.nh.gov/Public/PartyInfo.aspx>
