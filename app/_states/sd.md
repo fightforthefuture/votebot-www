@@ -18,4 +18,4 @@ Voters without ID: If you do not have a photo ID, you can sign a personal identi
 
 ## Find Your Polling Place
 
-<>
+<https://sos.sd.gov/Elections/VIPLogin.aspx>

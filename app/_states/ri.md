@@ -14,8 +14,8 @@ Voters without ID: If you're unable to present valid ID at the polls, you can ca
 
 ## Check Your Registration
 
-<https://sos.ri.gov/vic/>
+<https://vote.sos.ri.gov/#personal-search>
 
 ## Find Your Polling Place
 
-<>
+<https://vote.sos.ri.gov/#general-search>
