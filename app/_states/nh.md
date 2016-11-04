@@ -36,3 +36,7 @@ Voters without ID: If you do not have a valid photo ID, you can either have your
 
 ## Check Your Registration
 <https://app.sos.nh.gov/Public/PartyInfo.aspx>
+
+## Find Your Polling Place
+
+<https://app.sos.nh.gov/Public/PollingPlaceSearch.aspx>

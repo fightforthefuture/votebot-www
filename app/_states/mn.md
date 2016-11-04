@@ -21,3 +21,7 @@ If you're a first-time voter who registered by mail, and whose ID number could n
 ## Check Your Registration
 
 <https://mnvotes.sos.state.mn.us/VoterStatus.aspx>
+
+## Find Your Polling Place
+
+<http://pollfinder.sos.state.mn.uss>

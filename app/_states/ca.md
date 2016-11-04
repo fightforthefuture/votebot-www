@@ -24,3 +24,7 @@ If you’re a first-time voter who registered by mail, and didn’t include your
 ## Check Your Registration
 
 <http://www.sos.ca.gov/elections/registration-status/>
+
+## Find Your Polling Place
+
+<http://www.sos.ca.gov/elections/polling-place>

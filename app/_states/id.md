@@ -19,4 +19,8 @@ Voters without ID: If you are not able to show ID, you will be given the option 
 
 ## Check Your Registration
 
-<http://www.idahovotes.gov/ypp_new/amiregistered.aspx>
+<http://www.idahovotes.gov/YPP_NEW/AmIRegistered.aspx>
+
+## Find Your Polling Place
+
+<http://idahovotes.gov/YourPollingPlace/WhereDoIVote.aspx>

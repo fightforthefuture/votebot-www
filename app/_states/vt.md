@@ -42,3 +42,7 @@ Make a photocopy of one of these documents and include it with your mailed submi
 ## Check Your Registration
 
 <https://mvp.sec.state.vt.us/>
+
+## Find Your Polling Place
+
+<https://mvp.sec.state.vt.us>

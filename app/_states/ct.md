@@ -24,3 +24,7 @@ Voters without ID: If you do not show ID, you will need to cast a provisional ba
 ## Check Your Registration
 
 <http://www.dir.ct.gov/sots/LookUp.aspx>
+
+## Find Your Polling Place
+
+<http://www.dir.ct.gov/sots/LookUp.aspx>

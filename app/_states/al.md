@@ -17,3 +17,7 @@ Voters without ID: If you do not show valid ID, you will be allowed to vote a pr
 ## Check Your Registration
 
 <https://myinfo.alabamavotes.gov/VoterView/RegistrantSearch.do>
+
+## Find Your Polling Place
+
+<https://myinfo.alabamavotes.gov/VoterView/PollingPlaceSearch.do>

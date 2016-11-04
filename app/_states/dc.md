@@ -20,3 +20,7 @@ If you’re a first-time voter who registered by mail, and didn’t provide proo
 ## Check Your Registration
 
 <https://www.dcboee.org/voter_info/reg_status/>
+
+## Find Your Polling Place
+
+<https://www.vote4dc.com/SearchElection/SearchByAddress>

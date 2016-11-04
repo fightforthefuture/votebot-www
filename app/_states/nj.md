@@ -15,3 +15,7 @@ If you’re voting for the first-time in your county, registered to vote by mail
 ## Check Your Registration
 
 [https://voter.njsvrs.com/](https://voter.njsvrs.com/PublicAccess/servlet/com.saber.publicaccess.control.PublicAccessNavigationServlet?USERPROCESS=PublicSearch)
+
+## Find Your Polling Place
+
+[https://voter.njsvrs.com/elections/polling-lookup.html](https://voter.njsvrs.com/elections/polling-lookup-orig.html)

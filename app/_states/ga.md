@@ -23,3 +23,7 @@ You will need to show photo ID to vote in Georgia. Acceptable forms include: any
 ## Check Your Registration
 
 <https://www.mvp.sos.ga.gov/MVP/mvp.do>
+
+## Find Your Polling Place
+
+<https://www.mvp.sos.ga.gov/MVP/mvp.do>

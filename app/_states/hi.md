@@ -14,4 +14,10 @@ If you’re a first-time voter who registered by mail, and didn’t provide a co
 
 ## Check Your Registration
 
-Call [(808) 453-VOTE (8683)](tel:808-453-8683)
+<https://olvr.hawaii.gov>
+
+or call [(808) 453-VOTE (8683)](tel:808-453-8683)
+
+## Find Your Polling Place
+
+<https://olvr.hawaii.gov>

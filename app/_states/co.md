@@ -32,3 +32,7 @@ I certify under penalty of perjury that I meet the registration qualifications; 
 ## Check Your Registration
 
 <https://www.sos.state.co.us/voter-classic/pages/pub/olvr/findVoterReg.xhtml>
+
+## Find Your Polling Place
+
+<http://gettothepolls.com>

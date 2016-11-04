@@ -13,3 +13,7 @@ If the driver's license number or social security number on your voter registrat
 ## Check Your Registration
 
 <https://enr.ncsbe.gov/voter_search_public/>
+
+## Find Your Polling Place
+
+<http://enr.ncsbe.gov/pollingplace_search/>

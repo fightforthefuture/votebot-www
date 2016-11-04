@@ -14,4 +14,8 @@ If you're a first-time voter, you must show photo ID to vote. Acceptable forms i
 
 ## Check Your Registration
 
-<https://www.pavoterservices.state.pa.us/pages/voterregistrationstatus.aspx>
+<https://www.pavoterservices.state.pa.us/pages/VoterRegistrationStatus.aspx>
+
+## Find Your Polling Place
+
+<https://www.pavoterservices.state.pa.us/Pages/PollingPlaceInfo.aspx>

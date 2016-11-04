@@ -17,3 +17,7 @@ If you don't have ID and do not have a reasonable impediment to obtaining one, o
 ## Check Your Registration
 
 <https://teamrv-mvp.sos.texas.gov/MVP/mvp.do>
+
+## Find Your Polling Place
+
+<https://teamrv-mvp.sos.texas.gov/MVP/mvp.do>

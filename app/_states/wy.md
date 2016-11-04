@@ -20,3 +20,7 @@ If you're a first-time voter that registered by mail, you will need to show ID t
 ## Check Your Registration
 
 Call your [county clerk's office](http://soswy.state.wy.us/Elections/Docs/WYCountyClerks.pdf)
+
+## Find Your Polling Place
+
+<http://soswy.state.wy.us/Elections/PollPlace/Default.aspx>

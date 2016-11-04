@@ -14,4 +14,8 @@ Voters without ID: If you do not have proof of identity, you will be asked to si
 
 ## Check Your Registration
 
-<https://ivote.de.gov/voterlogin.aspx>
+<https://ivote.de.gov/voterinfo.aspx>
+
+## Find Your Polling Place
+
+<https://ivote.de.gov/voterpoll.aspx>

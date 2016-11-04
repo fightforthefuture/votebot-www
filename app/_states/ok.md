@@ -14,4 +14,8 @@ Voters without ID: If you do not show ID, you may vote by provisional ballot.
 
 ## Check Your Registration
 
-<https://www.ok.gov/elections/Voter_Info/Online_Voter_Tool/>
+<https://services.okelections.us/voterSearch.aspx>
+
+## Find Your Polling Place
+
+<https://services.okelections.us/voterSearch.aspx>

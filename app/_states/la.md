@@ -17,3 +17,7 @@ Voters without ID: If you do not have ID, you may still cast your vote by signat
 ## Check Your Registration
 
 <https://voterportal.sos.la.gov/Home/VoterLogin>
+
+## Find Your Polling Place
+
+<https://voterportal.sos.la.gov/Home/VoterLogin>

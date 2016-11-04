@@ -20,3 +20,7 @@ If you’re a first-time voter who registered by mail, and didn’t provide your
 ## Check Your Registration
 
 <https://sos.iowa.gov/elections/voterreg/regtovote/search.aspx>
+
+## Find Your Polling Place
+
+<https://sos.iowa.gov/elections/voterreg/pollingplace/search.aspx>

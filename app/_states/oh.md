@@ -15,3 +15,7 @@ Voters without ID: If you do not provide one of these documents, you will still 
 ## Check Your Registration
 
 <http://voterlookup.sos.state.oh.us/voterlookup.aspx>
+
+## Find Your Polling Place
+
+<http://voterlookup.sos.state.oh.us/voterlookup.aspx>

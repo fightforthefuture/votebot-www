@@ -17,3 +17,7 @@ Voters without ID: If you do not bring the proper ID, you can still vote a provi
 ## Check Your Registration
 
 <http://registration.elections.myflorida.com/CheckVoterStatus>
+
+## Find Your Polling Place
+
+<http://registration.elections.myflorida.com/CheckVoterStatus>

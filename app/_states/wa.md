@@ -15,3 +15,7 @@ Voters without ID: If you don’t have a photo ID and want to vote in-person, yo
 ## Check Your Registration
 
 <https://weiapplets.sos.wa.gov/MyVote/#/login>
+
+## Find Your Election Auditors
+
+<http://www.sos.wa.gov/elections/auditors.aspx>

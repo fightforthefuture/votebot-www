@@ -15,3 +15,7 @@ Voters without ID: If your name does not appear on the poll book or if you do no
 ## Check Your Registration
 
 Call your [county election office](http://www.sos.ms.gov/Elections-Voting/Pages/County-Election-Info.aspx)
+
+## Find Your Polling Place
+
+<http://gettothepolls.com>

@@ -17,3 +17,7 @@ Voters without ID: If you don’t bring a photo ID, you will vote a provisional 
 ## Check Your Registration
 
 <https://tnmap.tn.gov/voterlookup/>
+
+## Find Your Polling Place
+
+<https://tnmap.tn.gov/voterlookup/>

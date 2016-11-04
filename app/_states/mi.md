@@ -15,3 +15,7 @@ Voters without ID: If you do not bring a photo ID to the polls or do not own pho
 ## Check Your Registration
 
 <https://vote.michigan.gov/MVIC/>
+
+## Find Your Polling Place
+
+<https://vote.michigan.gov/MVIC/>

@@ -15,3 +15,7 @@ If you’re a first-time voter who registered by mail, and didn't provide a copy
 ## Check Your Registration
 
 <https://voterlookup.elections.state.ny.us/>
+
+## Find Your Polling Place
+
+<https://voterlookup.elections.state.ny.us/>

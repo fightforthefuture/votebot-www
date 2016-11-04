@@ -22,3 +22,7 @@ Voters without ID: If you don’t have ID or proof of residence, you can cast a 
 ## Check Your Registration
 
 Call [(207) 624-7650](tel:207-624-7650) or your [local registrar](http://www.maine.gov/sos/cec/elec/munic.html)
+
+## Find Your Polling Place
+
+<http://www.maine.gov/portal/government/edemocracy/voter_lookup.php>

@@ -13,3 +13,7 @@ You will need to show photo ID to vote in Kansas. Acceptable forms include: a dr
 ## Check Your Registration
 
 <https://myvoteinfo.voteks.org/VoterView/RegistrantSearch.do>
+
+## Find Your Polling Place
+
+<https://myvoteinfo.voteks.org/VoterView/PollingPlaceSearch.do>

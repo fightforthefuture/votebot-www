@@ -17,3 +17,7 @@ Voters without ID: If you do not have ID, you may cast a provisional ballot or a
 ## Check Your Registration
 
 <https://vote.utah.gov/vote/menu/index>
+
+## Find Your Polling Place
+
+<https://vote.utah.gov/vote/menu/index>

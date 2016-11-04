@@ -15,3 +15,7 @@ If you're a first-time voter, you must show ID to vote. Acceptable forms include
 ## Check Your Registration
 
 <https://nvsos.gov/VoterSearch/>
+
+## Find Your Polling Place
+
+<https://nvsos.gov/VoterSearch/>

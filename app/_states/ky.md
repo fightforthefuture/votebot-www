@@ -26,3 +26,7 @@ You can vote a provisional ballot (federal elections only) in the following circ
 ## Check Your Registration
 
 <https://vrsws.sos.ky.gov/vic/>
+
+## Find Your Polling Place
+
+<https://vr.sos.ky.gov/vic/>

@@ -26,3 +26,7 @@ I authorize the Secretary of State to transmit to the State Board of Elections m
 ## Check Your Registration
 
 <https://www.elections.il.gov/votinginformation/RegistrationLookup.aspx>
+
+## Find Your Polling Place
+
+<https://www.elections.il.gov/votinginformation/RegistrationLookup.aspx>

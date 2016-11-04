@@ -54,4 +54,8 @@ You must include a copy of ID that proves where you live. The following IDs are 
 
 ## Check Your Registration
 
-<https://myvote.wi.gov/en-us/UpdateMyNameorAddress>
+<https://myvote.wi.gov/en-us/MyVoterInfo>
+
+## Find Your Polling Place
+
+<https://myvote.wi.gov/en-us/FindMyPollingPlace>

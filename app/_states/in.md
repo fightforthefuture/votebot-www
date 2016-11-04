@@ -17,3 +17,7 @@ Voters without ID: If you are unable or unwilling to present ID, you may cast a 
 ## Check Your Registration
 
 <https://indianavoters.in.gov/PublicSite/Public/FT1/PublicLookupMain.aspx?Link=Registration>
+
+## Find Your Polling Place
+
+<https://indianavoters.in.gov/PublicSite/Public/FT1/PublicLookupMain.aspx?Link=Polling>

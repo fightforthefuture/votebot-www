@@ -15,3 +15,7 @@ Voters without ID: If you have a reasonable impediment to obtaining photo ID, yo
 ## Check Your Registration
 
 <https://info.scvotes.sc.gov/eng/voterinquiry/VoterInformationRequest.aspx?PageMode=VoterInfo>
+
+## Find Your Polling Place
+
+<https://info.scvotes.sc.gov/eng/voterinquiry/VoterInformationRequest.aspx?PageMode=VoterInfo>
