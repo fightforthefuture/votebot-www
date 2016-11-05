@@ -3,6 +3,7 @@ redirect_from: /chris_sacca/
 partner: sacca
 partner_keyword: SACCA
 partner_image: /images/celebs/chris_sacca.jpg
+shareimage: /images/selfie-sacca.png
 partner_no_disclosure: true
 title: Chris Sacca
 locale: en

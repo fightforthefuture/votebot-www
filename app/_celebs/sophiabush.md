@@ -2,6 +2,7 @@
 redirect_from: /sophia_bush/
 partner: sophia_bush
 partner_image: /images/celebs/sophia_bush.jpg
+shareimage: /images/selfie-sophia.png
 partner_no_disclosure: true
 partner_keyword: sophia
 title: Sophia Bush
