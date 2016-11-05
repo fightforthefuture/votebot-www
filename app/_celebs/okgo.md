@@ -6,7 +6,7 @@ partner_no_disclosure: true
 title: OK Go
 locale: en
 bubbles:
- - "Hey, it's Ryan Leslie."
+ - "Hey, it's OK Go."
  - "Thanks for checking out HelloVote with us."
  - "Let's get started."
 ---
