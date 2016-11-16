@@ -10,16 +10,14 @@ h2 {
     clear:both;
 }
 
-.d3 {
-    float: left;
-}
-
-.d3.push-right {
-    margin: 0 40px;
-}
-
-.d3.push-down {
-    margin-bottom: 40px;
+@media screen and (min-width: 640px) {
+    .d3 { float: left; }
+    .d3.push-right {
+        margin: 0 40px;
+    }
+    .d3.push-down {
+        margin-bottom: 40px;
+    }
 }
 
 .chart .axis text {
