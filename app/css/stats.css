@@ -1,0 +1,34 @@
+h1 + ul em {
+  font-size: 1.3em;
+}
+
+h3 {
+    margin: 10px 0;
+}
+
+h2 {
+    clear:both;
+}
+
+.d3 {
+    float: left;
+}
+
+.d3.push-right {
+    margin: 0 40px;
+}
+
+.d3.push-down {
+    margin-bottom: 40px;
+}
+
+.chart .axis text {
+    fill: white;
+}
+.chart .axis line,
+.chart .axis path {
+    stroke: white;
+}
+.chart .axis.no-text text {
+    display: none;
+}

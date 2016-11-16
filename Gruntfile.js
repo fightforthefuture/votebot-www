@@ -181,6 +181,13 @@ module.exports = function (grunt) {
               '<%= site.app %>/_js/_licenses/license-end.js'
             ],
             dest: '<%= site.dist %>/js/smoothscroll.min.js'
+          },
+          {
+            src: [
+              'node_modules/d3/build/d3.min.js',
+              'node_modules/d3-geo/build/d3-geo.min.js',
+            ],
+            dest: '<%= site.dist %>/js/d3+geo.min.js'
           }
         ],
 
