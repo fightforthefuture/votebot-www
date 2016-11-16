@@ -4,3 +4,4 @@
 {% if page.hide_freeprogress %}{%else%}
 <script type="text/javascript" src="https://fftf.io/js/client.js"></script>
 {%endif%}
+{% if page.include_scripts %}{{page.include_scripts}}{%endif%}
