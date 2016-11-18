@@ -7,7 +7,7 @@
   var width = 250;
   var height = 250;
 
-  d3.csv('data/states.csv', function(error, data) {
+  d3.csv('/data/states.csv', function(error, data) {
     var width = 400; // this one is extra wide
 
     var values_list = [];
@@ -30,7 +30,7 @@
               .append("svg")
               .attr("width", width)
               .attr("height", height);
-    d3.json("data/us-states.json", function(json) {
+    d3.json("/data/us-states.json", function(json) {
       for (var i = 0; i < data.length; i++) {
         var dataState = data[i].state;
         var dataValue = parseFloat(data[i].value);
@@ -59,7 +59,7 @@
     })
   });
 
-  d3.csv('data/ages.csv', function(error, data) {
+  d3.csv('/data/ages.csv', function(error, data) {
     var width = 175; // this one is not as wide
     var height = 200;
 
@@ -164,11 +164,11 @@
       .text(function(d, i) { return d.data.label; });
   }
 
-  d3.csv('data/weather.csv', function(error, data) {
+  d3.csv('/data/weather.csv', function(error, data) {
     return emoji_pie(data, '.d3#weather');
   });
 
-  d3.csv('data/polling_places.csv', function(error, data) {
+  d3.csv('/data/polling_places.csv', function(error, data) {
     return emoji_pie(data, '.d3#polling_places');
   });
 })(window.d3);
