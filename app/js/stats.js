@@ -109,6 +109,91 @@
       });
   });
 
+  d3.csv('/data/daily.csv', function(error, data) {
+    var width = 500; // this one is full width
+    var height = 200;
+
+    var user_count = 0;
+    data.forEach(function(d) {
+        d.date = d3.isoParse(d.date);
+        d.new_users = +d.users;
+        d.user_count = user_count + d.new_users;
+        user_count = d.user_count; // maintain sum
+        d.messages = +d.messages;
+    });
+
+    var x = d3.scaleTime().range([0, width]);
+    var y0 = d3.scaleLinear().range([0, height]);
+    var y1 = d3.scaleLinear().range([height, 0]);
+
+    var xAxis = d3.axisBottom()
+        .scale(x);
+
+    var yAxisLeft = d3.axisLeft()
+        .scale(y0);
+
+    var yAxisRight = d3.axisRight()
+        .scale(y1);
+
+    var line_users = d3.line()
+        .x(function(d) { return x(d.date); })
+        .y(function(d) { return y0(d.user_count); });
+
+    var line_msgs = d3.line()
+        .x(function(d) { return x(d.date); })
+        .y(function(d) { return y1(d.messages); });
+
+    x.domain(d3.extent(data, function(d) { return d.date; }));
+    y0.domain([0, d3.max(data, function(d) { return Math.max(d.user_count); })]);
+    y1.domain([0, d3.max(data, function(d) { return Math.max(d.messages); })]);
+
+    var svg = d3.select(".d3#daily")
+                .append("svg")
+                .attr('width', width+90)
+                .attr('height', height+40)
+                .append("g")
+                .attr("transform",
+                  "translate(0,20)");
+
+    svg.append("path")
+        .attr("class", "line")
+        .style("stroke", purples[0])
+        .attr("d", line_users(data));
+
+    svg.append("path")
+        .attr("class", "line")
+        .style("stroke", purples[2])
+        .attr("d", line_msgs(data));
+
+    svg.append("g")
+        .attr("class", "axis axis--x")
+        .attr("transform", "translate(0," + height + ")")
+        .call(xAxis);
+/*
+    svg.append("g")
+        .attr("class", "axis axis--y no-text")
+        .call(yAxisLeft);
+
+    svg.append("g")
+        .attr("class", "axis axis--y no-text")
+        .call(yAxisRight);
+*/
+
+    svg.append("text")
+        .attr("transform", "translate(" + (width+10) + "," + y0(data[0].users) + ")")
+        .attr("dy", ".35em")
+        .attr("text-anchor", "start")
+        .style("fill", purples[0])
+        .text("Users");
+
+    svg.append("text")
+        .attr("transform", "translate(" + (width+10) + "," + y1(data[0].messages) + ")")
+        .attr("dy", ".35em")
+        .attr("text-anchor", "start")
+        .style("fill", purples[2])
+        .text("Messages");
+  });
+
   var emoji_pie = function(data, selector) {
     data.forEach(function(d) {
       d.count = +d.count;

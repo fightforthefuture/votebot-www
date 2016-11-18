@@ -20,6 +20,11 @@ h2 {
     }
 }
 
+.chart path {
+    stroke-width: 2;
+    fill: none;
+}
+
 .chart .axis text {
     fill: white;
 }
