@@ -1,0 +1,19 @@
+<!doctype html>
+<html>
+<head>
+    {% include meta.html %}
+</head>
+<body class="post" data-components="">
+    <header>
+        <a href="/" class="logo"><img src="/images/logo-purple.svg"></a>
+        {{page.after_logo}}
+    </header>
+
+    {{ content }}
+
+    {% include {{ page.locale }}/footer.html %}
+
+    {% include scripts.html %}
+    {% if page.script %}<script type="text/javascript" src="/js/{{ page.script }}?c={{site.time | date: '%s'}}"></script>{% endif %}
+</body>
+</html>

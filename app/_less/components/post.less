@@ -1,0 +1,110 @@
+body.post {
+  background-image: none;
+
+  header {
+      background: #F8F8F8;
+      width: 100%;
+      text-align: center;
+      padding: 40px;
+  }
+  header .logo {
+      position: relative;
+      z-index: 1;
+  }
+  header .logo img {
+      width: 290px;
+  }
+  header .background-video {
+      position: relative;
+      height: 250px;
+  }
+  .background-video > video {
+      background-size: cover;
+      background-position: 50% 50%;
+      position: absolute;
+      right: -100%;
+      bottom: -100%;
+      top: -100%;
+      left: -100%;
+      margin: auto;
+      min-width: 100%;
+      min-height: 100%;
+  }
+
+  section {
+      width: 100%;
+      padding: 40px;
+      text-align: center;
+  }
+  section.white {
+      h1, h2 {
+          color: #bb80ff;
+      }
+      background: white;
+      color: #333;
+  }
+
+  h1 {
+    padding-top: 40px;
+  }
+
+  ul.stats {
+    li {
+      margin-bottom: 0px;
+      padding-top: 40px;
+      padding-bottom: 40px;
+      border-bottom: 1px solid rgba(0, 0, 0, .04);
+      &:last-child { border-bottom: none; }
+
+      span {
+        color: hsla(0, 0%, 60%, .9);
+        font-size: 1.5em;
+
+        letter-spacing: 3px;
+        text-transform: uppercase;
+      }
+      em {
+        display: block;
+
+        color: #333;
+        font-size: 3em;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 100;
+      }
+    }
+  }
+
+  h3 {
+      margin: 10px 0;
+  }
+
+  h2 {
+      clear:both;
+  }
+}
+
+@media screen and (min-width: 640px) {
+    .d3 { float: left; }
+    .d3.push-right {
+        margin: 0 40px;
+    }
+    .d3.push-down {
+        margin-bottom: 40px;
+    }
+}
+
+.chart path {
+    stroke-width: 2;
+    fill: none;
+}
+
+.chart .axis text {
+    fill: white;
+}
+.chart .axis line,
+.chart .axis path {
+    stroke: white;
+}
+.chart .axis.no-text text {
+    display: none;
+}
