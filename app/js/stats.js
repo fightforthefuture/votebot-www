@@ -4,11 +4,16 @@
   var purples = ['#f2f0f7', '#cbc9e2', '#9e9ac8', '#756bb1', '#54278f'];
   // colors from http://colorbrewer2.org/#type=sequential&scheme=Purples&n=5
 
+  var page_width = document.getElementsByTagName('p')[0].offsetWidth;
   var width = 250;
   var height = 250;
 
   d3.csv('/data/states.csv', function(error, data) {
-    var width = 400; // this one is extra wide
+    if (page_width > 500) {
+      var width = 400; // this one is extra wide
+    } else {
+      var width = page_width;
+    }
 
     var values_list = [];
     data.forEach(function(d) {
@@ -60,7 +65,11 @@
   });
 
   d3.csv('/data/ages.csv', function(error, data) {
-    var width = 175; // this one is not as wide
+    if (page_width > 500) {
+      var width = 175; // this one is not as wide
+    } else {
+      var width = page_width;
+    }
     var height = 200;
 
     var values_list = [];
@@ -110,7 +119,8 @@
   });
 
   d3.csv('/data/daily.csv', function(error, data) {
-    var width = 500; // this one is full width
+    // this page full width from paragraph elements
+    var width = page_width - 90;
     var height = 200;
 
     var user_count = 0;
