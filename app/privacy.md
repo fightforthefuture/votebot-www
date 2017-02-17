@@ -47,7 +47,7 @@ The HelloVote Providers may update this Privacy Policy at any time. When it does
 By using this the HelloVote Tool, you signify your acceptance of this Privacy Policy. If you do not agree to this policy, please do not use the HelloVote Tool. Your continued use of the HelloVote Tool following the posting of changes to this Privacy Policy will be deemed your acceptance of those changes.
 
 ## Contacting the HelloVote Providers
-If you have any questions about this Privacy Policy or anything relating to the HelloVote Tool, please contact the HelloVote Providers at <team@hello.vote>. You may also call toll-free 844-344-3556. **To stop receiving text messages from the HelloVote Providers, text "STOP" to 384-387**.
+If you have any questions about this Privacy Policy or anything relating to the HelloVote Tool, please contact the HelloVote Providers at <team@hello.vote>. You may also call toll-free 844-344-3556. **To stop receiving text messages from the HelloVote Providers, text "STOP"**.
 
 September 23, 2016
 

@@ -58,7 +58,7 @@ These Terms and Conditions of Use shall be governed by the internal substantive 
 Message and data rates may apply. 
 
 ## Contacting the HelloVote Providers
-If you have any questions about these Terms and Conditions or anything relating to the HelloVote Tool, please contact the HelloVote Providers at <team@hello.vote>. You may also call toll-free 844-344-3556. **To stop receiving text messages from the HelloVote Providers, text "STOP" to 384-387**.
+If you have any questions about these Terms and Conditions or anything relating to the HelloVote Tool, please contact the HelloVote Providers at <team@hello.vote>. You may also call toll-free 844-344-3556. **To stop receiving text messages from the HelloVote Providers, text "STOP"**.
 
 September 23, 2016
 
