@@ -39,6 +39,10 @@ defaults:
     values:
       layout: default
   - scope:
+      type: partners_ko
+    values:
+      layout: default
+  - scope:
       type: celebs
     values:
       layout: default
@@ -54,6 +58,9 @@ collections:
   partners_es:
     output: true
     permalink: :path/es/
+  partners_ko:
+    output: true
+    permalink: :path/ko/
   celebs:
     output: true
     permalink: :path/
