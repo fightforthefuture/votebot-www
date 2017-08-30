@@ -1,0 +1,34 @@
+<section id="footer">
+  <p class="logos">
+    <a href="https://www.fightforthefuture.org" target="_blank"><img src="/images/fftf-footer-logo.png" alt="Fight for the Future"></a>
+
+    <br>
+    <br>
+
+    <a href="https://www.fftfef.org/" target="_blank"><img src="/images/fftfef-footer-logo-alternative.png" alt="Fight for the Future Education Fund" style="max-width: 300px"></a>
+  </p>
+  <br>
+  <a href="https://www.twilio.org" target="_blank"><img src="/images/twilio-footer-logo.png" alt="supported by twilio.org"></a>
+  <ul>
+    <li>
+      <p><strong>Press:</strong> <a href="mailto:press@fightforthefuture.org">press@fightforthefuture.org</a></p>
+    </li>
+    <li>
+      <p><strong>Other inquiries:</strong> <a href="mailto:team@hello.vote">team@hello.vote</a></p>
+    </li>
+    {% if page.partner and page.partner != "fftf" %}
+      {% for partner in site.partners_iframes %}
+        {% if partner.slug == page.partner %}
+          <li>
+            <p>Share HelloVote on your site: <a href="/banner">Banner Ads</a> | <a href="/embed?partner={{ page.partner }}">Embed Widget</a></p>
+          </li>
+        {% endif %}
+      {% endfor %}
+    {% elsif page.layout == "default" %}
+      <li>
+        <p>Share HelloVote on your site: <a href="/banner">Banner Ads</a> | <a href="/embed">Embed Widget</a></p>
+      </li>
+    {% endif %}
+  </ul>
+</section>
+
