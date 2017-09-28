@@ -2,7 +2,7 @@
 partner: apia
 partner_link: http://www.apiavote.org
 partner_image: /images/partners/apia.png
-partner_keyword: APIA
+partner_keyword: APIAVote
 title: APIA Vote
 locale: en
 bubbles:
