@@ -1,5 +1,5 @@
 ---
-partner: Change the Ref
+partner: changetheref
 partner_link: https://www.gofundme.com/changetheref
 partner_image: /images/partners/changetheref.png
 partner_keyword: CHANGETHEREF
