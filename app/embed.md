@@ -31,15 +31,23 @@ smaller version:
 
 By default, the widget will display a transparent background and use the
 same colors as this beautiful site. But you can customize this to make it
-fit into your design. There are two parameters you can pass into the iframe's
+fit into your design. There are four parameters you can pass into the iframe's
 URL:
 
 `disclosureColor=COLOR` — Changes the text color of the privacy disclosure.
 This can either be a hexidecimal color code (without the leading hash mark),
 or an rgba(x, y, z, a) color.
 
+`textColor=COLOR` — Changes the text color of message bubbles and submit button.
+This can either be a hexidecimal color code (without the leading hash mark),
+or an rgba(x, y, z, a) color.
+
 `hueShift=DEGREES` — (where DEGREES is a number between 0 and 360). This sets
 a hue shift for the color of the speech bubbles, buttons, and links, allowing
+you to change the primary color of the design.
+
+`brightness=PERCENTAGE` — (where PERCENTAGE is a number between 0 and 400). This sets
+a brightness change for the color of the speech bubbles, buttons, and links, allowing
 you to change the primary color of the design.
 
 ## Example of Customized Widget

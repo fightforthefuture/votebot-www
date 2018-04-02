@@ -21,8 +21,8 @@ window.components.chat = function (doc, win) {
       isInStudio    = ('isInStudio' in queryString),
       isInCustom    = document.body.classList.contains('my'),
       isInSafeMode  = isInStudio || isInCustom,
-      hueShift      = false;
-
+      hueShift      = false,
+      brightness    = false;
 
 
   var bubble = function(sender, html, events, textOnly) {
@@ -46,7 +46,7 @@ window.components.chat = function (doc, win) {
       message.textContent = html;
 
     if (hueShift)
-      doHueShift(message, hueShift);
+      doHueShift(message, hueShift, brightness);
 
     chatbox.appendChild(message);
     chatbox.appendChild(clear);
@@ -86,7 +86,7 @@ window.components.chat = function (doc, win) {
     dots.className = 'dots';
 
     if (hueShift)
-      doHueShift(dots, hueShift);
+      doHueShift(dots, hueShift, brightness);
 
     chatbox.appendChild(dots);
 
@@ -269,12 +269,12 @@ window.components.chat = function (doc, win) {
       poweredBy.textContent = l10n['POWERED_BY'];
   }
 
-  var doHueShift = function(elem, degree) {
-    elem.style["filter"] = 'hue-rotate(' + degree + 'deg)';
-    elem.style["-webkit-filter"] = 'hue-rotate(' + degree + 'deg)';
-    elem.style["-moz-filter"] = 'hue-rotate(' + degree + 'deg)';
-    elem.style["-ie-filter"] = 'hue-rotate(' + degree + 'deg)';
-    elem.style["-o-filter"] = 'hue-rotate(' + degree + 'deg)';
+  var doHueShift = function(elem, degree, brightness) {
+    elem.style["filter"] = 'hue-rotate(' + degree + 'deg) brightness('+brightness+'%)';
+    elem.style["-webkit-filter"] = 'hue-rotate(' + degree + 'deg) brightness('+brightness+'%)';
+    elem.style["-moz-filter"] = 'hue-rotate(' + degree + 'deg) brightness('+brightness+'%)';
+    elem.style["-ie-filter"] = 'hue-rotate(' + degree + 'deg) brightness('+brightness+'%)';
+    elem.style["-o-filter"] = 'hue-rotate(' + degree + 'deg) brightness('+brightness+'%)';
   }
 
   var determinePartner = function() {
@@ -322,23 +322,33 @@ window.components.chat = function (doc, win) {
     }
   }
 
-  var customizeColors = function(newHueShift, newDisclosureColor) {
+  var customizeColors = function(newHueShift, newBrightness, newDisclosureColor, newTextColor) {
     if (newHueShift || queryString.hueShift) {
       hueShift = newHueShift || queryString.hueShift;
-      doHueShift(form, hueShift);
+      brightness = 100;
+      if (newBrightness || queryString.brightness) {
+        brightness = newBrightness || queryString.brightness
+      }
+      doHueShift(form, hueShift, brightness);
 
       var dots = doc.querySelector('.dots');
       if (dots) {
-        doHueShift(dots, hueShift);
+        doHueShift(dots, hueShift, brightness);
       }
 
       var disclosureLinks = overlay.querySelectorAll('.disclosure a, .disclosure img');
       for (var i=0; i<disclosureLinks.length; i++) {
-        doHueShift(disclosureLinks[i], hueShift);
+        doHueShift(disclosureLinks[i], hueShift, brightness);
       }
 
       var logo = document.querySelector('.logo');
-      doHueShift(logo, hueShift);
+      doHueShift(logo, hueShift, brightness);
+    }
+
+    if (newTextColor || queryString.textColor) {
+      var color = parseColor(newTextColor || queryString.textColor);
+      overlay.querySelector('.message').style.color = color;
+      overlay.querySelector('button[type="submit"]').style.color = color;
     }
 
     if (newDisclosureColor || queryString.disclosureColor) {

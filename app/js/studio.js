@@ -37,22 +37,27 @@ function startStudio() {
 
     // Colors
     var $disclosure = $('section.studio .edit input.disclosure');
+    var $text = $('section.studio .edit input.text');
     var $hue = $('section.studio .edit input.hue');
+    var $brightness = $('section.studio .edit input.brightness');
 
     $disclosure.on('change', onUpdateColors);
     $hue.on('change', onUpdateColors);
+    $brightness.on('change', onUpdateColors);
 
     var previousColors = {};
     function onUpdateColors(e) {
         var hue = $hue.val();
+        var brightness = $brightness.val();
 
-        if (hue === previousColors.hue) {
-            return;
+        if ((hue === previousColors.hue) && (brightness === previousColors.brightness)) {
+            return
         }
 
         previousColors.hue = hue;
+        previousColors.brightness = brightness;
 
-        preview.customizeColors($hue.val(), $disclosure.val());
+        preview.customizeColors($hue.val(), $brightness.val(), $disclosure.val(), $text.val());
         onUpdateMessages();
     }
 
