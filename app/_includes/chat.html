@@ -4,9 +4,9 @@
       {% if page.partner_image %}
         <div class="powered-by">
           <strong></strong>
-          <img src="/images/logo.svg">
+          <img src="/images/logo.svg" alt="hello vote">
         </div>
-        <img src="{{page.partner_image}}" class="logo partner">
+        <img src="{{page.partner_image}}" class="logo partner" alt="{{page.title}}">
       {% else %}
         {% include partners/{{ page.partner }}.html %}
       {% endif %}
@@ -16,13 +16,14 @@
     </div>
     <div class="input">
       <form>
+        <label for="phone_number" class="srOnly">Phone Number</label>
         <input type="tel" id="phone_number" placeholder="">
         <button type="submit">&nbsp;</button>
       </form>
       <div class="share"><a href="#" class="facebook">&nbsp;</a><a href="#" class="twitter">&nbsp;</a><a href="https://donate.fftfef.org/hellovote" class="donate" target="_blank">&nbsp;</a></div>
     </div>
     <div class="disclosure">
-      <img src="/images/lock.svg">
+      <img src="/images/lock.svg" alt="lock">
       {% if page.partner and page.partner != 'fftf' %}
       <em class='partner'>&nbsp;</em>
       {% else %}
