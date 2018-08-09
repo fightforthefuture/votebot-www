@@ -1,5 +1,5 @@
 ---
-partner: 18mr
+partner: audrey
 partner_link: http://audreyforcongress.com/
 partner_image: /images/partners/audrey.png
 partner_keyword: Audrey
