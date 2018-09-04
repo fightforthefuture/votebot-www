@@ -19,8 +19,8 @@ These photo IDs are also acceptable, but must be unexpired: veteran's photo ID c
 
 ### Registration requirements
 * Be a US citizen
-* Be 18 years old by Election Day, Nov 8
-* Live at your Wisconsin address by Oct 29
+* Be 18 years old by Election Day
+* Live at your Wisconsin address for at least 10 days
 * Not be in jail, on probation, or on parole for a felony conviction
 * Not currently judged incompetent by a court or subject to guardianship
 * Not claim the right to vote in another state
@@ -40,7 +40,7 @@ You must include a copy of ID that proves where you live. The following IDs are 
 * A Wisconsin driver’s license or ID card
 * Any other ID card or license issued by a Wisconsin government agency or unit
 * An employee ID card with a photograph (but not a business card)
-* A real property tax bill or receipt for 2015 or 2016
+* A real property tax bill or receipt from the last two years
 * A residential lease (doesn’t count if you submit the form by mail)
 * A photo ID from a university, college or technical college with a fee receipt
 * A photo ID from a university, college or technical college with an on-campus housing listing provided by the university, * college or technical college to the municipality
@@ -49,7 +49,7 @@ You must include a copy of ID that proves where you live. The following IDs are 
 * A bank statement, a paycheck, a check or other government-issued document
 
 ### Send the form
-* Your completed form must be postmarked by *Oct 19* and mailed to your [municipal clerk’s office](https://myvote.wi.gov/en-US/MyMunicipalClerk)
+* Your completed form must be postmarked by 20 days before Election Day and mailed to your [municipal clerk’s office](https://myvote.wi.gov/en-US/MyMunicipalClerk)
 * Or register in person on Election Day at [your polling place](https://gttp.votinginfoproject.org)
 
 ## Check Your Registration

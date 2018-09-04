@@ -25,7 +25,7 @@ Voters without ID: If you do not have a valid photo ID, you can either have your
 * Provide your name, date of birth, and name at birth (if different)
 * Provide your New Hampshire address and your mailing address (if different)
 * (Optional) Provide your telephone number and email address
-* Take the form to your city or town clerk by Oct 29
+* Take the form to your city or town clerk at least 10 days before Election Day
 * Or register in person on Election Day at [your polling place](https://gttp.votinginfoproject.org)
 
 ## Registering by Mail
