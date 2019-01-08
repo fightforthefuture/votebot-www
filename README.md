@@ -5,9 +5,9 @@ This is the Jekyll site that powers https://hello.vote
 ## Development
 
 ```bash
+gem install bundler
 npm install
-grunt
-open localhost:9047
+npm start
 ```
 
 ## Deployment
