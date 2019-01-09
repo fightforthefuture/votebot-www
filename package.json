@@ -18,7 +18,7 @@
     "start": "grunt",
     "build": "grunt build",
     "predeploy": "node generate_fp_token.js",
-    "deploy": "./deploy-ghpages.sh"
+    "deploy": "push-dir --dir=dist --branch=gh-pages --cleanup"
   },
   "dependencies": {
     "d3": "^4.3.0",
@@ -45,6 +45,7 @@
     "grunt-jekyll": "^0.4.2",
     "grunt-postcss": "^0.6.0",
     "jit-grunt": "^0.9.1",
+    "push-dir": "^0.4.1",
     "sha.js": "^2.4.5",
     "time-grunt": "^1.1.0",
     "uglify-save-license": "^0.4.1"
