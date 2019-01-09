@@ -180,7 +180,7 @@ document.addEventListener("DOMContentLoaded", function() {
           "mobile voter registration "+
           "<a href='https://www.hello.vote/stats/'>here</a>. If you are a "+
           "developer, the source code for HelloVote is "+
-          "<a href='https://github.com/fightforthefuture/votebot-www'>here</a>. "+
+          "<a href='https://github.com/fightforthefuture/votebot-api'>here</a>. "+
           "Stay tuned..."+
         "</p>"+
         "<p>"+
