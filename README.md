@@ -12,4 +12,7 @@ npm start
 
 ## Deployment
 
-Push to master, and Travis will take it from there.
+```bash
+npm run build
+npm run deploy
+```
