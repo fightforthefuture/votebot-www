@@ -1,15 +1,18 @@
 .overlay {
-  width: 100%;
-  height: 100%;
-  background: rgba(0, 0, 0, .6);
   position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
   padding: 0px 10px;
   z-index: 10001;
+  background: rgba(0, 0, 0, .6);
   transition: opacity .35s ease-in;
 
   .modal {
     position: relative;
     display: block;
+    width: 90%;
     max-width: @chat-max-width;
     min-height: 300px;
     background: white;
@@ -38,12 +41,24 @@
       top: 7px;
       font-size: 25px;
     }
+
+    img {
+      display: block;
+      max-width: 100%;
+      margin: 25px auto 20px;
+    }
   }
   &.hidden {
     opacity: 0;
+    display: none;
+
     .modal {
       transform: translateY(-100%);
       opacity: 0;
     }
   }
+}
+
+body.modal-open {
+  overflow: hidden;
 }
