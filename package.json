@@ -17,7 +17,6 @@
     "postinstall": "bundle",
     "start": "grunt",
     "build": "grunt build",
-    "predeploy": "node generate_fp_token.js",
     "deploy": "push-dir --dir=dist --branch=gh-pages --cleanup"
   },
   "dependencies": {
