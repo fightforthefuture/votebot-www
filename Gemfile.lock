@@ -47,7 +47,7 @@ GEM
       sass (~> 3.4)
     jekyll-watch (2.1.2)
       listen (~> 3.0)
-    json (2.0.3)
+    json (2.3.0)
     kramdown (1.17.0)
     launchy (2.4.3)
       addressable (~> 2.3)
@@ -96,7 +96,7 @@ PLATFORMS
 DEPENDENCIES
   jekyll (~> 3.1)
   jekyll-redirect-from
-  json (= 2.0.3)
+  json (= 2.3.0)
   kramdown
   travis (>= 1.8.2)
 
